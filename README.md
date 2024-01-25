@@ -10,7 +10,7 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 717`
+`Total number of merge nodes: 712`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1`
@@ -42,7 +42,7 @@
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 87`
+`Total number of merge nodes: 82`
 
 - [Clash subscription](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `4`
-Updata：`2024-01-25 23:31:54`
+Updata：`2024-01-26 02:37:39`
 
 
 <details>
@@ -28780,27 +28780,22 @@ Updata：`2024-01-25 23:31:54`
 
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=9f299582395d77274e0dddb34ea69386`
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=9f299582395d77274e0dddb34ea69386`
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=687050f642098a0d4bfed87cd8289133`
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=9865aeb9c9b4c48d9234f9c996998c38`
 
 
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=687050f642098a0d4bfed87cd8289133`
 
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-01-25/TihC2Mx.txt`
-
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=9865aeb9c9b4c48d9234f9c996998c38`
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-01-25/TihC2Mx.txt`
@@ -28808,10 +28803,23 @@ Updata：`2024-01-25 23:31:54`
 
 
 >Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=92e74b277a57a6c679d9b955d9b89760`
+`https://oss.v2rayse.com/proxies/data/2024-01-25/TihC2Mx.txt`
+
 
 >Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=92e74b277a57a6c679d9b955d9b89760`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=5bd47e629061321ce34226a47847ae55`
+
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=5bd47e629061321ce34226a47847ae55`
+
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=c068267318766f072fb5c509e7965568`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=c068267318766f072fb5c509e7965568`
 
 
 

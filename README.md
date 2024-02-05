@@ -10,7 +10,7 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 1084`
+`Total number of merge nodes: 1083`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1`
@@ -42,7 +42,7 @@
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 132`
+`Total number of merge nodes: 131`
 
 - [Clash subscription](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `4`
-Updata：`2024-02-05 20:26:04`
+Updata：`2024-02-05 23:16:43`
 
 
 <details>
@@ -29484,14 +29484,35 @@ Updata：`2024-02-05 20:26:04`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=1e837a3ff75722d13975d7567ac2f13b`
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=1e837a3ff75722d13975d7567ac2f13b`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=d774d388015a6c9c2a14372994499666`
+
+
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=d774d388015a6c9c2a14372994499666`
+
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=760f0a6fcb8345917e2bc543273423fc`
+
+
+
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=760f0a6fcb8345917e2bc543273423fc`
+
+
+>Trial subscription：
+`https://oss.v2rayse.com/proxies/data/2024-02-05/BME22Iw.txt`
+
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-02-05/BME22Iw.txt`
@@ -29499,23 +29520,10 @@ Updata：`2024-02-05 20:26:04`
 
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-02-05/BME22Iw.txt`
-
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=4de49c203964847fe2857ba005d19662`
-
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=54883335066232c9811bc6086746854f`
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=4de49c203964847fe2857ba005d19662`
-
-
-
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=e467995817542f4ec311f8cb40437277`
-
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=e467995817542f4ec311f8cb40437277`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=54883335066232c9811bc6086746854f`
 
 
 

@@ -10,39 +10,39 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 1305`
+`Total number of merge nodes: 1035`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1`
-`Total number of merge nodes: 164`
+`Total number of merge nodes: 130`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription2`
-`Total number of merge nodes: 164`
+`Total number of merge nodes: 130`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription3`
-`Total number of merge nodes: 164`
+`Total number of merge nodes: 130`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription4`
-`Total number of merge nodes: 164`
+`Total number of merge nodes: 130`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription5`
-`Total number of merge nodes: 164`
+`Total number of merge nodes: 130`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription6`
-`Total number of merge nodes: 164`
+`Total number of merge nodes: 130`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription7`
-`Total number of merge nodes: 164`
+`Total number of merge nodes: 130`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 157`
+`Total number of merge nodes: 125`
 
 - [Clash subscription](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `4`
-Updata：`2024-02-20 05:15:48`
+Updata：`2024-02-20 08:55:31`
 
 
 <details>
@@ -30410,38 +30410,46 @@ Updata：`2024-02-20 05:15:48`
 
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=c9b7c9aeb39cbaa76fe85808034a7d17`
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=c9b7c9aeb39cbaa76fe85808034a7d17`
+`https://oss.v2rayse.com/proxies/data/2024-02-20/jyfzScc.txt`
 
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=f1ad46d8728e0ad46323732e42f12e7b`
-
-
-
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=f1ad46d8728e0ad46323732e42f12e7b`
-
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=6dc82f01715d91d1fd695149222fdace`
-
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=6dc82f01715d91d1fd695149222fdace`
 
 
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-02-19/lwH2EVG.txt`
+`https://oss.v2rayse.com/proxies/data/2024-02-20/jyfzScc.txt`
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-02-19/lwH2EVG.txt`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=22fdea5784427788c1c6fdbefdffb3e0`
+
+
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=22fdea5784427788c1c6fdbefdffb3e0`
+
+
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=6645d05d4bfb9b316e81da6f70722b2a`
+
+
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=6645d05d4bfb9b316e81da6f70722b2a`
+
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=cbe6e839f0f579fbe347fa0ad3d2422b`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=cbe6e839f0f579fbe347fa0ad3d2422b`
 
 
 

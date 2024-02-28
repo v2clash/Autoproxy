@@ -10,7 +10,7 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 696`
+`Total number of merge nodes: 697`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1`
@@ -42,7 +42,7 @@
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 80`
+`Total number of merge nodes: 81`
 
 - [Clash subscription](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `4`
-Updata：`2024-02-29 02:19:09`
+Updata：`2024-02-29 05:15:26`
 
 
 <details>
@@ -30982,27 +30982,22 @@ Updata：`2024-02-29 02:19:09`
 
 
 
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=4752e5cc43b9bbc18f35fea3a13665a1`
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=4752e5cc43b9bbc18f35fea3a13665a1`
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=d3c38418d737530a3760609461005894`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=2ec2e0e2b1b9f678792f69d6225b068a`
 
 
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=d3c38418d737530a3760609461005894`
 
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-02-28/LDsR4Bk.txt`
-
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=2ec2e0e2b1b9f678792f69d6225b068a`
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-02-28/LDsR4Bk.txt`
@@ -31010,10 +31005,23 @@ Updata：`2024-02-29 02:19:09`
 
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=f8bf2764cd0021f704bcc8c02e309f92`
+`https://oss.v2rayse.com/proxies/data/2024-02-28/LDsR4Bk.txt`
+
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=f8bf2764cd0021f704bcc8c02e309f92`
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=2bf23bf55860769e31fd0f174d723e7a`
+
+
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=2bf23bf55860769e31fd0f174d723e7a`
+
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=1c4ac09e18c4745ec84c9cc32587557a`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=1c4ac09e18c4745ec84c9cc32587557a`
 
 
 

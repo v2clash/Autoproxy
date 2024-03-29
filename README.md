@@ -10,7 +10,7 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 517`
+`Total number of merge nodes: 513`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1`
@@ -42,7 +42,7 @@
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 62`
+`Total number of merge nodes: 58`
 
 - [Clash subscription](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `4`
-Updata：`2024-03-29 17:46:58`
+Updata：`2024-03-29 20:57:56`
 
 
 <details>
@@ -32880,22 +32880,30 @@ Updata：`2024-03-29 17:46:58`
 
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=b9915349a209d8ab483245269cdf3993`
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=b9915349a209d8ab483245269cdf3993`
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=c360296befc043cbfadeb1747042e6d8`
+
+
+
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=3b8bc37599206304497c6535ace87f82`
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=c360296befc043cbfadeb1747042e6d8`
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=d79530f0a1b54c616d7785efa9a2d3dd`
 
 
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=3b8bc37599206304497c6535ace87f82`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=d79530f0a1b54c616d7785efa9a2d3dd`
 
 
 >Trial subscription：
@@ -32908,10 +32916,10 @@ Updata：`2024-03-29 17:46:58`
 
 
 >Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=c577ec14e90171ac7e060821e5c5cf57`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=d9fa77b1aeab2ed11421b4a79edd1382`
 
 >Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=c577ec14e90171ac7e060821e5c5cf57`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=d9fa77b1aeab2ed11421b4a79edd1382`
 
 
 

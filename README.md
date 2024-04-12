@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `3`
-Updata：`2024-04-12 09:28:05`
+Updata：`2024-04-12 12:03:55`
 
 
 <details>
@@ -33801,38 +33801,47 @@ Updata：`2024-04-12 09:28:05`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=e5daed0558aa08ec59dba5a5a6d14679`
+
+
+
+
+
+
 
 
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=e5daed0558aa08ec59dba5a5a6d14679`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=abd02adcb2e1cd10cb74b8abf985f2f7`
 
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=390f83aa4a30cb7be5db4c44fb16a436`
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=e5daed0558aa08ec59dba5a5a6d14679`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=390f83aa4a30cb7be5db4c44fb16a436`
-
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=390f83aa4a30cb7be5db4c44fb16a436`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=abd02adcb2e1cd10cb74b8abf985f2f7`
 
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-04-12/LllmHQd.txt`
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-04-12/LllmHQd.txt`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=abd02adcb2e1cd10cb74b8abf985f2f7`
+
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-04-12/LllmHQd.txt`
+
+
+>Trial subscription：
+`https://oss.v2rayse.com/proxies/data/2024-04-12/LllmHQd.txt`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=2eedecc68ebb124381bf4b82b5f3d8eb`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=2eedecc68ebb124381bf4b82b5f3d8eb`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=2eedecc68ebb124381bf4b82b5f3d8eb`
 
 
 

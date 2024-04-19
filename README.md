@@ -10,7 +10,7 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 598`
+`Total number of merge nodes: 595`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1`
@@ -42,7 +42,7 @@
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 73`
+`Total number of merge nodes: 70`
 
 - [Clash subscription](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `4`
-Updata：`2024-04-19 05:36:49`
+Updata：`2024-04-19 09:19:26`
 
 
 <details>
@@ -34265,38 +34265,46 @@ Updata：`2024-04-19 05:36:49`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=ff1a2ad35e1d179d7d7273b7ad73a3b1`
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=ff1a2ad35e1d179d7d7273b7ad73a3b1`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=c31b50320f7329fb6e421df0eaf9ea14`
 
->Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-04-18/BeJsAke.txt`
-
-
-
->Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-04-18/BeJsAke.txt`
-
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=9f09c9ebeeb2ec662a5b6e51c3366500`
-
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=9f09c9ebeeb2ec662a5b6e51c3366500`
 
 
 
 >Trial subscription：
-`https://lemontea.shop/api/v1/client/subscribe?token=ef2d55c83b84362bdc4781475be17e1f`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=c31b50320f7329fb6e421df0eaf9ea14`
 
 >Trial subscription：
-`https://lemontea.shop/api/v1/client/subscribe?token=ef2d55c83b84362bdc4781475be17e1f`
+`https://oss.v2rayse.com/proxies/data/2024-04-19/HeXZuSS.txt`
+
+
+
+>Trial subscription：
+`https://oss.v2rayse.com/proxies/data/2024-04-19/HeXZuSS.txt`
+
+
+>Trial subscription：
+`https://lemontea.shop/api/v1/client/subscribe?token=41132ee90b00416fb050d1e2ea3dd6a5`
+
+
+>Trial subscription：
+`https://lemontea.shop/api/v1/client/subscribe?token=41132ee90b00416fb050d1e2ea3dd6a5`
+
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=060edb67591799d48b229dcc2e13beb7`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=060edb67591799d48b229dcc2e13beb7`
 
 
 

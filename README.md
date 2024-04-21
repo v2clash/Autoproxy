@@ -10,39 +10,39 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 466`
+`Total number of merge nodes: 474`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1`
-`Total number of merge nodes: 59`
+`Total number of merge nodes: 60`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription2`
-`Total number of merge nodes: 59`
+`Total number of merge nodes: 60`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription3`
-`Total number of merge nodes: 59`
+`Total number of merge nodes: 60`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription4`
-`Total number of merge nodes: 59`
+`Total number of merge nodes: 60`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription5`
-`Total number of merge nodes: 59`
+`Total number of merge nodes: 60`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription6`
-`Total number of merge nodes: 59`
+`Total number of merge nodes: 60`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription7`
-`Total number of merge nodes: 59`
+`Total number of merge nodes: 60`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 53`
+`Total number of merge nodes: 54`
 
 - [Clash subscription](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `3`
-Updata：`2024-04-21 05:43:05`
+Updata：`2024-04-21 09:29:54`
 
 
 <details>
@@ -34401,38 +34401,47 @@ Updata：`2024-04-21 05:43:05`
 
 
 
->Trial subscription：
-`https://lemontea.shop/api/v1/client/subscribe?token=06c83a0616913e1d06b6e13948e4a91c`
+
+
+
+
+
+
 
 
 
 >Trial subscription：
-`https://lemontea.shop/api/v1/client/subscribe?token=06c83a0616913e1d06b6e13948e4a91c`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=e587698b41212e7b79bc2a61d92cec03`
 
-
->Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-04-20/EZUTueG.txt`
-
->Trial subscription：
-`https://lemontea.shop/api/v1/client/subscribe?token=06c83a0616913e1d06b6e13948e4a91c`
 
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-04-20/EZUTueG.txt`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=e587698b41212e7b79bc2a61d92cec03`
 
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-04-20/EZUTueG.txt`
 
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=e587698b41212e7b79bc2a61d92cec03`
+
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=d3e076ef3852ca2206648a7f15e411fa`
+`https://oss.v2rayse.com/proxies/data/2024-04-20/EZUTueG.txt`
+
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=d3e076ef3852ca2206648a7f15e411fa`
+`https://oss.v2rayse.com/proxies/data/2024-04-20/EZUTueG.txt`
+
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=d3e076ef3852ca2206648a7f15e411fa`
+`https://lemontea.shop/api/v1/client/subscribe?token=2ce474cb2a26364bb41a9903a042ccca`
+
+>Trial subscription：
+`https://lemontea.shop/api/v1/client/subscribe?token=2ce474cb2a26364bb41a9903a042ccca`
+
+>Trial subscription：
+`https://lemontea.shop/api/v1/client/subscribe?token=2ce474cb2a26364bb41a9903a042ccca`
 
 
 

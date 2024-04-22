@@ -10,7 +10,7 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 424`
+`Total number of merge nodes: 430`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1`
@@ -42,7 +42,7 @@
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 46`
+`Total number of merge nodes: 52`
 
 - [Clash subscription](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `3`
-Updata：`2024-04-22 05:44:51`
+Updata：`2024-04-22 09:28:04`
 
 
 <details>
@@ -34473,38 +34473,47 @@ Updata：`2024-04-22 05:44:51`
 
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=cf13ad72226b62c4bde12c07462ed27e`
+
+
+
+
+
+
 
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=cf13ad72226b62c4bde12c07462ed27e`
+`https://lemontea.shop/api/v1/client/subscribe?token=664354a38514ba77d221d58e4f00f5e0`
 
-
->Trial subscription：
-`https://lemontea.shop/api/v1/client/subscribe?token=a503a171fba9d633df74fce4c7d2c969`
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=cf13ad72226b62c4bde12c07462ed27e`
 
 
 >Trial subscription：
-`https://lemontea.shop/api/v1/client/subscribe?token=a503a171fba9d633df74fce4c7d2c969`
+`https://lemontea.shop/api/v1/client/subscribe?token=664354a38514ba77d221d58e4f00f5e0`
 
 
 >Trial subscription：
-`https://lemontea.shop/api/v1/client/subscribe?token=a503a171fba9d633df74fce4c7d2c969`
+`https://oss.v2rayse.com/proxies/data/2024-04-22/MxoVCEd.txt`
+
+>Trial subscription：
+`https://lemontea.shop/api/v1/client/subscribe?token=664354a38514ba77d221d58e4f00f5e0`
 
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-04-20/EZUTueG.txt`
+`https://oss.v2rayse.com/proxies/data/2024-04-22/MxoVCEd.txt`
+
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-04-20/EZUTueG.txt`
+`https://oss.v2rayse.com/proxies/data/2024-04-22/MxoVCEd.txt`
+
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-04-20/EZUTueG.txt`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=357ac2fb676ffa45403a532e0505a1b5`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=357ac2fb676ffa45403a532e0505a1b5`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=357ac2fb676ffa45403a532e0505a1b5`
 
 
 

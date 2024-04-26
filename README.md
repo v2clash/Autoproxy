@@ -10,7 +10,7 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 484`
+`Total number of merge nodes: 481`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1`
@@ -42,7 +42,7 @@
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 57`
+`Total number of merge nodes: 54`
 
 - [Clash subscription](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `2`
-Updata：`2024-04-26 14:35:49`
+Updata：`2024-04-26 17:29:02`
 
 
 <details>
@@ -34778,8 +34778,12 @@ Updata：`2024-04-26 14:35:49`
 
 
 
->Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-04-26/OhZ8keQ.txt`
+
+
+
+
+
+
 
 
 >Trial subscription：
@@ -34793,17 +34797,21 @@ Updata：`2024-04-26 14:35:49`
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-04-26/OhZ8keQ.txt`
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=d0143271789df0ea6c747a904a91ed0d`
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=d0143271789df0ea6c747a904a91ed0d`
+`https://oss.v2rayse.com/proxies/data/2024-04-26/OhZ8keQ.txt`
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=d0143271789df0ea6c747a904a91ed0d`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=cb740ca3e08c583c62bfc47eba45f04c`
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=d0143271789df0ea6c747a904a91ed0d`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=cb740ca3e08c583c62bfc47eba45f04c`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=cb740ca3e08c583c62bfc47eba45f04c`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=cb740ca3e08c583c62bfc47eba45f04c`
 
 
 

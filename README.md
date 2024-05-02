@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `2`
-Updata：`2024-05-02 11:32:03`
+Updata：`2024-05-02 14:32:27`
 
 
 <details>
@@ -35154,20 +35154,28 @@ Updata：`2024-05-02 11:32:03`
 
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=d3b0428c32e78f91a0891ab7be75428b`
+
+
+
+
+
+
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=d3b0428c32e78f91a0891ab7be75428b`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=99e5f2e28dd2dd4e289c80b95276acb6`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=d3b0428c32e78f91a0891ab7be75428b`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=99e5f2e28dd2dd4e289c80b95276acb6`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=d3b0428c32e78f91a0891ab7be75428b`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=99e5f2e28dd2dd4e289c80b95276acb6`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=99e5f2e28dd2dd4e289c80b95276acb6`
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-05-02/FJDJCPw.txt`

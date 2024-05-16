@@ -10,35 +10,35 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 402`
+`Total number of merge nodes: 381`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1`
-`Total number of merge nodes: 51`
+`Total number of merge nodes: 48`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription2`
-`Total number of merge nodes: 51`
+`Total number of merge nodes: 48`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription3`
-`Total number of merge nodes: 51`
+`Total number of merge nodes: 48`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription4`
-`Total number of merge nodes: 51`
+`Total number of merge nodes: 48`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription5`
-`Total number of merge nodes: 51`
+`Total number of merge nodes: 48`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription6`
-`Total number of merge nodes: 51`
+`Total number of merge nodes: 48`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription7`
-`Total number of merge nodes: 51`
+`Total number of merge nodes: 48`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `3`
-Updata：`2024-05-16 09:13:01`
+Updata：`2024-05-16 12:07:36`
 
 
 <details>
@@ -36118,8 +36118,12 @@ Updata：`2024-05-16 09:13:01`
 
 
 
->Trial subscription：
-`https://tt.vg/vzngJ`
+
+
+
+
+
+
 
 
 
@@ -36127,29 +36131,34 @@ Updata：`2024-05-16 09:13:01`
 `https://tt.vg/vzngJ`
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=7a1169866a43c383c408e754b78af766`
 
 >Trial subscription：
 `https://tt.vg/vzngJ`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=7a1169866a43c383c408e754b78af766`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f3b840555e88df4bf293cf8597de0a88`
+
+>Trial subscription：
+`https://tt.vg/vzngJ`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=7a1169866a43c383c408e754b78af766`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f3b840555e88df4bf293cf8597de0a88`
 
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=f834652ea9780a070cacadabc9dd0e3b`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f3b840555e88df4bf293cf8597de0a88`
+
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=f834652ea9780a070cacadabc9dd0e3b`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=2798489fbbf1adc88844bf53247a8b33`
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=f834652ea9780a070cacadabc9dd0e3b`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=2798489fbbf1adc88844bf53247a8b33`
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=2798489fbbf1adc88844bf53247a8b33`
 
 
 

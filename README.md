@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `3`
-Updata：`2024-05-18 02:34:37`
+Updata：`2024-05-18 05:28:40`
 
 
 <details>
@@ -36244,38 +36244,47 @@ Updata：`2024-05-18 02:34:37`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=a1bff1781c8e6a4e2dca7795a835fc75`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=a1bff1781c8e6a4e2dca7795a835fc75`
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=60b2636c9fcbf7be1ac9a5f2fa4368a8`
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=a1bff1781c8e6a4e2dca7795a835fc75`
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=60b2636c9fcbf7be1ac9a5f2fa4368a8`
-
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=60b2636c9fcbf7be1ac9a5f2fa4368a8`
 
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-05-17/EmrJbTr.txt`
 
->Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-05-17/EmrJbTr.txt`
+
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-05-17/EmrJbTr.txt`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=29f855d08c5ba4acb31ca0df0fc9b246`
+
+>Trial subscription：
+`https://oss.v2rayse.com/proxies/data/2024-05-17/EmrJbTr.txt`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=29f855d08c5ba4acb31ca0df0fc9b246`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=29f855d08c5ba4acb31ca0df0fc9b246`
+
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=9eed4e1da933a1f9d2a75677432b73c6`
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=9eed4e1da933a1f9d2a75677432b73c6`
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=9eed4e1da933a1f9d2a75677432b73c6`
 
 
 

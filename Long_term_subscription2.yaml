@@ -5,340 +5,326 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 JP-154.47.20.240-0705, server: 154.47.20.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 35.77.99.126, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: RELAY-172.67.229.25-0212, server: 172.67.229.25, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca6.tehme100.fun}}}
+  - {name: 🇫🇷 FR-195.154.185.174-0670, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇷🇺 _RU_俄罗斯联邦, server: 45.136.245.240, port: 12910, type: vmess, uuid: 8259cb1c-dd6c-4739-9c88-af550d977525, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US-38.75.136.108-3308, server: 38.75.136.108, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇯🇵 日本 东京Amazon数据中心, server: 13.112.81.146, port: 13352, type: trojan, password: uGIHyBkTAotX, sni: appsvs.shop}
+  - {name: 🇺🇸 US-38.75.137.105-2237, server: 38.75.137.105, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇳 广东省汕头市 移动, server: 183.240.179.195, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 DE-130.162.47.123-10279, server: 130.162.47.123, port: 6854, type: vmess, uuid: b5f7e932-f730-4ad2-b425-40977b9db332, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 _US_美国, server: 172.67.204.84, port: 443, type: trojan, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.114.114.183, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US-108.181.23.41-2742, server: 108.181.23.41, port: 2052, type: vmess, uuid: ef8c954e-014f-4b36-8273-9b5086afab34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc}}}
-  - {name: 🇺🇸 US-205.134.180.147-2660, server: 205.134.180.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9Bvkw5aupNy8}
-  - {name: RELAY-104.21.71.88-2696, server: 104.21.71.88, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us3e-mmnnfr9dop0.v2freevpn.com}}}
-  - {name: RELAY-172.67.183.220-2713, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: jahfkjha.cfd}}}
-  - {name: 🇺🇸 美国 Amazon EC2服务器, server: 3.75.173.87, port: 13174, type: trojan, password: 89J3POYp5U1k, sni: appsvs.shop}
-  - {name: 🇭🇰 HK-47.242.22.171-0121, server: 47.242.22.171, port: 28681, type: vmess, uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US-38.110.1.43-3215, server: 38.110.1.43, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: RELAY-172.67.172.67-0438, server: 172.67.172.67, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: RO-194.14.217.115-0689, server: 194.14.217.115, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 2, server: 38.86.135.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: RELAY-172.67.204.84-0101, server: 172.67.204.84, port: 80, type: vmess, uuid: 753d0d83-3f5b-4821-860e-082f0b3db609, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: no1-vmess.sshmax.xyz}}}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: cfcdn1.sanfencdn9.com, port: 2082, type: vmess, uuid: 1ed3f9fd-7adb-4971-b8c0-3d4916290982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}}
-  - {name: 🇺🇦 乌克兰 V2CROSS.COM, server: 95.164.46.203, port: 8442, type: vmess, uuid: 4a0abf2f-40f4-47d2-8382-0b553cbe9b21, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 3, server: 38.114.114.183, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 美国 华盛顿州, server: 205.134.180.145, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hgLCgfLRgB6d}
-  - {name: BE-95.164.62.230-0167, server: be2-vmess.sshmax.xyz, port: 80, type: vmess, uuid: f302ad18-94da-4682-a330-24dc7c863703, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: be2-vmess.sshmax.xyz}}}
-  - {name: 🇸🇬 SG-103.172.116.79-0100, server: 103.172.116.79, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL}
-  - {name: 🇰🇷 KR-43.203.201.192-4291, server: 43.203.201.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 惠普HP, server: 16.170.55.128, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
-  - {name: 🇺🇸 US-38.75.137.93-2337, server: 38.75.137.93, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇭🇰 HK-182.16.1.194-2797, server: hrgdvpn.flycdnedc55.vip, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hrgdvpn.flycdnedc55.vip}}}
-  - {name: 🇨🇦 CA-158.51.121.36-0953, server: 158.51.121.36, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇩🇪 德国2|cf优选, server: www.okcupid.com, port: 8443, type: vmess, uuid: 6c08df77-b99e-48e6-829d-2f4d423e7e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: de2.888553.xyz}}}
-  - {name: 🇺🇸 US-38.114.114.225-3306, server: 38.114.114.225, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: 183.240.179.195, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 广东省佛山市 移动, server: 183.232.199.61, port: 61001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.19.40.58, port: 8880, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /d/65dd503.TG.WangCai2.WangCai_8:107690, headers: {Host: uk.moss.network}}}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 4, server: 38.114.114.183, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
-  - {name: 🇭🇰 香港7|@ripaojiedian, server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
-  - {name: RELAY-172.67.170.13-2808, server: 172.67.170.13, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: true, servername: glweidf.sbs, network: ws, ws-opts: {path: /, headers: {Host: glweidf.sbs}}}
-  - {name: 🇺🇸 _US_美国 2, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
-  - {name: RELAY-172.67.229.37-0171, server: 172.67.229.37, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca6.tehme100.fun}}}
-  - {name: RELAY-172.67.161.77-0263, server: 172.67.161.77, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: linde06.indiavideo.sbs}}}
-  - {name: 🇺🇸 United States 01 @nodpai, server: hytron.io, port: 8080, type: vmess, uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hytron.io}}}
-  - {name: 🇩🇪 DE-92.246.136.190-0675, server: 92.246.136.190, port: 32025, type: ss, cipher: chacha20-ietf-poly1305, password: VRKnPTULDqxaExI5yLJjoc}
-  - {name: 🇫🇷 FR-51.178.87.37-2213, server: 51.178.87.37, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 5, server: 38.114.114.183, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 US-38.75.137.93-2176, server: 38.75.137.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 US-66.225.246.221-0664, server: 66.225.246.221, port: 16899, type: ss, cipher: aes-128-gcm, password: Yc2CtrIz8L}
+  - {name: 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信, server: service.ouluyun9803.com, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 🇺🇸 US-38.114.114.225-3287, server: 38.114.114.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.16.45.212, port: 80, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: jp.xlb8.eu.org}}}
   - {name: 🇰🇷 KR-152.67.218.38-0712, server: 152.67.218.38, port: 443, type: vmess, uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 南极洲|cf优选, server: www.okcupid.com, port: 443, type: vmess, uuid: 6c08df77-b99e-48e6-829d-2f4d423e7e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: njj.888553.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 172.66.40.173, port: 80, type: vmess, uuid: 85b2515e-5373-3cec-b6ae-4750693b7e2b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tk-000.xiaoxiaobujidao.xyz}}}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: hk.wish.ml, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.wish.ml}}}
+  - {name: RELAY-172.67.229.13-0148, server: 172.67.229.13, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca6.tehme100.fun}}}
+  - {name: 🇩🇪 DE-130.162.47.123-10277, server: 130.162.47.123, port: 6854, type: vmess, uuid: b5f7e932-f730-4ad2-b425-40977b9db332, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: onea.flha.ru, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇺🇦 UA-5.188.6.8-0701, server: 5.188.6.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇺🇸 US-75.102.51.26-0645, server: 75.102.51.26, port: 16899, type: ss, cipher: aes-128-gcm, password: Yc2CtrIz8L}
+  - {name: 🇫🇷 法国 格拉沃利纳OVH数据中心, server: 51.75.77.237, port: 443, type: trojan, password: e42b5412-0fda-4684-9fc6-d5ff1c4354ac}
+  - {name: 🇺🇸 US-155.138.242.207-0295, server: 155.138.242.207, port: 54316, type: vmess, uuid: 67797c6a-e898-49bd-8f61-5fb1523ce0bd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇸🇬 SG-103.172.116.79-0196, server: 103.172.116.79, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA}
+  - {name: 🇺🇸 US-170.178.179.188-2839, server: 170.178.179.188, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.15314695.xyz}}}
+  - {name: 🇵🇱 _PL_波兰, server: 51.77.53.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: hk.wish.ml, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.wish.ml}}}
+  - {name: IE-23.92.127.134-9780, server: 23.92.127.134, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇸🇬 SG-103.172.116.79-0170, server: 103.172.116.79, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX}
+  - {name: 🇺🇸 US-38.75.137.93-2337, server: 38.75.137.93, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 美国 Fastly全球Anycast节点, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
+  - {name: 🇺🇦 UA-45.87.155.70-2770, server: 45.87.155.70, port: 8880, type: vmess, uuid: 88c0a1fb-fc4d-4eab-85c7-4dd84407e9a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US-205.134.180.147-2660, server: 205.134.180.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9Bvkw5aupNy8}
+  - {name: 🇧🇩 _BD_孟加拉国, server: 103.106.2.90, port: 8881, type: ss, cipher: chacha20-ietf-poly1305, password: oxp4Xr64OKpXV127Zwtzl14P8L8PovqbFGPHbnbhRf7CxCSW1E}
+  - {name: 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信 2, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 🇺🇸 US-38.110.1.43-3166, server: 38.110.1.43, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 54.254.62.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 US-108.181.23.41-2742, server: 108.181.23.41, port: 2052, type: vmess, uuid: ef8c954e-014f-4b36-8273-9b5086afab34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc}}}
+  - {name: 🇺🇸 US-38.75.136.33-2110, server: 38.75.136.33, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇬🇧 GB-46.226.162.112-2350, server: 46.226.162.112, port: 32913, type: ss, cipher: chacha20-ietf-poly1305, password: KTwIQM1cQJwtkrjfld6Usn}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵 JP-154.47.20.240-0705
-      - 🇰🇷 韩国特殊|@ripaojiedian
+      - RELAY-172.67.229.25-0212
+      - 🇫🇷 FR-195.154.185.174-0670
+      - 🇷🇺 _RU_俄罗斯联邦
+      - 🇺🇸 US-38.75.136.108-3308
+      - 🇯🇵 日本 东京Amazon数据中心
+      - 🇺🇸 US-38.75.137.105-2237
+      - 🇨🇳 广东省汕头市 移动
       - 🇩🇪 DE-130.162.47.123-10279
-      - 🇺🇸 _US_美国
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 US-108.181.23.41-2742
-      - 🇺🇸 US-205.134.180.147-2660
-      - RELAY-104.21.71.88-2696
-      - RELAY-172.67.183.220-2713
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇭🇰 HK-47.242.22.171-0121
-      - 🇺🇸 US-38.110.1.43-3215
-      - RELAY-172.67.172.67-0438
-      - RO-194.14.217.115-0689
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - RELAY-172.67.204.84-0101
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 🇺🇸 美国 华盛顿州
-      - BE-95.164.62.230-0167
-      - 🇸🇬 SG-103.172.116.79-0100
-      - 🇰🇷 KR-43.203.201.192-4291
-      - 🇺🇸 美国 惠普HP
-      - 🇺🇸 US-38.75.137.93-2337
-      - 🇭🇰 HK-182.16.1.194-2797
-      - 🇨🇦 CA-158.51.121.36-0953
-      - 🇩🇪 德国2|cf优选
-      - 🇺🇸 US-38.114.114.225-3306
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇨🇳 广东省佛山市 移动
+      - 🇺🇸 US-38.75.137.93-2176
+      - 🇺🇸 US-66.225.246.221-0664
+      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信
+      - 🇺🇸 US-38.114.114.225-3287
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
-      - 🇭🇰 香港7|@ripaojiedian
-      - RELAY-172.67.170.13-2808
-      - 🇺🇸 _US_美国 2
-      - RELAY-172.67.229.37-0171
-      - RELAY-172.67.161.77-0263
-      - 🇺🇸 United States 01 @nodpai
-      - 🇩🇪 DE-92.246.136.190-0675
-      - 🇫🇷 FR-51.178.87.37-2213
-      - 🇺🇸 美国 华盛顿Cogent通信公司 5
       - 🇰🇷 KR-152.67.218.38-0712
+      - 南极洲|cf优选
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - RELAY-172.67.229.13-0148
+      - 🇩🇪 DE-130.162.47.123-10277
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇦 UA-5.188.6.8-0701
+      - 🇺🇸 US-75.102.51.26-0645
+      - 🇫🇷 法国 格拉沃利纳OVH数据中心
+      - 🇺🇸 US-155.138.242.207-0295
+      - 🇸🇬 SG-103.172.116.79-0196
+      - 🇺🇸 US-170.178.179.188-2839
+      - 🇵🇱 _PL_波兰
+      - 🇸🇬 新加坡|@ripaojiedian
+      - IE-23.92.127.134-9780
+      - 🇸🇬 SG-103.172.116.79-0170
+      - 🇺🇸 US-38.75.137.93-2337
+      - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇦 UA-45.87.155.70-2770
+      - 🇺🇸 US-205.134.180.147-2660
+      - 🇧🇩 _BD_孟加拉国
+      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信 2
+      - 🇺🇸 US-38.110.1.43-3166
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇺🇸 US-108.181.23.41-2742
+      - 🇺🇸 US-38.75.136.33-2110
+      - 🇬🇧 GB-46.226.162.112-2350
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 JP-154.47.20.240-0705
-      - 🇰🇷 韩国特殊|@ripaojiedian
+      - RELAY-172.67.229.25-0212
+      - 🇫🇷 FR-195.154.185.174-0670
+      - 🇷🇺 _RU_俄罗斯联邦
+      - 🇺🇸 US-38.75.136.108-3308
+      - 🇯🇵 日本 东京Amazon数据中心
+      - 🇺🇸 US-38.75.137.105-2237
+      - 🇨🇳 广东省汕头市 移动
       - 🇩🇪 DE-130.162.47.123-10279
-      - 🇺🇸 _US_美国
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 US-108.181.23.41-2742
-      - 🇺🇸 US-205.134.180.147-2660
-      - RELAY-104.21.71.88-2696
-      - RELAY-172.67.183.220-2713
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇭🇰 HK-47.242.22.171-0121
-      - 🇺🇸 US-38.110.1.43-3215
-      - RELAY-172.67.172.67-0438
-      - RO-194.14.217.115-0689
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - RELAY-172.67.204.84-0101
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 🇺🇸 美国 华盛顿州
-      - BE-95.164.62.230-0167
-      - 🇸🇬 SG-103.172.116.79-0100
-      - 🇰🇷 KR-43.203.201.192-4291
-      - 🇺🇸 美国 惠普HP
-      - 🇺🇸 US-38.75.137.93-2337
-      - 🇭🇰 HK-182.16.1.194-2797
-      - 🇨🇦 CA-158.51.121.36-0953
-      - 🇩🇪 德国2|cf优选
-      - 🇺🇸 US-38.114.114.225-3306
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇨🇳 广东省佛山市 移动
+      - 🇺🇸 US-38.75.137.93-2176
+      - 🇺🇸 US-66.225.246.221-0664
+      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信
+      - 🇺🇸 US-38.114.114.225-3287
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
-      - 🇭🇰 香港7|@ripaojiedian
-      - RELAY-172.67.170.13-2808
-      - 🇺🇸 _US_美国 2
-      - RELAY-172.67.229.37-0171
-      - RELAY-172.67.161.77-0263
-      - 🇺🇸 United States 01 @nodpai
-      - 🇩🇪 DE-92.246.136.190-0675
-      - 🇫🇷 FR-51.178.87.37-2213
-      - 🇺🇸 美国 华盛顿Cogent通信公司 5
       - 🇰🇷 KR-152.67.218.38-0712
+      - 南极洲|cf优选
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - RELAY-172.67.229.13-0148
+      - 🇩🇪 DE-130.162.47.123-10277
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇦 UA-5.188.6.8-0701
+      - 🇺🇸 US-75.102.51.26-0645
+      - 🇫🇷 法国 格拉沃利纳OVH数据中心
+      - 🇺🇸 US-155.138.242.207-0295
+      - 🇸🇬 SG-103.172.116.79-0196
+      - 🇺🇸 US-170.178.179.188-2839
+      - 🇵🇱 _PL_波兰
+      - 🇸🇬 新加坡|@ripaojiedian
+      - IE-23.92.127.134-9780
+      - 🇸🇬 SG-103.172.116.79-0170
+      - 🇺🇸 US-38.75.137.93-2337
+      - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇦 UA-45.87.155.70-2770
+      - 🇺🇸 US-205.134.180.147-2660
+      - 🇧🇩 _BD_孟加拉国
+      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信 2
+      - 🇺🇸 US-38.110.1.43-3166
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇺🇸 US-108.181.23.41-2742
+      - 🇺🇸 US-38.75.136.33-2110
+      - 🇬🇧 GB-46.226.162.112-2350
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 JP-154.47.20.240-0705
-      - 🇰🇷 韩国特殊|@ripaojiedian
+      - RELAY-172.67.229.25-0212
+      - 🇫🇷 FR-195.154.185.174-0670
+      - 🇷🇺 _RU_俄罗斯联邦
+      - 🇺🇸 US-38.75.136.108-3308
+      - 🇯🇵 日本 东京Amazon数据中心
+      - 🇺🇸 US-38.75.137.105-2237
+      - 🇨🇳 广东省汕头市 移动
       - 🇩🇪 DE-130.162.47.123-10279
-      - 🇺🇸 _US_美国
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 US-108.181.23.41-2742
-      - 🇺🇸 US-205.134.180.147-2660
-      - RELAY-104.21.71.88-2696
-      - RELAY-172.67.183.220-2713
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇭🇰 HK-47.242.22.171-0121
-      - 🇺🇸 US-38.110.1.43-3215
-      - RELAY-172.67.172.67-0438
-      - RO-194.14.217.115-0689
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - RELAY-172.67.204.84-0101
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 🇺🇸 美国 华盛顿州
-      - BE-95.164.62.230-0167
-      - 🇸🇬 SG-103.172.116.79-0100
-      - 🇰🇷 KR-43.203.201.192-4291
-      - 🇺🇸 美国 惠普HP
-      - 🇺🇸 US-38.75.137.93-2337
-      - 🇭🇰 HK-182.16.1.194-2797
-      - 🇨🇦 CA-158.51.121.36-0953
-      - 🇩🇪 德国2|cf优选
-      - 🇺🇸 US-38.114.114.225-3306
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇨🇳 广东省佛山市 移动
+      - 🇺🇸 US-38.75.137.93-2176
+      - 🇺🇸 US-66.225.246.221-0664
+      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信
+      - 🇺🇸 US-38.114.114.225-3287
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
-      - 🇭🇰 香港7|@ripaojiedian
-      - RELAY-172.67.170.13-2808
-      - 🇺🇸 _US_美国 2
-      - RELAY-172.67.229.37-0171
-      - RELAY-172.67.161.77-0263
-      - 🇺🇸 United States 01 @nodpai
-      - 🇩🇪 DE-92.246.136.190-0675
-      - 🇫🇷 FR-51.178.87.37-2213
-      - 🇺🇸 美国 华盛顿Cogent通信公司 5
       - 🇰🇷 KR-152.67.218.38-0712
+      - 南极洲|cf优选
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - RELAY-172.67.229.13-0148
+      - 🇩🇪 DE-130.162.47.123-10277
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇦 UA-5.188.6.8-0701
+      - 🇺🇸 US-75.102.51.26-0645
+      - 🇫🇷 法国 格拉沃利纳OVH数据中心
+      - 🇺🇸 US-155.138.242.207-0295
+      - 🇸🇬 SG-103.172.116.79-0196
+      - 🇺🇸 US-170.178.179.188-2839
+      - 🇵🇱 _PL_波兰
+      - 🇸🇬 新加坡|@ripaojiedian
+      - IE-23.92.127.134-9780
+      - 🇸🇬 SG-103.172.116.79-0170
+      - 🇺🇸 US-38.75.137.93-2337
+      - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇦 UA-45.87.155.70-2770
+      - 🇺🇸 US-205.134.180.147-2660
+      - 🇧🇩 _BD_孟加拉国
+      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信 2
+      - 🇺🇸 US-38.110.1.43-3166
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇺🇸 US-108.181.23.41-2742
+      - 🇺🇸 US-38.75.136.33-2110
+      - 🇬🇧 GB-46.226.162.112-2350
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 JP-154.47.20.240-0705
-      - 🇰🇷 韩国特殊|@ripaojiedian
+      - RELAY-172.67.229.25-0212
+      - 🇫🇷 FR-195.154.185.174-0670
+      - 🇷🇺 _RU_俄罗斯联邦
+      - 🇺🇸 US-38.75.136.108-3308
+      - 🇯🇵 日本 东京Amazon数据中心
+      - 🇺🇸 US-38.75.137.105-2237
+      - 🇨🇳 广东省汕头市 移动
       - 🇩🇪 DE-130.162.47.123-10279
-      - 🇺🇸 _US_美国
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 US-108.181.23.41-2742
-      - 🇺🇸 US-205.134.180.147-2660
-      - RELAY-104.21.71.88-2696
-      - RELAY-172.67.183.220-2713
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇭🇰 HK-47.242.22.171-0121
-      - 🇺🇸 US-38.110.1.43-3215
-      - RELAY-172.67.172.67-0438
-      - RO-194.14.217.115-0689
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - RELAY-172.67.204.84-0101
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 🇺🇸 美国 华盛顿州
-      - BE-95.164.62.230-0167
-      - 🇸🇬 SG-103.172.116.79-0100
-      - 🇰🇷 KR-43.203.201.192-4291
-      - 🇺🇸 美国 惠普HP
-      - 🇺🇸 US-38.75.137.93-2337
-      - 🇭🇰 HK-182.16.1.194-2797
-      - 🇨🇦 CA-158.51.121.36-0953
-      - 🇩🇪 德国2|cf优选
-      - 🇺🇸 US-38.114.114.225-3306
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇨🇳 广东省佛山市 移动
+      - 🇺🇸 US-38.75.137.93-2176
+      - 🇺🇸 US-66.225.246.221-0664
+      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信
+      - 🇺🇸 US-38.114.114.225-3287
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
-      - 🇭🇰 香港7|@ripaojiedian
-      - RELAY-172.67.170.13-2808
-      - 🇺🇸 _US_美国 2
-      - RELAY-172.67.229.37-0171
-      - RELAY-172.67.161.77-0263
-      - 🇺🇸 United States 01 @nodpai
-      - 🇩🇪 DE-92.246.136.190-0675
-      - 🇫🇷 FR-51.178.87.37-2213
-      - 🇺🇸 美国 华盛顿Cogent通信公司 5
       - 🇰🇷 KR-152.67.218.38-0712
+      - 南极洲|cf优选
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - RELAY-172.67.229.13-0148
+      - 🇩🇪 DE-130.162.47.123-10277
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇦 UA-5.188.6.8-0701
+      - 🇺🇸 US-75.102.51.26-0645
+      - 🇫🇷 法国 格拉沃利纳OVH数据中心
+      - 🇺🇸 US-155.138.242.207-0295
+      - 🇸🇬 SG-103.172.116.79-0196
+      - 🇺🇸 US-170.178.179.188-2839
+      - 🇵🇱 _PL_波兰
+      - 🇸🇬 新加坡|@ripaojiedian
+      - IE-23.92.127.134-9780
+      - 🇸🇬 SG-103.172.116.79-0170
+      - 🇺🇸 US-38.75.137.93-2337
+      - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇦 UA-45.87.155.70-2770
+      - 🇺🇸 US-205.134.180.147-2660
+      - 🇧🇩 _BD_孟加拉国
+      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信 2
+      - 🇺🇸 US-38.110.1.43-3166
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇺🇸 US-108.181.23.41-2742
+      - 🇺🇸 US-38.75.136.33-2110
+      - 🇬🇧 GB-46.226.162.112-2350
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵 JP-154.47.20.240-0705
-      - 🇰🇷 韩国特殊|@ripaojiedian
+      - RELAY-172.67.229.25-0212
+      - 🇫🇷 FR-195.154.185.174-0670
+      - 🇷🇺 _RU_俄罗斯联邦
+      - 🇺🇸 US-38.75.136.108-3308
+      - 🇯🇵 日本 东京Amazon数据中心
+      - 🇺🇸 US-38.75.137.105-2237
+      - 🇨🇳 广东省汕头市 移动
       - 🇩🇪 DE-130.162.47.123-10279
-      - 🇺🇸 _US_美国
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 US-108.181.23.41-2742
-      - 🇺🇸 US-205.134.180.147-2660
-      - RELAY-104.21.71.88-2696
-      - RELAY-172.67.183.220-2713
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇭🇰 HK-47.242.22.171-0121
-      - 🇺🇸 US-38.110.1.43-3215
-      - RELAY-172.67.172.67-0438
-      - RO-194.14.217.115-0689
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - RELAY-172.67.204.84-0101
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 🇺🇸 美国 华盛顿州
-      - BE-95.164.62.230-0167
-      - 🇸🇬 SG-103.172.116.79-0100
-      - 🇰🇷 KR-43.203.201.192-4291
-      - 🇺🇸 美国 惠普HP
-      - 🇺🇸 US-38.75.137.93-2337
-      - 🇭🇰 HK-182.16.1.194-2797
-      - 🇨🇦 CA-158.51.121.36-0953
-      - 🇩🇪 德国2|cf优选
-      - 🇺🇸 US-38.114.114.225-3306
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇨🇳 广东省佛山市 移动
+      - 🇺🇸 US-38.75.137.93-2176
+      - 🇺🇸 US-66.225.246.221-0664
+      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信
+      - 🇺🇸 US-38.114.114.225-3287
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
-      - 🇭🇰 香港7|@ripaojiedian
-      - RELAY-172.67.170.13-2808
-      - 🇺🇸 _US_美国 2
-      - RELAY-172.67.229.37-0171
-      - RELAY-172.67.161.77-0263
-      - 🇺🇸 United States 01 @nodpai
-      - 🇩🇪 DE-92.246.136.190-0675
-      - 🇫🇷 FR-51.178.87.37-2213
-      - 🇺🇸 美国 华盛顿Cogent通信公司 5
       - 🇰🇷 KR-152.67.218.38-0712
+      - 南极洲|cf优选
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - RELAY-172.67.229.13-0148
+      - 🇩🇪 DE-130.162.47.123-10277
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇦 UA-5.188.6.8-0701
+      - 🇺🇸 US-75.102.51.26-0645
+      - 🇫🇷 法国 格拉沃利纳OVH数据中心
+      - 🇺🇸 US-155.138.242.207-0295
+      - 🇸🇬 SG-103.172.116.79-0196
+      - 🇺🇸 US-170.178.179.188-2839
+      - 🇵🇱 _PL_波兰
+      - 🇸🇬 新加坡|@ripaojiedian
+      - IE-23.92.127.134-9780
+      - 🇸🇬 SG-103.172.116.79-0170
+      - 🇺🇸 US-38.75.137.93-2337
+      - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇦 UA-45.87.155.70-2770
+      - 🇺🇸 US-205.134.180.147-2660
+      - 🇧🇩 _BD_孟加拉国
+      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信 2
+      - 🇺🇸 US-38.110.1.43-3166
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇺🇸 US-108.181.23.41-2742
+      - 🇺🇸 US-38.75.136.33-2110
+      - 🇬🇧 GB-46.226.162.112-2350
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 JP-154.47.20.240-0705
-      - 🇰🇷 韩国特殊|@ripaojiedian
+      - RELAY-172.67.229.25-0212
+      - 🇫🇷 FR-195.154.185.174-0670
+      - 🇷🇺 _RU_俄罗斯联邦
+      - 🇺🇸 US-38.75.136.108-3308
+      - 🇯🇵 日本 东京Amazon数据中心
+      - 🇺🇸 US-38.75.137.105-2237
+      - 🇨🇳 广东省汕头市 移动
       - 🇩🇪 DE-130.162.47.123-10279
-      - 🇺🇸 _US_美国
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 US-108.181.23.41-2742
-      - 🇺🇸 US-205.134.180.147-2660
-      - RELAY-104.21.71.88-2696
-      - RELAY-172.67.183.220-2713
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇭🇰 HK-47.242.22.171-0121
-      - 🇺🇸 US-38.110.1.43-3215
-      - RELAY-172.67.172.67-0438
-      - RO-194.14.217.115-0689
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - RELAY-172.67.204.84-0101
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 🇺🇸 美国 华盛顿州
-      - BE-95.164.62.230-0167
-      - 🇸🇬 SG-103.172.116.79-0100
-      - 🇰🇷 KR-43.203.201.192-4291
-      - 🇺🇸 美国 惠普HP
-      - 🇺🇸 US-38.75.137.93-2337
-      - 🇭🇰 HK-182.16.1.194-2797
-      - 🇨🇦 CA-158.51.121.36-0953
-      - 🇩🇪 德国2|cf优选
-      - 🇺🇸 US-38.114.114.225-3306
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇨🇳 广东省佛山市 移动
+      - 🇺🇸 US-38.75.137.93-2176
+      - 🇺🇸 US-66.225.246.221-0664
+      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信
+      - 🇺🇸 US-38.114.114.225-3287
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
-      - 🇭🇰 香港7|@ripaojiedian
-      - RELAY-172.67.170.13-2808
-      - 🇺🇸 _US_美国 2
-      - RELAY-172.67.229.37-0171
-      - RELAY-172.67.161.77-0263
-      - 🇺🇸 United States 01 @nodpai
-      - 🇩🇪 DE-92.246.136.190-0675
-      - 🇫🇷 FR-51.178.87.37-2213
-      - 🇺🇸 美国 华盛顿Cogent通信公司 5
       - 🇰🇷 KR-152.67.218.38-0712
+      - 南极洲|cf优选
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - RELAY-172.67.229.13-0148
+      - 🇩🇪 DE-130.162.47.123-10277
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇦 UA-5.188.6.8-0701
+      - 🇺🇸 US-75.102.51.26-0645
+      - 🇫🇷 法国 格拉沃利纳OVH数据中心
+      - 🇺🇸 US-155.138.242.207-0295
+      - 🇸🇬 SG-103.172.116.79-0196
+      - 🇺🇸 US-170.178.179.188-2839
+      - 🇵🇱 _PL_波兰
+      - 🇸🇬 新加坡|@ripaojiedian
+      - IE-23.92.127.134-9780
+      - 🇸🇬 SG-103.172.116.79-0170
+      - 🇺🇸 US-38.75.137.93-2337
+      - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇦 UA-45.87.155.70-2770
+      - 🇺🇸 US-205.134.180.147-2660
+      - 🇧🇩 _BD_孟加拉国
+      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信 2
+      - 🇺🇸 US-38.110.1.43-3166
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇺🇸 US-108.181.23.41-2742
+      - 🇺🇸 US-38.75.136.33-2110
+      - 🇬🇧 GB-46.226.162.112-2350
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -361,49 +347,47 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 JP-154.47.20.240-0705
-      - 🇰🇷 韩国特殊|@ripaojiedian
+      - RELAY-172.67.229.25-0212
+      - 🇫🇷 FR-195.154.185.174-0670
+      - 🇷🇺 _RU_俄罗斯联邦
+      - 🇺🇸 US-38.75.136.108-3308
+      - 🇯🇵 日本 东京Amazon数据中心
+      - 🇺🇸 US-38.75.137.105-2237
+      - 🇨🇳 广东省汕头市 移动
       - 🇩🇪 DE-130.162.47.123-10279
-      - 🇺🇸 _US_美国
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 US-108.181.23.41-2742
-      - 🇺🇸 US-205.134.180.147-2660
-      - RELAY-104.21.71.88-2696
-      - RELAY-172.67.183.220-2713
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇭🇰 HK-47.242.22.171-0121
-      - 🇺🇸 US-38.110.1.43-3215
-      - RELAY-172.67.172.67-0438
-      - RO-194.14.217.115-0689
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - RELAY-172.67.204.84-0101
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 🇺🇸 美国 华盛顿州
-      - BE-95.164.62.230-0167
-      - 🇸🇬 SG-103.172.116.79-0100
-      - 🇰🇷 KR-43.203.201.192-4291
-      - 🇺🇸 美国 惠普HP
-      - 🇺🇸 US-38.75.137.93-2337
-      - 🇭🇰 HK-182.16.1.194-2797
-      - 🇨🇦 CA-158.51.121.36-0953
-      - 🇩🇪 德国2|cf优选
-      - 🇺🇸 US-38.114.114.225-3306
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇨🇳 广东省佛山市 移动
+      - 🇺🇸 US-38.75.137.93-2176
+      - 🇺🇸 US-66.225.246.221-0664
+      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信
+      - 🇺🇸 US-38.114.114.225-3287
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
-      - 🇭🇰 香港7|@ripaojiedian
-      - RELAY-172.67.170.13-2808
-      - 🇺🇸 _US_美国 2
-      - RELAY-172.67.229.37-0171
-      - RELAY-172.67.161.77-0263
-      - 🇺🇸 United States 01 @nodpai
-      - 🇩🇪 DE-92.246.136.190-0675
-      - 🇫🇷 FR-51.178.87.37-2213
-      - 🇺🇸 美国 华盛顿Cogent通信公司 5
       - 🇰🇷 KR-152.67.218.38-0712
+      - 南极洲|cf优选
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - RELAY-172.67.229.13-0148
+      - 🇩🇪 DE-130.162.47.123-10277
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇦 UA-5.188.6.8-0701
+      - 🇺🇸 US-75.102.51.26-0645
+      - 🇫🇷 法国 格拉沃利纳OVH数据中心
+      - 🇺🇸 US-155.138.242.207-0295
+      - 🇸🇬 SG-103.172.116.79-0196
+      - 🇺🇸 US-170.178.179.188-2839
+      - 🇵🇱 _PL_波兰
+      - 🇸🇬 新加坡|@ripaojiedian
+      - IE-23.92.127.134-9780
+      - 🇸🇬 SG-103.172.116.79-0170
+      - 🇺🇸 US-38.75.137.93-2337
+      - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇦 UA-45.87.155.70-2770
+      - 🇺🇸 US-205.134.180.147-2660
+      - 🇧🇩 _BD_孟加拉国
+      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信 2
+      - 🇺🇸 US-38.110.1.43-3166
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇺🇸 US-108.181.23.41-2742
+      - 🇺🇸 US-38.75.136.33-2110
+      - 🇬🇧 GB-46.226.162.112-2350
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

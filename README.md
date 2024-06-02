@@ -10,7 +10,7 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 1618`
+`Total number of merge nodes: 1616`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1`
@@ -42,7 +42,7 @@
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 197`
+`Total number of merge nodes: 195`
 
 - [Clash subscription](https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `3`
-Updata：`2024-06-02 23:14:55`
+Updata：`2024-06-03 02:21:55`
 
 
 <details>
@@ -37387,38 +37387,47 @@ Updata：`2024-06-02 23:14:55`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=b49220bc3d0e2a0fd3d3e2030cce7549`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=b49220bc3d0e2a0fd3d3e2030cce7549`
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=8fea2833e364eede67bbe37e12785940`
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=b49220bc3d0e2a0fd3d3e2030cce7549`
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=8fea2833e364eede67bbe37e12785940`
-
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=8fea2833e364eede67bbe37e12785940`
 
 
 >Trial subscription：
 `https://tt.vg/Nupiu`
 
->Trial subscription：
-`https://tt.vg/Nupiu`
+
 
 >Trial subscription：
 `https://tt.vg/Nupiu`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=266d7703ea970e43427df06efb944a6c`
+
+>Trial subscription：
+`https://tt.vg/Nupiu`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=266d7703ea970e43427df06efb944a6c`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=266d7703ea970e43427df06efb944a6c`
+
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=438251d3e61781d70da8d4db8731c6d0`
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=438251d3e61781d70da8d4db8731c6d0`
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=438251d3e61781d70da8d4db8731c6d0`
 
 
 

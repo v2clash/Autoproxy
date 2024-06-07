@@ -5,669 +5,683 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇩🇪 DE-95.164.117.128-0112, server: de2-full.privateip.net, port: 443, type: trojan, password: 6bc1e8b9-feeb-4d1e-9119-5529c5764ddf}
-  - {name: 🇨🇦 CA-134.195.196.178-0801, server: 134.195.196.178, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 优化|o纽约2, server: chaoji2.chaozhijc.xyz, port: 2082, type: vmess, uuid: 5d95ae5c-deb2-4152-b4ba-3dcd316fec11, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dny.chaozhijc.xyz}}}
-  - {name: 🇨🇳 台湾 IPLC A12 Netflix 动画疯, server: twct12.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A07, server: sghk07.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇺🇸 美国高级 IEPL 中继 A04, server: us04.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇨🇳 台湾 IEPL HiNet A03 Netflix 动画疯, server: tw03.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: RELAY-172.67.172.67-0374, server: 172.67.172.67, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇨🇳 台湾 IEPL HiNet A01 Netflix 动画疯, server: tw01.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇭🇰 Hong Kong_13, server: hk13.mmyjiedian.com, port: 10101, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
-  - {name: 🇭🇰 香港 IEPL Equinix HK2 A 06 1Gbps HBO TVB, server: hk06.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇭🇰 香港 15, server: 211.99.97.17, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇩🇪 德国 H3, server: ge03.htz.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇺🇸 US-38.75.136.21-0925, server: 38.75.136.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 US-38.68.134.9-5924, server: 38.68.134.9, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇬🇧 英国 IPLC BBC A01, server: uk01.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇷🇺 俄罗斯 05, server: ru05.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇺🇸 US-38.75.136.21-0928, server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: RELAY-172.67.175.56-0135, server: 172.67.175.56, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, servername: obdii.cfd, network: ws, ws-opts: {path: /, headers: {Host: obdii.cfd}}}
-  - {name: 🇯🇵 日本 沪日IEPL A09 Netflix, server: jp09.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇭🇰 香港6|@ripaojiedian, server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
-  - {name: 🇭🇰 HK-182.16.1.194-7857, server: hrgdvpn.flycdnedc55.vip, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hrgdvpn.flycdnedc55.vip}}}
-  - {name: 🇧🇷 超级|巴西2, server: chaoji2.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bx.chaozhijc.xyz}}}
-  - {name: 🇰🇷 韩国 IPLC A04 Netflix, server: kr04.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇺🇸 北美地区 V2CROSS.COM, server: 23.157.40.29, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇦 UA-5.188.6.8-0793, server: 5.188.6.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇩🇪 德国 H1, server: ge01.htz.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇰🇷 韩国 京畿道板桥 原生游戏解锁 A 03, server: kr10.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇵🇱 _PL_波兰, server: 51.77.53.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: TR-45.89.52.66-1514, server: 45.89.52.66, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU}
-  - {name: 距离下次重置剩余：23 天, server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: b389350b-4d26-496b-9c77-c4a16592fb7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dadly.chaozhijc.xyz}}}
-  - {name: 🇫🇷 法国 OVH机房SAS硬盘BGP主机, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇵🇱 _PL_波兰 2, server: 51.77.53.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 US-38.121.43.97-0880, server: 38.121.43.97, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.121.43.71, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇭🇰 Hong Kong_4, server: hk04.mmyjiedian.com, port: 10004, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
-  - {name: RELAY-190.93.247.155-0804, server: 190.93.247.155, port: 80, type: vmess, uuid: d9aaf6f8-0ef7-499c-830a-c7e5e56f3bd8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: Uk2.vmess.site.}}}
-  - {name: 🇨🇳 台湾 IPLC A04 Netflix 动画疯, server: twct04.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇬🇧 _GB_英国, server: 212.102.53.195, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: CO-190.120.231.45-0838, server: 190.120.231.45, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇵🇱 _PL_波兰 3, server: 51.77.53.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A05, server: sg25.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇸🇬 新加坡 Legacy Magic IEPL 中继 A02 Netflix, server: sgp02.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇭🇰 Hong Kong_7, server: hk07.mmyjiedian.com, port: 10007, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
-  - {name: 🇭🇰 Hong Kong_9, server: hk09.mmyjiedian.com, port: 10009, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
-  - {name: CloudBlades 5, server: zero05.graniterapids.com, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇮🇳 印度 马哈拉 IPLC A05, server: in05.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇬🇧 英国 IPLC BBC A04, server: uk04.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A03, server: sg23.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: ATM MODE A01, server: pvcc01.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇻🇳 Vietnam_2, server: vn02.mmyjiedian.com, port: 40002, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
-  - {name: 🇺🇸 US-38.107.226.146-0198, server: 38.107.226.146, port: 1230, type: ss, cipher: chacha20-ietf-poly1305, password: H5S0hvcxRi#YLmgU}
-  - {name: 注册网址：chaozhijc.xyz, server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dadly.chaozhijc.xyz}}}
-  - {name: 🇮🇳 优化|o印度2, server: chaoji2.chaozhijc.xyz, port: 2082, type: vmess, uuid: 5d95ae5c-deb2-4152-b4ba-3dcd316fec11, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dyd.chaozhijc.xyz}}}
-  - {name: 🇸🇬 Singapore_10, server: sg10.mmyjiedian.com, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
-  - {name: 🇨🇳 台湾 IEPL Game G, server: twgame07.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: RELAY-188.114.97.3-0847, server: 188.114.97.3, port: 80, type: vmess, uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: De1.vmess.site.}}}
-  - {name: 🇺🇸 _US_美国, server: 205.134.180.139, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: lWaGPVFjmnag}
-  - {name: 🇺🇸 US-38.75.136.21-6775, server: 38.75.136.21, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: wqfuinwqffq.dfcloud.xyz:30818, server: wqfuinwqffq.dfcloud.xyz, port: 30818, type: ss, cipher: chacha20-ietf-poly1305, password: 8e949d75-3510-4678-8593-3c5032dd931a}
-  - {name: 🇨🇳 台湾 2|@ripaojiedian, server: dxcdn02.dorabbb.top, port: 48821, type: vmess, uuid: 2e315d3b-c76d-4f62-bed1-f08a140fa4c1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇵🇱 _PL_波兰 4, server: 51.77.53.200, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇭🇰 Hong Kong_5, server: hk05.mmyjiedian.com, port: 10005, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
-  - {name: 🇵🇱 github.com/freefq - 波兰  5, server: 193.243.147.128, port: 40368, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X}
-  - {name: 🇷🇺 RU-45.147.200.170-0162, server: 45.147.200.170, port: 32878, type: vmess, uuid: 9d1bdf08-88d4-44d8-87fd-97d0e31f0df8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US-38.121.43.71-0851, server: 38.121.43.71, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 US-38.143.66.87-0864, server: 38.143.66.87, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇰🇷 韩国 IPLC A02 Netflix, server: kr02.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 纯IPV6接入, server: "[2001:e42:102:1523:160:16:95:158]", port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: CloudBlades 6, server: zero06.graniterapids.com, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇺🇸 US-38.121.43.71-0861, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇭🇰 香港 IPLC Equinix HK2 A 20 1Gbps HBO TVB, server: sg20.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇭🇰 香港 11, server: 211.99.97.13, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇭🇰 香港 IPLC Equinix HK2 A 05 1Gbps HBO TVB, server: sg05.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇰🇷 韩国 京畿道板桥 原生游戏解锁 A 01, server: kr08.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇺🇸 美国高级 IEPL 中继 A03, server: us03.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇺🇸 US-205.134.180.151-0726, server: 205.134.180.151, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5cp9Z3iWnJZ2}
-  - {name: 🇩🇪 优化|o德国2, server: chaoji2.chaozhijc.xyz, port: 2082, type: vmess, uuid: 5d95ae5c-deb2-4152-b4ba-3dcd316fec11, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: ddg.chaozhijc.xyz}}}
-  - {name: 🇦🇺 澳大利亚 IPLC 悉尼 A01, server: au01.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 43.202.43.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 狮城特殊|@ripaojiedian, server: 43.201.17.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 HK-210.3.159.224-0229, server: 210.3.159.224, port: 12909, type: vmess, uuid: 8259cb1c-dd6c-4739-9c88-af550d977525, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇰🇷 游戏 韩国 IEPL 4 3Gbps, server: kraz04.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇺🇸 美国5|@ripaojiedian, server: 36.151.195.48, port: 4787, type: trojan, password: gkviEOYc, skip-cert-verify: true}
-  - {name: 🇺🇸 美国实验性 IEPL 中继 A04, server: us09.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 🇯🇵 日本 沪日IEPL A03 Netflix, server: jp03.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇩🇪 优化|o德国2, server: chaoji2.chaozhijc.xyz, port: 2082, type: vmess, uuid: b389350b-4d26-496b-9c77-c4a16592fb7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: ddg.chaozhijc.xyz}}}
+  - {name: 🇸🇬 新加坡高级 IEPL 中继 A01 Netflix, server: sgp11.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
   - {name: 🇧🇷 超级|巴西1, server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bx.chaozhijc.xyz}}}
-  - {name: TG频道：https://t.me/chaozhijc, server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: 5d95ae5c-deb2-4152-b4ba-3dcd316fec11, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dadly.chaozhijc.xyz}}}
-  - {name: 🇺🇸 _US_美国 2, server: 216.246.66.180, port: 30129, type: ss, cipher: aes-128-gcm, password: Yc2CtrIz8L}
-  - {name: 🇸🇬 优化|o新加坡1, server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: b389350b-4d26-496b-9c77-c4a16592fb7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dxjp.chaozhijc.xyz}}}
+  - {name: 🇯🇵 Japan_18, server: jp18.mmyjiedian.com, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
+  - {name: 🇺🇸 US-45.55.2.232-0746, server: 45.55.2.232, port: 14293, type: ss, cipher: aes-256-cfb, password: 2170f8}
+  - {name: 🇭🇰 香港 20, server: 211.99.97.22, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇺🇸 美国高级 IEPL 中继 A03, server: us03.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇭🇰 香港 06, server: 211.99.97.8, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇩🇪 优化|o德国1, server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: 5d95ae5c-deb2-4152-b4ba-3dcd316fec11, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: ddg.chaozhijc.xyz}}}
+  - {name: 🇺🇸 US-38.68.135.18-0903, server: 38.68.135.18, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 US-38.75.136.21-0925, server: 38.75.136.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 CA-134.195.196.178-0805, server: 134.195.196.178, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 德国 H4, server: ge04.htz.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
+  - {name: 🇨🇳 Taiwan_2, server: tw02.mmyjiedian.com, port: 40007, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
+  - {name: 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A06, server: sg26.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇨🇳 台湾 IEPL HiNet A01 Netflix 动画疯, server: tw01.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇺🇸 US-38.68.135.18-0877, server: 38.68.135.18, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇯🇵 Japan_16, server: jp16.mmyjiedian.com, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
+  - {name: 🇭🇰 香港 11, server: 211.99.97.13, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇮🇳 github.com/freefq - 印度  3, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sahand.serveminecraft.net}}}
+  - {name: 🇫🇷 法国 IPLC A04, server: fr04.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇷🇺 俄罗斯 04, server: ru04.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇯🇵 日本 MPLS A3 1000Mbps, server: hr03.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇸🇬 Singapore_04, server: sg04.mmyjiedian.com, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
+  - {name: 🇸🇬 Singapore_09, server: sg09.mmyjiedian.com, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
+  - {name: 🇺🇸 美国实验性 IEPL 中继 A03, server: us08.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇭🇰 香港6|@ripaojiedian, server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
+  - {name: 🇸🇬 新加坡高级 IEPL 中继 A02  Netflix, server: sgp12.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇻🇳 越南|@ripaojiedian, server: 529y.6bp4susm-97imynr-vn02.my777999.top, port: 40998, type: vmess, uuid: 33aefd89-3285-4347-9083-6249711f02e9, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾 IEPL HiNet A14 Netflix 动画疯, server: tw14.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇫🇷 法国 OVH, server: 51.77.53.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇫🇷 法国 IPLC A02, server: fr02.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇺🇸 超级|美国1, server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: b389350b-4d26-496b-9c77-c4a16592fb7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: mg.chaozhijc.xyz}}}
+  - {name: 🇭🇰 香港 IEPL Equinix HK2 A 01 1Gbps HBO TVB, server: hk01.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇬🇧 _GB_英国, server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇸 US-38.121.43.71-0861, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇯🇵 日本 MPLS A8 1000Mbps, server: hr08.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇩🇪 优化|o德国2 2, server: chaoji2.chaozhijc.xyz, port: 2082, type: vmess, uuid: 5d95ae5c-deb2-4152-b4ba-3dcd316fec11, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: ddg.chaozhijc.xyz}}}
+  - {name: 🇰🇷 Korea_1, server: kr01.mmyjiedian.com, port: 40004, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
+  - {name: 🇭🇰 HK-182.16.1.194-7857, server: hrgdvpn.flycdnedc55.vip, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hrgdvpn.flycdnedc55.vip}}}
+  - {name: 🇺🇸 US-38.75.136.21-6871, server: 38.75.136.21, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: CloudBlades 1, server: zero01.graniterapids.com, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇭🇰 香港 03, server: 211.99.97.5, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇨🇳 台湾 IEPL HiNet A08 Netflix 动画疯, server: tw08.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇮🇳 优化|o印度2, server: chaoji2.chaozhijc.xyz, port: 2082, type: vmess, uuid: b389350b-4d26-496b-9c77-c4a16592fb7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dyd.chaozhijc.xyz}}}
+  - {name: 🇭🇰 Hong Kong_8, server: hk08.mmyjiedian.com, port: 10008, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}}
+  - {name: 🇯🇵 Japan_7, server: jp07.mmyjiedian.com, port: 30007, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
+  - {name: 🇰🇷 韩国 SK 전라북도 전주시 商宽 10Gbps Netflix, server: krsk01.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇮🇳 印度 马哈拉 IPLC A01, server: in01.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: RELAY-172.67.172.67-0374, server: 172.67.172.67, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: ATM MODE A03, server: pvcc03.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇭🇰 Hong Kong_7, server: hk07.mmyjiedian.com, port: 10007, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
+  - {name: 🇺🇸 US-167.88.62.62-0867, server: 167.88.62.62, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇳 github.com/freefq - 广东省移动 7, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
+  - {name: TR-45.89.52.66-8080, server: 45.89.52.66, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN}
+  - {name: 🇸🇬 Singapore_02, server: sg02.mmyjiedian.com, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.67.144.2, port: 2052, type: vmess, uuid: 1d95edba-c8c7-4f0e-be25-5503fa31b509, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ptdny.xyyjc.top}}}
+  - {name: 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A01, server: sghk01.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇭🇰 香港7|@ripaojiedian, server: 8.210.100.23, port: 2096, type: trojan, password: moist, sni: trojan.freenods.sbs, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.freenods.sbs}}}
+  - {name: 🇺🇸 US-38.68.135.18-1658, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A12, server: sghk12.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇺🇸 US-38.75.136.21-0922, server: 38.75.136.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇵🇱 _PL_波兰, server: 51.77.53.200, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 US-38.68.134.9-0852, server: 38.68.134.9, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: RELAY-104.21.55.234-0165, server: 104.21.55.234, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: true, servername: gwdef.sbs, network: ws, ws-opts: {path: /, headers: {Host: gwdef.sbs}}}
+  - {name: 🇵🇱 _PL_波兰 2, server: 51.77.53.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇰🇷 韩国 IPLC A03 Netflix, server: kr03.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: RELAY-162.159.192.200-0361, server: crackthecode.ftp.sh, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: vcp3.dehel15354.woRKErS.Dev}}}
+  - {name: 🇮🇪 爱尔兰 都柏林Amazon数据中心, server: 54.76.252.181, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: 🇰🇷 韩国 蘑菇主机BGP数据中心, server: 103.214.68.57, port: 10003, type: trojan, password: 6x8HcghsjS, sni: yes998.chickenkiller.com}
+  - {name: 🇨🇳 台湾 IEPL Game F, server: twgame06.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇭🇰 Hong Kong_17, server: hk17.mmyjiedian.com, port: 10017, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
+  - {name: 🇨🇦 加拿大 IPLC A03, server: ca03.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇯🇵 日本 沪日IEPL A09 Netflix, server: jp09.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇭🇰 香港 07, server: 211.99.97.9, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇭🇰 Hong Kong_1, server: hk01.mmyjiedian.com, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
+  - {name: 🇬🇧 GB-212.102.53.81-0766, server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇰🇷 韩国 IPLC A05 Netflix, server: kr05.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇨🇦 加拿大 V2CROSS.COM, server: 47.128.72.86, port: 13348, type: trojan, password: 3oXiE8Sq1LKS, sni: appsvs.shop}
+  - {name: 🇫🇷 法国 OVH机房SAS硬盘BGP主机, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇵🇱 _PL_波兰 3, server: 51.77.53.200, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 超级|英国2, server: chaoji2.chaozhijc.xyz, port: 2082, type: vmess, uuid: b389350b-4d26-496b-9c77-c4a16592fb7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: yg.chaozhijc.xyz}}}
+  - {name: 🇬🇧 超级|英国1, server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: b389350b-4d26-496b-9c77-c4a16592fb7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: yg.chaozhijc.xyz}}}
+  - {name: 🇺🇸 US-64.23.196.139-0825, server: 64.23.196.139, port: 13337, type: vmess, uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇭🇰 HK-182.16.1.194-7859, server: hrgdvpn.flycdnedc55.vip, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 32, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hrgdvpn.flycdnedc55.vip}}}
+  - {name: 秒秒云.com, server: hk16.mmyjiedian.com, port: 10016, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
+  - {name: 🇯🇵 Japan_3, server: jp03.mmyjiedian.com, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 03a3d099-f5d6-4f83-885c-1b020829685e}
+  - {name: 🇨🇳 台湾 IPLC A09 Netflix 动画疯, server: twct09.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: 59.56.77.178, port: 16058, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
+  - {name: 🇳🇱 荷兰 IPLC A02, server: ams02.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇩🇪 DE-95.164.117.128-0112
-      - 🇨🇦 CA-134.195.196.178-0801
-      - 优化|o纽约2
-      - 🇨🇳 台湾 IPLC A12 Netflix 动画疯
-      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A07
-      - 🇺🇸 美国高级 IEPL 中继 A04
-      - 🇨🇳 台湾 IEPL HiNet A03 Netflix 动画疯
-      - RELAY-172.67.172.67-0374
-      - 🇨🇳 台湾 IEPL HiNet A01 Netflix 动画疯
-      - 🇭🇰 Hong Kong_13
-      - 🇭🇰 香港 IEPL Equinix HK2 A 06 1Gbps HBO TVB
-      - 🇭🇰 香港 15
-      - 🇩🇪 德国 H3
-      - 🇺🇸 US-38.75.136.21-0925
-      - 🇺🇸 US-38.68.134.9-5924
-      - 🇬🇧 英国 IPLC BBC A01
-      - 🇷🇺 俄罗斯 05
-      - 🇺🇸 US-38.75.136.21-0928
-      - RELAY-172.67.175.56-0135
-      - 🇯🇵 日本 沪日IEPL A09 Netflix
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 HK-182.16.1.194-7857
-      - 🇧🇷 超级|巴西2
-      - 🇰🇷 韩国 IPLC A04 Netflix
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇦 UA-5.188.6.8-0793
-      - 🇩🇪 德国 H1
-      - 🇰🇷 韩国 京畿道板桥 原生游戏解锁 A 03
-      - 🇵🇱 _PL_波兰
-      - TR-45.89.52.66-1514
-      - 距离下次重置剩余：23 天
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇵🇱 _PL_波兰 2
-      - 🇺🇸 US-38.121.43.97-0880
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇭🇰 Hong Kong_4
-      - RELAY-190.93.247.155-0804
-      - 🇨🇳 台湾 IPLC A04 Netflix 动画疯
-      - 🇬🇧 _GB_英国
-      - CO-190.120.231.45-0838
-      - 🇵🇱 _PL_波兰 3
-      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A05
-      - 🇸🇬 新加坡 Legacy Magic IEPL 中继 A02 Netflix
-      - 🇭🇰 Hong Kong_7
-      - 🇭🇰 Hong Kong_9
-      - CloudBlades 5
-      - 🇮🇳 印度 马哈拉 IPLC A05
-      - 🇬🇧 英国 IPLC BBC A04
-      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A03
-      - ATM MODE A01
-      - 🇻🇳 Vietnam_2
-      - 🇺🇸 US-38.107.226.146-0198
-      - 注册网址：chaozhijc.xyz
-      - 🇮🇳 优化|o印度2
-      - 🇸🇬 Singapore_10
-      - 🇨🇳 台湾 IEPL Game G
-      - RELAY-188.114.97.3-0847
-      - 🇺🇸 _US_美国
-      - 🇺🇸 US-38.75.136.21-6775
-      - wqfuinwqffq.dfcloud.xyz:30818
-      - 🇨🇳 台湾 2|@ripaojiedian
-      - 🇵🇱 _PL_波兰 4
-      - 🇭🇰 Hong Kong_5
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇷🇺 RU-45.147.200.170-0162
-      - 🇺🇸 US-38.121.43.71-0851
-      - 🇺🇸 US-38.143.66.87-0864
-      - 🇰🇷 韩国 IPLC A02 Netflix
-      - 纯IPV6接入
-      - CloudBlades 6
-      - 🇺🇸 US-38.121.43.71-0861
-      - 🇭🇰 香港 IPLC Equinix HK2 A 20 1Gbps HBO TVB
-      - 🇭🇰 香港 11
-      - 🇭🇰 香港 IPLC Equinix HK2 A 05 1Gbps HBO TVB
-      - 🇰🇷 韩国 京畿道板桥 原生游戏解锁 A 01
-      - 🇺🇸 美国高级 IEPL 中继 A03
-      - 🇺🇸 US-205.134.180.151-0726
       - 🇩🇪 优化|o德国2
-      - 🇦🇺 澳大利亚 IPLC 悉尼 A01
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇭🇰 HK-210.3.159.224-0229
-      - 🇰🇷 游戏 韩国 IEPL 4 3Gbps
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇺🇸 美国实验性 IEPL 中继 A04
-      - 🇯🇵 日本 沪日IEPL A03 Netflix
+      - 🇸🇬 新加坡高级 IEPL 中继 A01 Netflix
       - 🇧🇷 超级|巴西1
-      - TG频道：https://t.me/chaozhijc
-      - 🇺🇸 _US_美国 2
-      - 🇸🇬 优化|o新加坡1
+      - 🇯🇵 Japan_18
+      - 🇺🇸 US-45.55.2.232-0746
+      - 🇭🇰 香港 20
+      - 🇺🇸 美国高级 IEPL 中继 A03
+      - 🇭🇰 香港 06
+      - 🇩🇪 优化|o德国1
+      - 🇺🇸 US-38.68.135.18-0903
+      - 🇺🇸 US-38.75.136.21-0925
+      - 🇨🇦 CA-134.195.196.178-0805
+      - 🇩🇪 德国 H4
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 Taiwan_2
+      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A06
+      - 🇨🇳 台湾 IEPL HiNet A01 Netflix 动画疯
+      - 🇺🇸 US-38.68.135.18-0877
+      - 🇯🇵 Japan_16
+      - 🇭🇰 香港 11
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇫🇷 法国 IPLC A04
+      - 🇷🇺 俄罗斯 04
+      - 🇯🇵 日本 MPLS A3 1000Mbps
+      - 🇸🇬 Singapore_04
+      - 🇸🇬 Singapore_09
+      - 🇺🇸 美国实验性 IEPL 中继 A03
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇸🇬 新加坡高级 IEPL 中继 A02  Netflix
+      - 🇻🇳 越南|@ripaojiedian
+      - 🇨🇳 台湾 IEPL HiNet A14 Netflix 动画疯
+      - 🇫🇷 法国 OVH
+      - 🇫🇷 法国 IPLC A02
+      - 🇺🇸 超级|美国1
+      - 🇭🇰 香港 IEPL Equinix HK2 A 01 1Gbps HBO TVB
+      - 🇬🇧 _GB_英国
+      - 🇺🇸 US-38.121.43.71-0861
+      - 🇯🇵 日本 MPLS A8 1000Mbps
+      - 🇩🇪 优化|o德国2 2
+      - 🇰🇷 Korea_1
+      - 🇭🇰 HK-182.16.1.194-7857
+      - 🇺🇸 US-38.75.136.21-6871
+      - CloudBlades 1
+      - 🇭🇰 香港 03
+      - 🇨🇳 台湾 IEPL HiNet A08 Netflix 动画疯
+      - 🇮🇳 优化|o印度2
+      - 🇭🇰 Hong Kong_8
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇯🇵 Japan_7
+      - 🇰🇷 韩国 SK 전라북도 전주시 商宽 10Gbps Netflix
+      - 🇮🇳 印度 马哈拉 IPLC A01
+      - RELAY-172.67.172.67-0374
+      - ATM MODE A03
+      - 🇭🇰 Hong Kong_7
+      - 🇺🇸 US-167.88.62.62-0867
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - TR-45.89.52.66-8080
+      - 🇸🇬 Singapore_02
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A01
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇺🇸 US-38.68.135.18-1658
+      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A12
+      - 🇺🇸 US-38.75.136.21-0922
+      - 🇵🇱 _PL_波兰
+      - 🇺🇸 US-38.68.134.9-0852
+      - RELAY-104.21.55.234-0165
+      - 🇵🇱 _PL_波兰 2
+      - 🇰🇷 韩国 IPLC A03 Netflix
+      - RELAY-162.159.192.200-0361
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
+      - 🇨🇳 台湾 IEPL Game F
+      - 🇭🇰 Hong Kong_17
+      - 🇨🇦 加拿大 IPLC A03
+      - 🇯🇵 日本 沪日IEPL A09 Netflix
+      - 🇭🇰 香港 07
+      - 🇭🇰 Hong Kong_1
+      - 🇬🇧 GB-212.102.53.81-0766
+      - 🇰🇷 韩国 IPLC A05 Netflix
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
+      - 🇵🇱 _PL_波兰 3
+      - 🇬🇧 超级|英国2
+      - 🇬🇧 超级|英国1
+      - 🇺🇸 US-64.23.196.139-0825
+      - 🇭🇰 HK-182.16.1.194-7859
+      - 秒秒云.com
+      - 🇯🇵 Japan_3
+      - 🇨🇳 台湾 IPLC A09 Netflix 动画疯
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇳🇱 荷兰 IPLC A02
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇩🇪 DE-95.164.117.128-0112
-      - 🇨🇦 CA-134.195.196.178-0801
-      - 优化|o纽约2
-      - 🇨🇳 台湾 IPLC A12 Netflix 动画疯
-      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A07
-      - 🇺🇸 美国高级 IEPL 中继 A04
-      - 🇨🇳 台湾 IEPL HiNet A03 Netflix 动画疯
-      - RELAY-172.67.172.67-0374
-      - 🇨🇳 台湾 IEPL HiNet A01 Netflix 动画疯
-      - 🇭🇰 Hong Kong_13
-      - 🇭🇰 香港 IEPL Equinix HK2 A 06 1Gbps HBO TVB
-      - 🇭🇰 香港 15
-      - 🇩🇪 德国 H3
-      - 🇺🇸 US-38.75.136.21-0925
-      - 🇺🇸 US-38.68.134.9-5924
-      - 🇬🇧 英国 IPLC BBC A01
-      - 🇷🇺 俄罗斯 05
-      - 🇺🇸 US-38.75.136.21-0928
-      - RELAY-172.67.175.56-0135
-      - 🇯🇵 日本 沪日IEPL A09 Netflix
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 HK-182.16.1.194-7857
-      - 🇧🇷 超级|巴西2
-      - 🇰🇷 韩国 IPLC A04 Netflix
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇦 UA-5.188.6.8-0793
-      - 🇩🇪 德国 H1
-      - 🇰🇷 韩国 京畿道板桥 原生游戏解锁 A 03
-      - 🇵🇱 _PL_波兰
-      - TR-45.89.52.66-1514
-      - 距离下次重置剩余：23 天
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇵🇱 _PL_波兰 2
-      - 🇺🇸 US-38.121.43.97-0880
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇭🇰 Hong Kong_4
-      - RELAY-190.93.247.155-0804
-      - 🇨🇳 台湾 IPLC A04 Netflix 动画疯
-      - 🇬🇧 _GB_英国
-      - CO-190.120.231.45-0838
-      - 🇵🇱 _PL_波兰 3
-      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A05
-      - 🇸🇬 新加坡 Legacy Magic IEPL 中继 A02 Netflix
-      - 🇭🇰 Hong Kong_7
-      - 🇭🇰 Hong Kong_9
-      - CloudBlades 5
-      - 🇮🇳 印度 马哈拉 IPLC A05
-      - 🇬🇧 英国 IPLC BBC A04
-      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A03
-      - ATM MODE A01
-      - 🇻🇳 Vietnam_2
-      - 🇺🇸 US-38.107.226.146-0198
-      - 注册网址：chaozhijc.xyz
-      - 🇮🇳 优化|o印度2
-      - 🇸🇬 Singapore_10
-      - 🇨🇳 台湾 IEPL Game G
-      - RELAY-188.114.97.3-0847
-      - 🇺🇸 _US_美国
-      - 🇺🇸 US-38.75.136.21-6775
-      - wqfuinwqffq.dfcloud.xyz:30818
-      - 🇨🇳 台湾 2|@ripaojiedian
-      - 🇵🇱 _PL_波兰 4
-      - 🇭🇰 Hong Kong_5
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇷🇺 RU-45.147.200.170-0162
-      - 🇺🇸 US-38.121.43.71-0851
-      - 🇺🇸 US-38.143.66.87-0864
-      - 🇰🇷 韩国 IPLC A02 Netflix
-      - 纯IPV6接入
-      - CloudBlades 6
-      - 🇺🇸 US-38.121.43.71-0861
-      - 🇭🇰 香港 IPLC Equinix HK2 A 20 1Gbps HBO TVB
-      - 🇭🇰 香港 11
-      - 🇭🇰 香港 IPLC Equinix HK2 A 05 1Gbps HBO TVB
-      - 🇰🇷 韩国 京畿道板桥 原生游戏解锁 A 01
-      - 🇺🇸 美国高级 IEPL 中继 A03
-      - 🇺🇸 US-205.134.180.151-0726
       - 🇩🇪 优化|o德国2
-      - 🇦🇺 澳大利亚 IPLC 悉尼 A01
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇭🇰 HK-210.3.159.224-0229
-      - 🇰🇷 游戏 韩国 IEPL 4 3Gbps
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇺🇸 美国实验性 IEPL 中继 A04
-      - 🇯🇵 日本 沪日IEPL A03 Netflix
+      - 🇸🇬 新加坡高级 IEPL 中继 A01 Netflix
       - 🇧🇷 超级|巴西1
-      - TG频道：https://t.me/chaozhijc
-      - 🇺🇸 _US_美国 2
-      - 🇸🇬 优化|o新加坡1
+      - 🇯🇵 Japan_18
+      - 🇺🇸 US-45.55.2.232-0746
+      - 🇭🇰 香港 20
+      - 🇺🇸 美国高级 IEPL 中继 A03
+      - 🇭🇰 香港 06
+      - 🇩🇪 优化|o德国1
+      - 🇺🇸 US-38.68.135.18-0903
+      - 🇺🇸 US-38.75.136.21-0925
+      - 🇨🇦 CA-134.195.196.178-0805
+      - 🇩🇪 德国 H4
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 Taiwan_2
+      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A06
+      - 🇨🇳 台湾 IEPL HiNet A01 Netflix 动画疯
+      - 🇺🇸 US-38.68.135.18-0877
+      - 🇯🇵 Japan_16
+      - 🇭🇰 香港 11
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇫🇷 法国 IPLC A04
+      - 🇷🇺 俄罗斯 04
+      - 🇯🇵 日本 MPLS A3 1000Mbps
+      - 🇸🇬 Singapore_04
+      - 🇸🇬 Singapore_09
+      - 🇺🇸 美国实验性 IEPL 中继 A03
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇸🇬 新加坡高级 IEPL 中继 A02  Netflix
+      - 🇻🇳 越南|@ripaojiedian
+      - 🇨🇳 台湾 IEPL HiNet A14 Netflix 动画疯
+      - 🇫🇷 法国 OVH
+      - 🇫🇷 法国 IPLC A02
+      - 🇺🇸 超级|美国1
+      - 🇭🇰 香港 IEPL Equinix HK2 A 01 1Gbps HBO TVB
+      - 🇬🇧 _GB_英国
+      - 🇺🇸 US-38.121.43.71-0861
+      - 🇯🇵 日本 MPLS A8 1000Mbps
+      - 🇩🇪 优化|o德国2 2
+      - 🇰🇷 Korea_1
+      - 🇭🇰 HK-182.16.1.194-7857
+      - 🇺🇸 US-38.75.136.21-6871
+      - CloudBlades 1
+      - 🇭🇰 香港 03
+      - 🇨🇳 台湾 IEPL HiNet A08 Netflix 动画疯
+      - 🇮🇳 优化|o印度2
+      - 🇭🇰 Hong Kong_8
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇯🇵 Japan_7
+      - 🇰🇷 韩国 SK 전라북도 전주시 商宽 10Gbps Netflix
+      - 🇮🇳 印度 马哈拉 IPLC A01
+      - RELAY-172.67.172.67-0374
+      - ATM MODE A03
+      - 🇭🇰 Hong Kong_7
+      - 🇺🇸 US-167.88.62.62-0867
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - TR-45.89.52.66-8080
+      - 🇸🇬 Singapore_02
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A01
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇺🇸 US-38.68.135.18-1658
+      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A12
+      - 🇺🇸 US-38.75.136.21-0922
+      - 🇵🇱 _PL_波兰
+      - 🇺🇸 US-38.68.134.9-0852
+      - RELAY-104.21.55.234-0165
+      - 🇵🇱 _PL_波兰 2
+      - 🇰🇷 韩国 IPLC A03 Netflix
+      - RELAY-162.159.192.200-0361
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
+      - 🇨🇳 台湾 IEPL Game F
+      - 🇭🇰 Hong Kong_17
+      - 🇨🇦 加拿大 IPLC A03
+      - 🇯🇵 日本 沪日IEPL A09 Netflix
+      - 🇭🇰 香港 07
+      - 🇭🇰 Hong Kong_1
+      - 🇬🇧 GB-212.102.53.81-0766
+      - 🇰🇷 韩国 IPLC A05 Netflix
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
+      - 🇵🇱 _PL_波兰 3
+      - 🇬🇧 超级|英国2
+      - 🇬🇧 超级|英国1
+      - 🇺🇸 US-64.23.196.139-0825
+      - 🇭🇰 HK-182.16.1.194-7859
+      - 秒秒云.com
+      - 🇯🇵 Japan_3
+      - 🇨🇳 台湾 IPLC A09 Netflix 动画疯
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇳🇱 荷兰 IPLC A02
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪 DE-95.164.117.128-0112
-      - 🇨🇦 CA-134.195.196.178-0801
-      - 优化|o纽约2
-      - 🇨🇳 台湾 IPLC A12 Netflix 动画疯
-      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A07
-      - 🇺🇸 美国高级 IEPL 中继 A04
-      - 🇨🇳 台湾 IEPL HiNet A03 Netflix 动画疯
-      - RELAY-172.67.172.67-0374
-      - 🇨🇳 台湾 IEPL HiNet A01 Netflix 动画疯
-      - 🇭🇰 Hong Kong_13
-      - 🇭🇰 香港 IEPL Equinix HK2 A 06 1Gbps HBO TVB
-      - 🇭🇰 香港 15
-      - 🇩🇪 德国 H3
-      - 🇺🇸 US-38.75.136.21-0925
-      - 🇺🇸 US-38.68.134.9-5924
-      - 🇬🇧 英国 IPLC BBC A01
-      - 🇷🇺 俄罗斯 05
-      - 🇺🇸 US-38.75.136.21-0928
-      - RELAY-172.67.175.56-0135
-      - 🇯🇵 日本 沪日IEPL A09 Netflix
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 HK-182.16.1.194-7857
-      - 🇧🇷 超级|巴西2
-      - 🇰🇷 韩国 IPLC A04 Netflix
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇦 UA-5.188.6.8-0793
-      - 🇩🇪 德国 H1
-      - 🇰🇷 韩国 京畿道板桥 原生游戏解锁 A 03
-      - 🇵🇱 _PL_波兰
-      - TR-45.89.52.66-1514
-      - 距离下次重置剩余：23 天
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇵🇱 _PL_波兰 2
-      - 🇺🇸 US-38.121.43.97-0880
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇭🇰 Hong Kong_4
-      - RELAY-190.93.247.155-0804
-      - 🇨🇳 台湾 IPLC A04 Netflix 动画疯
-      - 🇬🇧 _GB_英国
-      - CO-190.120.231.45-0838
-      - 🇵🇱 _PL_波兰 3
-      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A05
-      - 🇸🇬 新加坡 Legacy Magic IEPL 中继 A02 Netflix
-      - 🇭🇰 Hong Kong_7
-      - 🇭🇰 Hong Kong_9
-      - CloudBlades 5
-      - 🇮🇳 印度 马哈拉 IPLC A05
-      - 🇬🇧 英国 IPLC BBC A04
-      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A03
-      - ATM MODE A01
-      - 🇻🇳 Vietnam_2
-      - 🇺🇸 US-38.107.226.146-0198
-      - 注册网址：chaozhijc.xyz
-      - 🇮🇳 优化|o印度2
-      - 🇸🇬 Singapore_10
-      - 🇨🇳 台湾 IEPL Game G
-      - RELAY-188.114.97.3-0847
-      - 🇺🇸 _US_美国
-      - 🇺🇸 US-38.75.136.21-6775
-      - wqfuinwqffq.dfcloud.xyz:30818
-      - 🇨🇳 台湾 2|@ripaojiedian
-      - 🇵🇱 _PL_波兰 4
-      - 🇭🇰 Hong Kong_5
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇷🇺 RU-45.147.200.170-0162
-      - 🇺🇸 US-38.121.43.71-0851
-      - 🇺🇸 US-38.143.66.87-0864
-      - 🇰🇷 韩国 IPLC A02 Netflix
-      - 纯IPV6接入
-      - CloudBlades 6
-      - 🇺🇸 US-38.121.43.71-0861
-      - 🇭🇰 香港 IPLC Equinix HK2 A 20 1Gbps HBO TVB
-      - 🇭🇰 香港 11
-      - 🇭🇰 香港 IPLC Equinix HK2 A 05 1Gbps HBO TVB
-      - 🇰🇷 韩国 京畿道板桥 原生游戏解锁 A 01
-      - 🇺🇸 美国高级 IEPL 中继 A03
-      - 🇺🇸 US-205.134.180.151-0726
       - 🇩🇪 优化|o德国2
-      - 🇦🇺 澳大利亚 IPLC 悉尼 A01
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇭🇰 HK-210.3.159.224-0229
-      - 🇰🇷 游戏 韩国 IEPL 4 3Gbps
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇺🇸 美国实验性 IEPL 中继 A04
-      - 🇯🇵 日本 沪日IEPL A03 Netflix
+      - 🇸🇬 新加坡高级 IEPL 中继 A01 Netflix
       - 🇧🇷 超级|巴西1
-      - TG频道：https://t.me/chaozhijc
-      - 🇺🇸 _US_美国 2
-      - 🇸🇬 优化|o新加坡1
+      - 🇯🇵 Japan_18
+      - 🇺🇸 US-45.55.2.232-0746
+      - 🇭🇰 香港 20
+      - 🇺🇸 美国高级 IEPL 中继 A03
+      - 🇭🇰 香港 06
+      - 🇩🇪 优化|o德国1
+      - 🇺🇸 US-38.68.135.18-0903
+      - 🇺🇸 US-38.75.136.21-0925
+      - 🇨🇦 CA-134.195.196.178-0805
+      - 🇩🇪 德国 H4
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 Taiwan_2
+      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A06
+      - 🇨🇳 台湾 IEPL HiNet A01 Netflix 动画疯
+      - 🇺🇸 US-38.68.135.18-0877
+      - 🇯🇵 Japan_16
+      - 🇭🇰 香港 11
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇫🇷 法国 IPLC A04
+      - 🇷🇺 俄罗斯 04
+      - 🇯🇵 日本 MPLS A3 1000Mbps
+      - 🇸🇬 Singapore_04
+      - 🇸🇬 Singapore_09
+      - 🇺🇸 美国实验性 IEPL 中继 A03
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇸🇬 新加坡高级 IEPL 中继 A02  Netflix
+      - 🇻🇳 越南|@ripaojiedian
+      - 🇨🇳 台湾 IEPL HiNet A14 Netflix 动画疯
+      - 🇫🇷 法国 OVH
+      - 🇫🇷 法国 IPLC A02
+      - 🇺🇸 超级|美国1
+      - 🇭🇰 香港 IEPL Equinix HK2 A 01 1Gbps HBO TVB
+      - 🇬🇧 _GB_英国
+      - 🇺🇸 US-38.121.43.71-0861
+      - 🇯🇵 日本 MPLS A8 1000Mbps
+      - 🇩🇪 优化|o德国2 2
+      - 🇰🇷 Korea_1
+      - 🇭🇰 HK-182.16.1.194-7857
+      - 🇺🇸 US-38.75.136.21-6871
+      - CloudBlades 1
+      - 🇭🇰 香港 03
+      - 🇨🇳 台湾 IEPL HiNet A08 Netflix 动画疯
+      - 🇮🇳 优化|o印度2
+      - 🇭🇰 Hong Kong_8
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇯🇵 Japan_7
+      - 🇰🇷 韩国 SK 전라북도 전주시 商宽 10Gbps Netflix
+      - 🇮🇳 印度 马哈拉 IPLC A01
+      - RELAY-172.67.172.67-0374
+      - ATM MODE A03
+      - 🇭🇰 Hong Kong_7
+      - 🇺🇸 US-167.88.62.62-0867
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - TR-45.89.52.66-8080
+      - 🇸🇬 Singapore_02
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A01
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇺🇸 US-38.68.135.18-1658
+      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A12
+      - 🇺🇸 US-38.75.136.21-0922
+      - 🇵🇱 _PL_波兰
+      - 🇺🇸 US-38.68.134.9-0852
+      - RELAY-104.21.55.234-0165
+      - 🇵🇱 _PL_波兰 2
+      - 🇰🇷 韩国 IPLC A03 Netflix
+      - RELAY-162.159.192.200-0361
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
+      - 🇨🇳 台湾 IEPL Game F
+      - 🇭🇰 Hong Kong_17
+      - 🇨🇦 加拿大 IPLC A03
+      - 🇯🇵 日本 沪日IEPL A09 Netflix
+      - 🇭🇰 香港 07
+      - 🇭🇰 Hong Kong_1
+      - 🇬🇧 GB-212.102.53.81-0766
+      - 🇰🇷 韩国 IPLC A05 Netflix
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
+      - 🇵🇱 _PL_波兰 3
+      - 🇬🇧 超级|英国2
+      - 🇬🇧 超级|英国1
+      - 🇺🇸 US-64.23.196.139-0825
+      - 🇭🇰 HK-182.16.1.194-7859
+      - 秒秒云.com
+      - 🇯🇵 Japan_3
+      - 🇨🇳 台湾 IPLC A09 Netflix 动画疯
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇳🇱 荷兰 IPLC A02
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪 DE-95.164.117.128-0112
-      - 🇨🇦 CA-134.195.196.178-0801
-      - 优化|o纽约2
-      - 🇨🇳 台湾 IPLC A12 Netflix 动画疯
-      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A07
-      - 🇺🇸 美国高级 IEPL 中继 A04
-      - 🇨🇳 台湾 IEPL HiNet A03 Netflix 动画疯
-      - RELAY-172.67.172.67-0374
-      - 🇨🇳 台湾 IEPL HiNet A01 Netflix 动画疯
-      - 🇭🇰 Hong Kong_13
-      - 🇭🇰 香港 IEPL Equinix HK2 A 06 1Gbps HBO TVB
-      - 🇭🇰 香港 15
-      - 🇩🇪 德国 H3
-      - 🇺🇸 US-38.75.136.21-0925
-      - 🇺🇸 US-38.68.134.9-5924
-      - 🇬🇧 英国 IPLC BBC A01
-      - 🇷🇺 俄罗斯 05
-      - 🇺🇸 US-38.75.136.21-0928
-      - RELAY-172.67.175.56-0135
-      - 🇯🇵 日本 沪日IEPL A09 Netflix
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 HK-182.16.1.194-7857
-      - 🇧🇷 超级|巴西2
-      - 🇰🇷 韩国 IPLC A04 Netflix
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇦 UA-5.188.6.8-0793
-      - 🇩🇪 德国 H1
-      - 🇰🇷 韩国 京畿道板桥 原生游戏解锁 A 03
-      - 🇵🇱 _PL_波兰
-      - TR-45.89.52.66-1514
-      - 距离下次重置剩余：23 天
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇵🇱 _PL_波兰 2
-      - 🇺🇸 US-38.121.43.97-0880
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇭🇰 Hong Kong_4
-      - RELAY-190.93.247.155-0804
-      - 🇨🇳 台湾 IPLC A04 Netflix 动画疯
-      - 🇬🇧 _GB_英国
-      - CO-190.120.231.45-0838
-      - 🇵🇱 _PL_波兰 3
-      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A05
-      - 🇸🇬 新加坡 Legacy Magic IEPL 中继 A02 Netflix
-      - 🇭🇰 Hong Kong_7
-      - 🇭🇰 Hong Kong_9
-      - CloudBlades 5
-      - 🇮🇳 印度 马哈拉 IPLC A05
-      - 🇬🇧 英国 IPLC BBC A04
-      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A03
-      - ATM MODE A01
-      - 🇻🇳 Vietnam_2
-      - 🇺🇸 US-38.107.226.146-0198
-      - 注册网址：chaozhijc.xyz
-      - 🇮🇳 优化|o印度2
-      - 🇸🇬 Singapore_10
-      - 🇨🇳 台湾 IEPL Game G
-      - RELAY-188.114.97.3-0847
-      - 🇺🇸 _US_美国
-      - 🇺🇸 US-38.75.136.21-6775
-      - wqfuinwqffq.dfcloud.xyz:30818
-      - 🇨🇳 台湾 2|@ripaojiedian
-      - 🇵🇱 _PL_波兰 4
-      - 🇭🇰 Hong Kong_5
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇷🇺 RU-45.147.200.170-0162
-      - 🇺🇸 US-38.121.43.71-0851
-      - 🇺🇸 US-38.143.66.87-0864
-      - 🇰🇷 韩国 IPLC A02 Netflix
-      - 纯IPV6接入
-      - CloudBlades 6
-      - 🇺🇸 US-38.121.43.71-0861
-      - 🇭🇰 香港 IPLC Equinix HK2 A 20 1Gbps HBO TVB
-      - 🇭🇰 香港 11
-      - 🇭🇰 香港 IPLC Equinix HK2 A 05 1Gbps HBO TVB
-      - 🇰🇷 韩国 京畿道板桥 原生游戏解锁 A 01
-      - 🇺🇸 美国高级 IEPL 中继 A03
-      - 🇺🇸 US-205.134.180.151-0726
       - 🇩🇪 优化|o德国2
-      - 🇦🇺 澳大利亚 IPLC 悉尼 A01
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇭🇰 HK-210.3.159.224-0229
-      - 🇰🇷 游戏 韩国 IEPL 4 3Gbps
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇺🇸 美国实验性 IEPL 中继 A04
-      - 🇯🇵 日本 沪日IEPL A03 Netflix
+      - 🇸🇬 新加坡高级 IEPL 中继 A01 Netflix
       - 🇧🇷 超级|巴西1
-      - TG频道：https://t.me/chaozhijc
-      - 🇺🇸 _US_美国 2
-      - 🇸🇬 优化|o新加坡1
+      - 🇯🇵 Japan_18
+      - 🇺🇸 US-45.55.2.232-0746
+      - 🇭🇰 香港 20
+      - 🇺🇸 美国高级 IEPL 中继 A03
+      - 🇭🇰 香港 06
+      - 🇩🇪 优化|o德国1
+      - 🇺🇸 US-38.68.135.18-0903
+      - 🇺🇸 US-38.75.136.21-0925
+      - 🇨🇦 CA-134.195.196.178-0805
+      - 🇩🇪 德国 H4
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 Taiwan_2
+      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A06
+      - 🇨🇳 台湾 IEPL HiNet A01 Netflix 动画疯
+      - 🇺🇸 US-38.68.135.18-0877
+      - 🇯🇵 Japan_16
+      - 🇭🇰 香港 11
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇫🇷 法国 IPLC A04
+      - 🇷🇺 俄罗斯 04
+      - 🇯🇵 日本 MPLS A3 1000Mbps
+      - 🇸🇬 Singapore_04
+      - 🇸🇬 Singapore_09
+      - 🇺🇸 美国实验性 IEPL 中继 A03
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇸🇬 新加坡高级 IEPL 中继 A02  Netflix
+      - 🇻🇳 越南|@ripaojiedian
+      - 🇨🇳 台湾 IEPL HiNet A14 Netflix 动画疯
+      - 🇫🇷 法国 OVH
+      - 🇫🇷 法国 IPLC A02
+      - 🇺🇸 超级|美国1
+      - 🇭🇰 香港 IEPL Equinix HK2 A 01 1Gbps HBO TVB
+      - 🇬🇧 _GB_英国
+      - 🇺🇸 US-38.121.43.71-0861
+      - 🇯🇵 日本 MPLS A8 1000Mbps
+      - 🇩🇪 优化|o德国2 2
+      - 🇰🇷 Korea_1
+      - 🇭🇰 HK-182.16.1.194-7857
+      - 🇺🇸 US-38.75.136.21-6871
+      - CloudBlades 1
+      - 🇭🇰 香港 03
+      - 🇨🇳 台湾 IEPL HiNet A08 Netflix 动画疯
+      - 🇮🇳 优化|o印度2
+      - 🇭🇰 Hong Kong_8
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇯🇵 Japan_7
+      - 🇰🇷 韩国 SK 전라북도 전주시 商宽 10Gbps Netflix
+      - 🇮🇳 印度 马哈拉 IPLC A01
+      - RELAY-172.67.172.67-0374
+      - ATM MODE A03
+      - 🇭🇰 Hong Kong_7
+      - 🇺🇸 US-167.88.62.62-0867
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - TR-45.89.52.66-8080
+      - 🇸🇬 Singapore_02
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A01
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇺🇸 US-38.68.135.18-1658
+      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A12
+      - 🇺🇸 US-38.75.136.21-0922
+      - 🇵🇱 _PL_波兰
+      - 🇺🇸 US-38.68.134.9-0852
+      - RELAY-104.21.55.234-0165
+      - 🇵🇱 _PL_波兰 2
+      - 🇰🇷 韩国 IPLC A03 Netflix
+      - RELAY-162.159.192.200-0361
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
+      - 🇨🇳 台湾 IEPL Game F
+      - 🇭🇰 Hong Kong_17
+      - 🇨🇦 加拿大 IPLC A03
+      - 🇯🇵 日本 沪日IEPL A09 Netflix
+      - 🇭🇰 香港 07
+      - 🇭🇰 Hong Kong_1
+      - 🇬🇧 GB-212.102.53.81-0766
+      - 🇰🇷 韩国 IPLC A05 Netflix
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
+      - 🇵🇱 _PL_波兰 3
+      - 🇬🇧 超级|英国2
+      - 🇬🇧 超级|英国1
+      - 🇺🇸 US-64.23.196.139-0825
+      - 🇭🇰 HK-182.16.1.194-7859
+      - 秒秒云.com
+      - 🇯🇵 Japan_3
+      - 🇨🇳 台湾 IPLC A09 Netflix 动画疯
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇳🇱 荷兰 IPLC A02
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇩🇪 DE-95.164.117.128-0112
-      - 🇨🇦 CA-134.195.196.178-0801
-      - 优化|o纽约2
-      - 🇨🇳 台湾 IPLC A12 Netflix 动画疯
-      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A07
-      - 🇺🇸 美国高级 IEPL 中继 A04
-      - 🇨🇳 台湾 IEPL HiNet A03 Netflix 动画疯
-      - RELAY-172.67.172.67-0374
-      - 🇨🇳 台湾 IEPL HiNet A01 Netflix 动画疯
-      - 🇭🇰 Hong Kong_13
-      - 🇭🇰 香港 IEPL Equinix HK2 A 06 1Gbps HBO TVB
-      - 🇭🇰 香港 15
-      - 🇩🇪 德国 H3
-      - 🇺🇸 US-38.75.136.21-0925
-      - 🇺🇸 US-38.68.134.9-5924
-      - 🇬🇧 英国 IPLC BBC A01
-      - 🇷🇺 俄罗斯 05
-      - 🇺🇸 US-38.75.136.21-0928
-      - RELAY-172.67.175.56-0135
-      - 🇯🇵 日本 沪日IEPL A09 Netflix
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 HK-182.16.1.194-7857
-      - 🇧🇷 超级|巴西2
-      - 🇰🇷 韩国 IPLC A04 Netflix
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇦 UA-5.188.6.8-0793
-      - 🇩🇪 德国 H1
-      - 🇰🇷 韩国 京畿道板桥 原生游戏解锁 A 03
-      - 🇵🇱 _PL_波兰
-      - TR-45.89.52.66-1514
-      - 距离下次重置剩余：23 天
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇵🇱 _PL_波兰 2
-      - 🇺🇸 US-38.121.43.97-0880
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇭🇰 Hong Kong_4
-      - RELAY-190.93.247.155-0804
-      - 🇨🇳 台湾 IPLC A04 Netflix 动画疯
-      - 🇬🇧 _GB_英国
-      - CO-190.120.231.45-0838
-      - 🇵🇱 _PL_波兰 3
-      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A05
-      - 🇸🇬 新加坡 Legacy Magic IEPL 中继 A02 Netflix
-      - 🇭🇰 Hong Kong_7
-      - 🇭🇰 Hong Kong_9
-      - CloudBlades 5
-      - 🇮🇳 印度 马哈拉 IPLC A05
-      - 🇬🇧 英国 IPLC BBC A04
-      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A03
-      - ATM MODE A01
-      - 🇻🇳 Vietnam_2
-      - 🇺🇸 US-38.107.226.146-0198
-      - 注册网址：chaozhijc.xyz
-      - 🇮🇳 优化|o印度2
-      - 🇸🇬 Singapore_10
-      - 🇨🇳 台湾 IEPL Game G
-      - RELAY-188.114.97.3-0847
-      - 🇺🇸 _US_美国
-      - 🇺🇸 US-38.75.136.21-6775
-      - wqfuinwqffq.dfcloud.xyz:30818
-      - 🇨🇳 台湾 2|@ripaojiedian
-      - 🇵🇱 _PL_波兰 4
-      - 🇭🇰 Hong Kong_5
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇷🇺 RU-45.147.200.170-0162
-      - 🇺🇸 US-38.121.43.71-0851
-      - 🇺🇸 US-38.143.66.87-0864
-      - 🇰🇷 韩国 IPLC A02 Netflix
-      - 纯IPV6接入
-      - CloudBlades 6
-      - 🇺🇸 US-38.121.43.71-0861
-      - 🇭🇰 香港 IPLC Equinix HK2 A 20 1Gbps HBO TVB
-      - 🇭🇰 香港 11
-      - 🇭🇰 香港 IPLC Equinix HK2 A 05 1Gbps HBO TVB
-      - 🇰🇷 韩国 京畿道板桥 原生游戏解锁 A 01
-      - 🇺🇸 美国高级 IEPL 中继 A03
-      - 🇺🇸 US-205.134.180.151-0726
       - 🇩🇪 优化|o德国2
-      - 🇦🇺 澳大利亚 IPLC 悉尼 A01
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇭🇰 HK-210.3.159.224-0229
-      - 🇰🇷 游戏 韩国 IEPL 4 3Gbps
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇺🇸 美国实验性 IEPL 中继 A04
-      - 🇯🇵 日本 沪日IEPL A03 Netflix
+      - 🇸🇬 新加坡高级 IEPL 中继 A01 Netflix
       - 🇧🇷 超级|巴西1
-      - TG频道：https://t.me/chaozhijc
-      - 🇺🇸 _US_美国 2
-      - 🇸🇬 优化|o新加坡1
+      - 🇯🇵 Japan_18
+      - 🇺🇸 US-45.55.2.232-0746
+      - 🇭🇰 香港 20
+      - 🇺🇸 美国高级 IEPL 中继 A03
+      - 🇭🇰 香港 06
+      - 🇩🇪 优化|o德国1
+      - 🇺🇸 US-38.68.135.18-0903
+      - 🇺🇸 US-38.75.136.21-0925
+      - 🇨🇦 CA-134.195.196.178-0805
+      - 🇩🇪 德国 H4
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 Taiwan_2
+      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A06
+      - 🇨🇳 台湾 IEPL HiNet A01 Netflix 动画疯
+      - 🇺🇸 US-38.68.135.18-0877
+      - 🇯🇵 Japan_16
+      - 🇭🇰 香港 11
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇫🇷 法国 IPLC A04
+      - 🇷🇺 俄罗斯 04
+      - 🇯🇵 日本 MPLS A3 1000Mbps
+      - 🇸🇬 Singapore_04
+      - 🇸🇬 Singapore_09
+      - 🇺🇸 美国实验性 IEPL 中继 A03
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇸🇬 新加坡高级 IEPL 中继 A02  Netflix
+      - 🇻🇳 越南|@ripaojiedian
+      - 🇨🇳 台湾 IEPL HiNet A14 Netflix 动画疯
+      - 🇫🇷 法国 OVH
+      - 🇫🇷 法国 IPLC A02
+      - 🇺🇸 超级|美国1
+      - 🇭🇰 香港 IEPL Equinix HK2 A 01 1Gbps HBO TVB
+      - 🇬🇧 _GB_英国
+      - 🇺🇸 US-38.121.43.71-0861
+      - 🇯🇵 日本 MPLS A8 1000Mbps
+      - 🇩🇪 优化|o德国2 2
+      - 🇰🇷 Korea_1
+      - 🇭🇰 HK-182.16.1.194-7857
+      - 🇺🇸 US-38.75.136.21-6871
+      - CloudBlades 1
+      - 🇭🇰 香港 03
+      - 🇨🇳 台湾 IEPL HiNet A08 Netflix 动画疯
+      - 🇮🇳 优化|o印度2
+      - 🇭🇰 Hong Kong_8
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇯🇵 Japan_7
+      - 🇰🇷 韩国 SK 전라북도 전주시 商宽 10Gbps Netflix
+      - 🇮🇳 印度 马哈拉 IPLC A01
+      - RELAY-172.67.172.67-0374
+      - ATM MODE A03
+      - 🇭🇰 Hong Kong_7
+      - 🇺🇸 US-167.88.62.62-0867
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - TR-45.89.52.66-8080
+      - 🇸🇬 Singapore_02
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A01
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇺🇸 US-38.68.135.18-1658
+      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A12
+      - 🇺🇸 US-38.75.136.21-0922
+      - 🇵🇱 _PL_波兰
+      - 🇺🇸 US-38.68.134.9-0852
+      - RELAY-104.21.55.234-0165
+      - 🇵🇱 _PL_波兰 2
+      - 🇰🇷 韩国 IPLC A03 Netflix
+      - RELAY-162.159.192.200-0361
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
+      - 🇨🇳 台湾 IEPL Game F
+      - 🇭🇰 Hong Kong_17
+      - 🇨🇦 加拿大 IPLC A03
+      - 🇯🇵 日本 沪日IEPL A09 Netflix
+      - 🇭🇰 香港 07
+      - 🇭🇰 Hong Kong_1
+      - 🇬🇧 GB-212.102.53.81-0766
+      - 🇰🇷 韩国 IPLC A05 Netflix
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
+      - 🇵🇱 _PL_波兰 3
+      - 🇬🇧 超级|英国2
+      - 🇬🇧 超级|英国1
+      - 🇺🇸 US-64.23.196.139-0825
+      - 🇭🇰 HK-182.16.1.194-7859
+      - 秒秒云.com
+      - 🇯🇵 Japan_3
+      - 🇨🇳 台湾 IPLC A09 Netflix 动画疯
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇳🇱 荷兰 IPLC A02
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪 DE-95.164.117.128-0112
-      - 🇨🇦 CA-134.195.196.178-0801
-      - 优化|o纽约2
-      - 🇨🇳 台湾 IPLC A12 Netflix 动画疯
-      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A07
-      - 🇺🇸 美国高级 IEPL 中继 A04
-      - 🇨🇳 台湾 IEPL HiNet A03 Netflix 动画疯
-      - RELAY-172.67.172.67-0374
-      - 🇨🇳 台湾 IEPL HiNet A01 Netflix 动画疯
-      - 🇭🇰 Hong Kong_13
-      - 🇭🇰 香港 IEPL Equinix HK2 A 06 1Gbps HBO TVB
-      - 🇭🇰 香港 15
-      - 🇩🇪 德国 H3
-      - 🇺🇸 US-38.75.136.21-0925
-      - 🇺🇸 US-38.68.134.9-5924
-      - 🇬🇧 英国 IPLC BBC A01
-      - 🇷🇺 俄罗斯 05
-      - 🇺🇸 US-38.75.136.21-0928
-      - RELAY-172.67.175.56-0135
-      - 🇯🇵 日本 沪日IEPL A09 Netflix
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 HK-182.16.1.194-7857
-      - 🇧🇷 超级|巴西2
-      - 🇰🇷 韩国 IPLC A04 Netflix
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇦 UA-5.188.6.8-0793
-      - 🇩🇪 德国 H1
-      - 🇰🇷 韩国 京畿道板桥 原生游戏解锁 A 03
-      - 🇵🇱 _PL_波兰
-      - TR-45.89.52.66-1514
-      - 距离下次重置剩余：23 天
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇵🇱 _PL_波兰 2
-      - 🇺🇸 US-38.121.43.97-0880
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇭🇰 Hong Kong_4
-      - RELAY-190.93.247.155-0804
-      - 🇨🇳 台湾 IPLC A04 Netflix 动画疯
-      - 🇬🇧 _GB_英国
-      - CO-190.120.231.45-0838
-      - 🇵🇱 _PL_波兰 3
-      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A05
-      - 🇸🇬 新加坡 Legacy Magic IEPL 中继 A02 Netflix
-      - 🇭🇰 Hong Kong_7
-      - 🇭🇰 Hong Kong_9
-      - CloudBlades 5
-      - 🇮🇳 印度 马哈拉 IPLC A05
-      - 🇬🇧 英国 IPLC BBC A04
-      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A03
-      - ATM MODE A01
-      - 🇻🇳 Vietnam_2
-      - 🇺🇸 US-38.107.226.146-0198
-      - 注册网址：chaozhijc.xyz
-      - 🇮🇳 优化|o印度2
-      - 🇸🇬 Singapore_10
-      - 🇨🇳 台湾 IEPL Game G
-      - RELAY-188.114.97.3-0847
-      - 🇺🇸 _US_美国
-      - 🇺🇸 US-38.75.136.21-6775
-      - wqfuinwqffq.dfcloud.xyz:30818
-      - 🇨🇳 台湾 2|@ripaojiedian
-      - 🇵🇱 _PL_波兰 4
-      - 🇭🇰 Hong Kong_5
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇷🇺 RU-45.147.200.170-0162
-      - 🇺🇸 US-38.121.43.71-0851
-      - 🇺🇸 US-38.143.66.87-0864
-      - 🇰🇷 韩国 IPLC A02 Netflix
-      - 纯IPV6接入
-      - CloudBlades 6
-      - 🇺🇸 US-38.121.43.71-0861
-      - 🇭🇰 香港 IPLC Equinix HK2 A 20 1Gbps HBO TVB
-      - 🇭🇰 香港 11
-      - 🇭🇰 香港 IPLC Equinix HK2 A 05 1Gbps HBO TVB
-      - 🇰🇷 韩国 京畿道板桥 原生游戏解锁 A 01
-      - 🇺🇸 美国高级 IEPL 中继 A03
-      - 🇺🇸 US-205.134.180.151-0726
       - 🇩🇪 优化|o德国2
-      - 🇦🇺 澳大利亚 IPLC 悉尼 A01
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇭🇰 HK-210.3.159.224-0229
-      - 🇰🇷 游戏 韩国 IEPL 4 3Gbps
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇺🇸 美国实验性 IEPL 中继 A04
-      - 🇯🇵 日本 沪日IEPL A03 Netflix
+      - 🇸🇬 新加坡高级 IEPL 中继 A01 Netflix
       - 🇧🇷 超级|巴西1
-      - TG频道：https://t.me/chaozhijc
-      - 🇺🇸 _US_美国 2
-      - 🇸🇬 优化|o新加坡1
+      - 🇯🇵 Japan_18
+      - 🇺🇸 US-45.55.2.232-0746
+      - 🇭🇰 香港 20
+      - 🇺🇸 美国高级 IEPL 中继 A03
+      - 🇭🇰 香港 06
+      - 🇩🇪 优化|o德国1
+      - 🇺🇸 US-38.68.135.18-0903
+      - 🇺🇸 US-38.75.136.21-0925
+      - 🇨🇦 CA-134.195.196.178-0805
+      - 🇩🇪 德国 H4
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 Taiwan_2
+      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A06
+      - 🇨🇳 台湾 IEPL HiNet A01 Netflix 动画疯
+      - 🇺🇸 US-38.68.135.18-0877
+      - 🇯🇵 Japan_16
+      - 🇭🇰 香港 11
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇫🇷 法国 IPLC A04
+      - 🇷🇺 俄罗斯 04
+      - 🇯🇵 日本 MPLS A3 1000Mbps
+      - 🇸🇬 Singapore_04
+      - 🇸🇬 Singapore_09
+      - 🇺🇸 美国实验性 IEPL 中继 A03
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇸🇬 新加坡高级 IEPL 中继 A02  Netflix
+      - 🇻🇳 越南|@ripaojiedian
+      - 🇨🇳 台湾 IEPL HiNet A14 Netflix 动画疯
+      - 🇫🇷 法国 OVH
+      - 🇫🇷 法国 IPLC A02
+      - 🇺🇸 超级|美国1
+      - 🇭🇰 香港 IEPL Equinix HK2 A 01 1Gbps HBO TVB
+      - 🇬🇧 _GB_英国
+      - 🇺🇸 US-38.121.43.71-0861
+      - 🇯🇵 日本 MPLS A8 1000Mbps
+      - 🇩🇪 优化|o德国2 2
+      - 🇰🇷 Korea_1
+      - 🇭🇰 HK-182.16.1.194-7857
+      - 🇺🇸 US-38.75.136.21-6871
+      - CloudBlades 1
+      - 🇭🇰 香港 03
+      - 🇨🇳 台湾 IEPL HiNet A08 Netflix 动画疯
+      - 🇮🇳 优化|o印度2
+      - 🇭🇰 Hong Kong_8
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇯🇵 Japan_7
+      - 🇰🇷 韩国 SK 전라북도 전주시 商宽 10Gbps Netflix
+      - 🇮🇳 印度 马哈拉 IPLC A01
+      - RELAY-172.67.172.67-0374
+      - ATM MODE A03
+      - 🇭🇰 Hong Kong_7
+      - 🇺🇸 US-167.88.62.62-0867
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - TR-45.89.52.66-8080
+      - 🇸🇬 Singapore_02
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A01
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇺🇸 US-38.68.135.18-1658
+      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A12
+      - 🇺🇸 US-38.75.136.21-0922
+      - 🇵🇱 _PL_波兰
+      - 🇺🇸 US-38.68.134.9-0852
+      - RELAY-104.21.55.234-0165
+      - 🇵🇱 _PL_波兰 2
+      - 🇰🇷 韩国 IPLC A03 Netflix
+      - RELAY-162.159.192.200-0361
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
+      - 🇨🇳 台湾 IEPL Game F
+      - 🇭🇰 Hong Kong_17
+      - 🇨🇦 加拿大 IPLC A03
+      - 🇯🇵 日本 沪日IEPL A09 Netflix
+      - 🇭🇰 香港 07
+      - 🇭🇰 Hong Kong_1
+      - 🇬🇧 GB-212.102.53.81-0766
+      - 🇰🇷 韩国 IPLC A05 Netflix
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
+      - 🇵🇱 _PL_波兰 3
+      - 🇬🇧 超级|英国2
+      - 🇬🇧 超级|英国1
+      - 🇺🇸 US-64.23.196.139-0825
+      - 🇭🇰 HK-182.16.1.194-7859
+      - 秒秒云.com
+      - 🇯🇵 Japan_3
+      - 🇨🇳 台湾 IPLC A09 Netflix 动画疯
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇳🇱 荷兰 IPLC A02
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -690,96 +704,98 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪 DE-95.164.117.128-0112
-      - 🇨🇦 CA-134.195.196.178-0801
-      - 优化|o纽约2
-      - 🇨🇳 台湾 IPLC A12 Netflix 动画疯
-      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A07
-      - 🇺🇸 美国高级 IEPL 中继 A04
-      - 🇨🇳 台湾 IEPL HiNet A03 Netflix 动画疯
-      - RELAY-172.67.172.67-0374
-      - 🇨🇳 台湾 IEPL HiNet A01 Netflix 动画疯
-      - 🇭🇰 Hong Kong_13
-      - 🇭🇰 香港 IEPL Equinix HK2 A 06 1Gbps HBO TVB
-      - 🇭🇰 香港 15
-      - 🇩🇪 德国 H3
-      - 🇺🇸 US-38.75.136.21-0925
-      - 🇺🇸 US-38.68.134.9-5924
-      - 🇬🇧 英国 IPLC BBC A01
-      - 🇷🇺 俄罗斯 05
-      - 🇺🇸 US-38.75.136.21-0928
-      - RELAY-172.67.175.56-0135
-      - 🇯🇵 日本 沪日IEPL A09 Netflix
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 HK-182.16.1.194-7857
-      - 🇧🇷 超级|巴西2
-      - 🇰🇷 韩国 IPLC A04 Netflix
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇦 UA-5.188.6.8-0793
-      - 🇩🇪 德国 H1
-      - 🇰🇷 韩国 京畿道板桥 原生游戏解锁 A 03
-      - 🇵🇱 _PL_波兰
-      - TR-45.89.52.66-1514
-      - 距离下次重置剩余：23 天
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇵🇱 _PL_波兰 2
-      - 🇺🇸 US-38.121.43.97-0880
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇭🇰 Hong Kong_4
-      - RELAY-190.93.247.155-0804
-      - 🇨🇳 台湾 IPLC A04 Netflix 动画疯
-      - 🇬🇧 _GB_英国
-      - CO-190.120.231.45-0838
-      - 🇵🇱 _PL_波兰 3
-      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A05
-      - 🇸🇬 新加坡 Legacy Magic IEPL 中继 A02 Netflix
-      - 🇭🇰 Hong Kong_7
-      - 🇭🇰 Hong Kong_9
-      - CloudBlades 5
-      - 🇮🇳 印度 马哈拉 IPLC A05
-      - 🇬🇧 英国 IPLC BBC A04
-      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A03
-      - ATM MODE A01
-      - 🇻🇳 Vietnam_2
-      - 🇺🇸 US-38.107.226.146-0198
-      - 注册网址：chaozhijc.xyz
-      - 🇮🇳 优化|o印度2
-      - 🇸🇬 Singapore_10
-      - 🇨🇳 台湾 IEPL Game G
-      - RELAY-188.114.97.3-0847
-      - 🇺🇸 _US_美国
-      - 🇺🇸 US-38.75.136.21-6775
-      - wqfuinwqffq.dfcloud.xyz:30818
-      - 🇨🇳 台湾 2|@ripaojiedian
-      - 🇵🇱 _PL_波兰 4
-      - 🇭🇰 Hong Kong_5
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇷🇺 RU-45.147.200.170-0162
-      - 🇺🇸 US-38.121.43.71-0851
-      - 🇺🇸 US-38.143.66.87-0864
-      - 🇰🇷 韩国 IPLC A02 Netflix
-      - 纯IPV6接入
-      - CloudBlades 6
-      - 🇺🇸 US-38.121.43.71-0861
-      - 🇭🇰 香港 IPLC Equinix HK2 A 20 1Gbps HBO TVB
-      - 🇭🇰 香港 11
-      - 🇭🇰 香港 IPLC Equinix HK2 A 05 1Gbps HBO TVB
-      - 🇰🇷 韩国 京畿道板桥 原生游戏解锁 A 01
-      - 🇺🇸 美国高级 IEPL 中继 A03
-      - 🇺🇸 US-205.134.180.151-0726
       - 🇩🇪 优化|o德国2
-      - 🇦🇺 澳大利亚 IPLC 悉尼 A01
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇭🇰 HK-210.3.159.224-0229
-      - 🇰🇷 游戏 韩国 IEPL 4 3Gbps
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇺🇸 美国实验性 IEPL 中继 A04
-      - 🇯🇵 日本 沪日IEPL A03 Netflix
+      - 🇸🇬 新加坡高级 IEPL 中继 A01 Netflix
       - 🇧🇷 超级|巴西1
-      - TG频道：https://t.me/chaozhijc
-      - 🇺🇸 _US_美国 2
-      - 🇸🇬 优化|o新加坡1
+      - 🇯🇵 Japan_18
+      - 🇺🇸 US-45.55.2.232-0746
+      - 🇭🇰 香港 20
+      - 🇺🇸 美国高级 IEPL 中继 A03
+      - 🇭🇰 香港 06
+      - 🇩🇪 优化|o德国1
+      - 🇺🇸 US-38.68.135.18-0903
+      - 🇺🇸 US-38.75.136.21-0925
+      - 🇨🇦 CA-134.195.196.178-0805
+      - 🇩🇪 德国 H4
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 Taiwan_2
+      - 🇭🇰 香港 油尖旺御金·国峯 名氣通電訊 A06
+      - 🇨🇳 台湾 IEPL HiNet A01 Netflix 动画疯
+      - 🇺🇸 US-38.68.135.18-0877
+      - 🇯🇵 Japan_16
+      - 🇭🇰 香港 11
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇫🇷 法国 IPLC A04
+      - 🇷🇺 俄罗斯 04
+      - 🇯🇵 日本 MPLS A3 1000Mbps
+      - 🇸🇬 Singapore_04
+      - 🇸🇬 Singapore_09
+      - 🇺🇸 美国实验性 IEPL 中继 A03
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇸🇬 新加坡高级 IEPL 中继 A02  Netflix
+      - 🇻🇳 越南|@ripaojiedian
+      - 🇨🇳 台湾 IEPL HiNet A14 Netflix 动画疯
+      - 🇫🇷 法国 OVH
+      - 🇫🇷 法国 IPLC A02
+      - 🇺🇸 超级|美国1
+      - 🇭🇰 香港 IEPL Equinix HK2 A 01 1Gbps HBO TVB
+      - 🇬🇧 _GB_英国
+      - 🇺🇸 US-38.121.43.71-0861
+      - 🇯🇵 日本 MPLS A8 1000Mbps
+      - 🇩🇪 优化|o德国2 2
+      - 🇰🇷 Korea_1
+      - 🇭🇰 HK-182.16.1.194-7857
+      - 🇺🇸 US-38.75.136.21-6871
+      - CloudBlades 1
+      - 🇭🇰 香港 03
+      - 🇨🇳 台湾 IEPL HiNet A08 Netflix 动画疯
+      - 🇮🇳 优化|o印度2
+      - 🇭🇰 Hong Kong_8
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇯🇵 Japan_7
+      - 🇰🇷 韩国 SK 전라북도 전주시 商宽 10Gbps Netflix
+      - 🇮🇳 印度 马哈拉 IPLC A01
+      - RELAY-172.67.172.67-0374
+      - ATM MODE A03
+      - 🇭🇰 Hong Kong_7
+      - 🇺🇸 US-167.88.62.62-0867
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - TR-45.89.52.66-8080
+      - 🇸🇬 Singapore_02
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A01
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇺🇸 US-38.68.135.18-1658
+      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A12
+      - 🇺🇸 US-38.75.136.21-0922
+      - 🇵🇱 _PL_波兰
+      - 🇺🇸 US-38.68.134.9-0852
+      - RELAY-104.21.55.234-0165
+      - 🇵🇱 _PL_波兰 2
+      - 🇰🇷 韩国 IPLC A03 Netflix
+      - RELAY-162.159.192.200-0361
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
+      - 🇨🇳 台湾 IEPL Game F
+      - 🇭🇰 Hong Kong_17
+      - 🇨🇦 加拿大 IPLC A03
+      - 🇯🇵 日本 沪日IEPL A09 Netflix
+      - 🇭🇰 香港 07
+      - 🇭🇰 Hong Kong_1
+      - 🇬🇧 GB-212.102.53.81-0766
+      - 🇰🇷 韩国 IPLC A05 Netflix
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
+      - 🇵🇱 _PL_波兰 3
+      - 🇬🇧 超级|英国2
+      - 🇬🇧 超级|英国1
+      - 🇺🇸 US-64.23.196.139-0825
+      - 🇭🇰 HK-182.16.1.194-7859
+      - 秒秒云.com
+      - 🇯🇵 Japan_3
+      - 🇨🇳 台湾 IPLC A09 Netflix 动画疯
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇳🇱 荷兰 IPLC A02
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

@@ -5,172 +5,158 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇫🇷 法国 OVH, server: 51.77.53.200, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 Amazon数据中心, server: 13.41.84.221, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
-  - {name: 🇮🇳 github.com/freefq - 印度  10, server: 202.78.162.5, port: 443, type: vmess, uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pendar.onthewifi.com}}}
-  - {name: 🇸🇬 新加坡-02|1.0x, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 4000219a-a199-441d-abc7-70359c60ed44, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
-  - {name: _CN_中国, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇬🇧 _GB_英国, server: uk-dc1.yangon.club, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇭🇰 免费套餐暂时不提供香港节点, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 4000219a-a199-441d-abc7-70359c60ed44, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
-  - {name: 🇨🇳 github.com/freefq - 广东省移动 7, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.19.42.49, port: 8080, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: usakansas.xlb8.eu.org}}}
-  - {name: 🇰🇷 韩国|@ripaojiedian, server: 64.110.88.46, port: 443, type: trojan, password: moist, sni: trojan.freenods.sbs, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.freenods.sbs}}}
-  - {name: 13.213.46.196:443, server: 13.213.46.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 无法使用，就更新订阅！, server: usus.diao.icu, port: 2052, type: vmess, uuid: 4000219a-a199-441d-abc7-70359c60ed44, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
-  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 18.181.170.157, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡-01|1.0x, server: usus.diao.icu, port: 2052, type: vmess, uuid: 4000219a-a199-441d-abc7-70359c60ed44, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
-  - {name: 🇺🇸 美国 Akamai科技公司CDN网络节点, server: 172.232.37.114, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: zGLrOR92Jh0mhaqrpZBcKU}
-  - {name: 🇺🇸 美国 Amazon数据中心 2, server: 18.171.246.91, port: 12934, type: trojan, password: xpIjyyASueO8, sni: appsvs.shop}
-  - {name: 🇫🇷 法国 OVH机房SAS硬盘BGP主机, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇩🇪 _CN_中国->🇩🇪_DE_德国, server: 5.forlive.live, port: 60033, type: ss, cipher: chacha20-ietf-poly1305, password: 6a8bf2a8-f100-4428-ac3f-ad8ea07e1361}
+  - {name: 🇵🇱 _PL_波兰, server: 51.77.53.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇫🇷 法国 OVH, server: 51.77.53.200, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇵🇱 _PL_波兰 2, server: 51.77.53.200, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇸🇪 _SE_瑞典, server: 16.16.225.100, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
+  - {name: 🇫🇷 法国 OVH机房SAS硬盘BGP主机, server: 149.202.82.172, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇫🇷 法国 OVH机房SAS硬盘BGP主机 2, server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 United States 01 @nodpai, server: hytron.io, port: 8080, type: vmess, uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hytron.io}}}
+  - {name: 🇵🇱 _PL_波兰 3, server: 51.77.53.200, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 _US_美国, server: 18.189.35.133, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: 🇨🇳 github.com/freefq - 广东省江门市移动 8, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 🇵🇱 _PL_波兰 4, server: 51.77.53.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国-01|1.0x, server: usus.diao.icu, port: 2052, type: vmess, uuid: 4000219a-a199-441d-abc7-70359c60ed44, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
+  - {name: 🇵🇱 _PL_波兰 5, server: 51.77.53.200, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 江苏省徐州市 移动, server: 223.113.54.154, port: 23621, type: trojan, password: gkviEOYc, skip-cert-verify: true}
+  - {name: 🇵🇱 _PL_波兰 6, server: 51.77.53.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: SCP2, server: www.smcacre.gov, port: 443, type: vmess, uuid: 3cc8e2d2-e4a4-4d87-c16c-a8fc70296a7b, alterId: 0, cipher: auto, tls: true, servername: www.smcacre.gov, network: ws, ws-opts: {path: /3cc8e2d2, headers: {Host: lajihuawei.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇵🇱 _PL_波兰
       - 🇫🇷 法国 OVH
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 美国 Amazon数据中心
-      - 🇮🇳 github.com/freefq - 印度  10
-      - 🇸🇬 新加坡-02|1.0x
-      - _CN_中国
-      - 🇬🇧 _GB_英国
-      - 🇭🇰 免费套餐暂时不提供香港节点
-      - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇰🇷 韩国|@ripaojiedian
-      - 13.213.46.196:443
-      - 🇸🇬 无法使用，就更新订阅！
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 新加坡-01|1.0x
-      - 🇺🇸 美国 Akamai科技公司CDN网络节点
-      - 🇺🇸 美国 Amazon数据中心 2
+      - 🇵🇱 _PL_波兰 2
+      - 🇸🇪 _SE_瑞典
       - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 2
+      - 🇺🇸 United States 01 @nodpai
+      - 🇵🇱 _PL_波兰 3
+      - 🇺🇸 _US_美国
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
+      - 🇵🇱 _PL_波兰 4
+      - 🇺🇸 美国-01|1.0x
+      - 🇵🇱 _PL_波兰 5
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇳 江苏省徐州市 移动
+      - 🇵🇱 _PL_波兰 6
+      - SCP2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇵🇱 _PL_波兰
       - 🇫🇷 法国 OVH
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 美国 Amazon数据中心
-      - 🇮🇳 github.com/freefq - 印度  10
-      - 🇸🇬 新加坡-02|1.0x
-      - _CN_中国
-      - 🇬🇧 _GB_英国
-      - 🇭🇰 免费套餐暂时不提供香港节点
-      - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇰🇷 韩国|@ripaojiedian
-      - 13.213.46.196:443
-      - 🇸🇬 无法使用，就更新订阅！
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 新加坡-01|1.0x
-      - 🇺🇸 美国 Akamai科技公司CDN网络节点
-      - 🇺🇸 美国 Amazon数据中心 2
+      - 🇵🇱 _PL_波兰 2
+      - 🇸🇪 _SE_瑞典
       - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 2
+      - 🇺🇸 United States 01 @nodpai
+      - 🇵🇱 _PL_波兰 3
+      - 🇺🇸 _US_美国
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
+      - 🇵🇱 _PL_波兰 4
+      - 🇺🇸 美国-01|1.0x
+      - 🇵🇱 _PL_波兰 5
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇳 江苏省徐州市 移动
+      - 🇵🇱 _PL_波兰 6
+      - SCP2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇵🇱 _PL_波兰
       - 🇫🇷 法国 OVH
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 美国 Amazon数据中心
-      - 🇮🇳 github.com/freefq - 印度  10
-      - 🇸🇬 新加坡-02|1.0x
-      - _CN_中国
-      - 🇬🇧 _GB_英国
-      - 🇭🇰 免费套餐暂时不提供香港节点
-      - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇰🇷 韩国|@ripaojiedian
-      - 13.213.46.196:443
-      - 🇸🇬 无法使用，就更新订阅！
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 新加坡-01|1.0x
-      - 🇺🇸 美国 Akamai科技公司CDN网络节点
-      - 🇺🇸 美国 Amazon数据中心 2
+      - 🇵🇱 _PL_波兰 2
+      - 🇸🇪 _SE_瑞典
       - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 2
+      - 🇺🇸 United States 01 @nodpai
+      - 🇵🇱 _PL_波兰 3
+      - 🇺🇸 _US_美国
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
+      - 🇵🇱 _PL_波兰 4
+      - 🇺🇸 美国-01|1.0x
+      - 🇵🇱 _PL_波兰 5
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇳 江苏省徐州市 移动
+      - 🇵🇱 _PL_波兰 6
+      - SCP2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇵🇱 _PL_波兰
       - 🇫🇷 法国 OVH
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 美国 Amazon数据中心
-      - 🇮🇳 github.com/freefq - 印度  10
-      - 🇸🇬 新加坡-02|1.0x
-      - _CN_中国
-      - 🇬🇧 _GB_英国
-      - 🇭🇰 免费套餐暂时不提供香港节点
-      - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇰🇷 韩国|@ripaojiedian
-      - 13.213.46.196:443
-      - 🇸🇬 无法使用，就更新订阅！
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 新加坡-01|1.0x
-      - 🇺🇸 美国 Akamai科技公司CDN网络节点
-      - 🇺🇸 美国 Amazon数据中心 2
+      - 🇵🇱 _PL_波兰 2
+      - 🇸🇪 _SE_瑞典
       - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 2
+      - 🇺🇸 United States 01 @nodpai
+      - 🇵🇱 _PL_波兰 3
+      - 🇺🇸 _US_美国
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
+      - 🇵🇱 _PL_波兰 4
+      - 🇺🇸 美国-01|1.0x
+      - 🇵🇱 _PL_波兰 5
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇳 江苏省徐州市 移动
+      - 🇵🇱 _PL_波兰 6
+      - SCP2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇵🇱 _PL_波兰
       - 🇫🇷 法国 OVH
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 美国 Amazon数据中心
-      - 🇮🇳 github.com/freefq - 印度  10
-      - 🇸🇬 新加坡-02|1.0x
-      - _CN_中国
-      - 🇬🇧 _GB_英国
-      - 🇭🇰 免费套餐暂时不提供香港节点
-      - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇰🇷 韩国|@ripaojiedian
-      - 13.213.46.196:443
-      - 🇸🇬 无法使用，就更新订阅！
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 新加坡-01|1.0x
-      - 🇺🇸 美国 Akamai科技公司CDN网络节点
-      - 🇺🇸 美国 Amazon数据中心 2
+      - 🇵🇱 _PL_波兰 2
+      - 🇸🇪 _SE_瑞典
       - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 2
+      - 🇺🇸 United States 01 @nodpai
+      - 🇵🇱 _PL_波兰 3
+      - 🇺🇸 _US_美国
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
+      - 🇵🇱 _PL_波兰 4
+      - 🇺🇸 美国-01|1.0x
+      - 🇵🇱 _PL_波兰 5
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇳 江苏省徐州市 移动
+      - 🇵🇱 _PL_波兰 6
+      - SCP2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇵🇱 _PL_波兰
       - 🇫🇷 法国 OVH
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 美国 Amazon数据中心
-      - 🇮🇳 github.com/freefq - 印度  10
-      - 🇸🇬 新加坡-02|1.0x
-      - _CN_中国
-      - 🇬🇧 _GB_英国
-      - 🇭🇰 免费套餐暂时不提供香港节点
-      - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇰🇷 韩国|@ripaojiedian
-      - 13.213.46.196:443
-      - 🇸🇬 无法使用，就更新订阅！
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 新加坡-01|1.0x
-      - 🇺🇸 美国 Akamai科技公司CDN网络节点
-      - 🇺🇸 美国 Amazon数据中心 2
+      - 🇵🇱 _PL_波兰 2
+      - 🇸🇪 _SE_瑞典
       - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 2
+      - 🇺🇸 United States 01 @nodpai
+      - 🇵🇱 _PL_波兰 3
+      - 🇺🇸 _US_美国
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
+      - 🇵🇱 _PL_波兰 4
+      - 🇺🇸 美国-01|1.0x
+      - 🇵🇱 _PL_波兰 5
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇳 江苏省徐州市 移动
+      - 🇵🇱 _PL_波兰 6
+      - SCP2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -193,25 +179,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇵🇱 _PL_波兰
       - 🇫🇷 法国 OVH
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 美国 Amazon数据中心
-      - 🇮🇳 github.com/freefq - 印度  10
-      - 🇸🇬 新加坡-02|1.0x
-      - _CN_中国
-      - 🇬🇧 _GB_英国
-      - 🇭🇰 免费套餐暂时不提供香港节点
-      - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇰🇷 韩国|@ripaojiedian
-      - 13.213.46.196:443
-      - 🇸🇬 无法使用，就更新订阅！
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 新加坡-01|1.0x
-      - 🇺🇸 美国 Akamai科技公司CDN网络节点
-      - 🇺🇸 美国 Amazon数据中心 2
+      - 🇵🇱 _PL_波兰 2
+      - 🇸🇪 _SE_瑞典
       - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 2
+      - 🇺🇸 United States 01 @nodpai
+      - 🇵🇱 _PL_波兰 3
+      - 🇺🇸 _US_美国
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
+      - 🇵🇱 _PL_波兰 4
+      - 🇺🇸 美国-01|1.0x
+      - 🇵🇱 _PL_波兰 5
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇳 江苏省徐州市 移动
+      - 🇵🇱 _PL_波兰 6
+      - SCP2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

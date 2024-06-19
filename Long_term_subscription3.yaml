@@ -5,179 +5,186 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: gkviEOYc, skip-cert-verify: true}
-  - {name: 🇷🇺 _RU_俄罗斯联邦, server: 89.169.53.36, port: 59985, type: vmess, uuid: d572d74e-427b-4525-9d0d-88608d1a4f19, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本三网优化-V6, server: 2406:da14:c06:4200:7f86:ef7b:a9b0:b032, port: 36229, type: vmess, uuid: fe703bcd-8a87-4866-912b-b9fe09021b11, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ewfwef}}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 38.121.43.248, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 54.199.83.239:2333, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
-  - {name: 🇫🇷 法国 OVH机房SAS硬盘BGP主机, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦, server: 104.16.1.10, port: 443, type: trojan, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true}
-  - {name: 🇺🇸 _US_美国, server: 23.150.152.53, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
+  - {name: 🇩🇪 公益|德国1, server: sx1.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxddg.suixincloud.top}}}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 162.55.42.28, port: 15691, type: ss, cipher: 2022-blake3-aes-256-gcm, password: MBB4bN7/3AnspD5xM7YLV0dt0ruCJ8a/JUxJghIZ8s4=:MWrYCcxp7HgC2401jY8sDm4X4GhI7ftkCgqRJq9DPOg=}
+  - {name: 🇰🇷 公测|韩国 03 1x, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: c3572b9c-db66-4656-91b2-853750a422ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国, server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: 54.251.168.143:443, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: 183.238.202.173, port: 51193, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇩🇪 公益|德国3, server: sx3.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxddg.suixincloud.top}}}
-  - {name: 🇫🇷 法国 OVH, server: 51.77.53.200, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇳 广东省广州市 移动, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22193.25.215.160%22%7D"}}}
-  - {name: 🇺🇸 美国 Amazon EC2服务器, server: 3.14.18.239, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
-  - {name: 🇭🇰 香港KT|@ripaojiedian, server: 172.67.114.125, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: a4.wagaga.online, path: "", tls: true, mux: true}}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.26.13.31, port: 443, type: trojan, password: NISHIKUITAN222, sni: t600.ylks.link, network: ws, ws-opts: {path: /, headers: {Host: t600.ylks.link}}}
-  - {name: "", server: aaaa.wxx.gay, port: 443, type: vmess, uuid: 8237ec34-143a-11ee-8019-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
-  - {name: 🇺🇸 美国 Amazon EC2服务器 2, server: 3.148.117.145, port: 13350, type: trojan, password: 11aAO1bdt7jT, sni: appsvs.shop}
-  - {name: 🇺🇸 美国4|@ripaojiedian, server: 183.232.139.22, port: 53981, type: trojan, password: gkviEOYc, skip-cert-verify: true}
-  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 43.203.126.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 38.121.43.248, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇵🇱 _PL_波兰, server: 51.77.53.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇯🇵 公测|日本 03 1x, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: c3572b9c-db66-4656-91b2-853750a422ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true}
+  - {name: 🇭🇰 香港7|@ripaojiedian, server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯  1, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
+  - {name: 🇺🇸 公测|美国 02 1x, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: c3572b9c-db66-4656-91b2-853750a422ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: meiguo.mojc.xyz}}}
+  - {name: 🇺🇸 公测|美国 05 1x, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: c3572b9c-db66-4656-91b2-853750a422ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: meiguo.mojc.xyz}}}
+  - {name: 🇺🇸 _US_美国, server: 104.19.38.62, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
+  - {name: 🇺🇸 公测|美国 01 1x, server: baobaojichang.bbjc.xyz, port: 80, type: vmess, uuid: c3572b9c-db66-4656-91b2-853750a422ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: meiguo.mojc.xyz}}}
+  - {name: 🇺🇸 _US_美国 2, server: www.speedtest.net, port: 80, type: vmess, uuid: 1e99893d-8046-4825-9d28-f6de91147337, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: De2.vmess.site.}}}
+  - {name: SCP2, server: www.smcacre.gov, port: 443, type: vmess, uuid: 3cc8e2d2-e4a4-4d87-c16c-a8fc70296a7b, alterId: 0, cipher: auto, tls: true, servername: www.smcacre.gov, network: ws, ws-opts: {path: /3cc8e2d2, headers: {Host: lajihuawei.com}}}
+  - {name: 🇨🇳 江苏省徐州市 移动, server: 223.113.54.154, port: 23621, type: trojan, password: gkviEOYc, skip-cert-verify: true}
+  - {name: 🇺🇸 公益|美国2, server: sx2.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxus1.suixincloud.top}}}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22193.25.215.160%22%7D"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇷🇺 _RU_俄罗斯联邦
-      - 🇯🇵 日本三网优化-V6
-      - 🇺🇸 美国|@ripaojiedian
-      - 54.199.83.239:2333
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国
-      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇩🇪 公益|德国1
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇰🇷 公测|韩国 03 1x
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 54.251.168.143:443
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇩🇪 公益|德国3
-      - 🇫🇷 法国 OVH
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - ""
-      - 🇺🇸 美国 Amazon EC2服务器 2
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇵🇱 _PL_波兰
+      - 🇯🇵 公测|日本 03 1x
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 公测|美国 02 1x
+      - 🇺🇸 公测|美国 05 1x
+      - 🇺🇸 _US_美国
+      - 🇺🇸 公测|美国 01 1x
+      - 🇺🇸 _US_美国 2
+      - SCP2
+      - 🇨🇳 江苏省徐州市 移动
+      - 🇺🇸 公益|美国2
+      - 🇺🇸 美国3|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇷🇺 _RU_俄罗斯联邦
-      - 🇯🇵 日本三网优化-V6
-      - 🇺🇸 美国|@ripaojiedian
-      - 54.199.83.239:2333
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国
-      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇩🇪 公益|德国1
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇰🇷 公测|韩国 03 1x
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 54.251.168.143:443
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇩🇪 公益|德国3
-      - 🇫🇷 法国 OVH
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - ""
-      - 🇺🇸 美国 Amazon EC2服务器 2
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇵🇱 _PL_波兰
+      - 🇯🇵 公测|日本 03 1x
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 公测|美国 02 1x
+      - 🇺🇸 公测|美国 05 1x
+      - 🇺🇸 _US_美国
+      - 🇺🇸 公测|美国 01 1x
+      - 🇺🇸 _US_美国 2
+      - SCP2
+      - 🇨🇳 江苏省徐州市 移动
+      - 🇺🇸 公益|美国2
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇷🇺 _RU_俄罗斯联邦
-      - 🇯🇵 日本三网优化-V6
-      - 🇺🇸 美国|@ripaojiedian
-      - 54.199.83.239:2333
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国
-      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇩🇪 公益|德国1
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇰🇷 公测|韩国 03 1x
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 54.251.168.143:443
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇩🇪 公益|德国3
-      - 🇫🇷 法国 OVH
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - ""
-      - 🇺🇸 美国 Amazon EC2服务器 2
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇵🇱 _PL_波兰
+      - 🇯🇵 公测|日本 03 1x
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 公测|美国 02 1x
+      - 🇺🇸 公测|美国 05 1x
+      - 🇺🇸 _US_美国
+      - 🇺🇸 公测|美国 01 1x
+      - 🇺🇸 _US_美国 2
+      - SCP2
+      - 🇨🇳 江苏省徐州市 移动
+      - 🇺🇸 公益|美国2
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇷🇺 _RU_俄罗斯联邦
-      - 🇯🇵 日本三网优化-V6
-      - 🇺🇸 美国|@ripaojiedian
-      - 54.199.83.239:2333
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国
-      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇩🇪 公益|德国1
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇰🇷 公测|韩国 03 1x
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 54.251.168.143:443
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇩🇪 公益|德国3
-      - 🇫🇷 法国 OVH
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - ""
-      - 🇺🇸 美国 Amazon EC2服务器 2
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇵🇱 _PL_波兰
+      - 🇯🇵 公测|日本 03 1x
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 公测|美国 02 1x
+      - 🇺🇸 公测|美国 05 1x
+      - 🇺🇸 _US_美国
+      - 🇺🇸 公测|美国 01 1x
+      - 🇺🇸 _US_美国 2
+      - SCP2
+      - 🇨🇳 江苏省徐州市 移动
+      - 🇺🇸 公益|美国2
+      - 🇺🇸 美国3|@ripaojiedian
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇷🇺 _RU_俄罗斯联邦
-      - 🇯🇵 日本三网优化-V6
-      - 🇺🇸 美国|@ripaojiedian
-      - 54.199.83.239:2333
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国
-      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇩🇪 公益|德国1
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇰🇷 公测|韩国 03 1x
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 54.251.168.143:443
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇩🇪 公益|德国3
-      - 🇫🇷 法国 OVH
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - ""
-      - 🇺🇸 美国 Amazon EC2服务器 2
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇵🇱 _PL_波兰
+      - 🇯🇵 公测|日本 03 1x
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 公测|美国 02 1x
+      - 🇺🇸 公测|美国 05 1x
+      - 🇺🇸 _US_美国
+      - 🇺🇸 公测|美国 01 1x
+      - 🇺🇸 _US_美国 2
+      - SCP2
+      - 🇨🇳 江苏省徐州市 移动
+      - 🇺🇸 公益|美国2
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇷🇺 _RU_俄罗斯联邦
-      - 🇯🇵 日本三网优化-V6
-      - 🇺🇸 美国|@ripaojiedian
-      - 54.199.83.239:2333
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国
-      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇩🇪 公益|德国1
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇰🇷 公测|韩国 03 1x
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 54.251.168.143:443
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇩🇪 公益|德国3
-      - 🇫🇷 法国 OVH
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - ""
-      - 🇺🇸 美国 Amazon EC2服务器 2
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇵🇱 _PL_波兰
+      - 🇯🇵 公测|日本 03 1x
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 公测|美国 02 1x
+      - 🇺🇸 公测|美国 05 1x
+      - 🇺🇸 _US_美国
+      - 🇺🇸 公测|美国 01 1x
+      - 🇺🇸 _US_美国 2
+      - SCP2
+      - 🇨🇳 江苏省徐州市 移动
+      - 🇺🇸 公益|美国2
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -200,26 +207,27 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇷🇺 _RU_俄罗斯联邦
-      - 🇯🇵 日本三网优化-V6
-      - 🇺🇸 美国|@ripaojiedian
-      - 54.199.83.239:2333
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国
-      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇩🇪 公益|德国1
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇰🇷 公测|韩国 03 1x
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 54.251.168.143:443
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇩🇪 公益|德国3
-      - 🇫🇷 法国 OVH
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - ""
-      - 🇺🇸 美国 Amazon EC2服务器 2
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇵🇱 _PL_波兰
+      - 🇯🇵 公测|日本 03 1x
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 公测|美国 02 1x
+      - 🇺🇸 公测|美国 05 1x
+      - 🇺🇸 _US_美国
+      - 🇺🇸 公测|美国 01 1x
+      - 🇺🇸 _US_美国 2
+      - SCP2
+      - 🇨🇳 江苏省徐州市 移动
+      - 🇺🇸 公益|美国2
+      - 🇺🇸 美国3|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

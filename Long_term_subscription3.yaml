@@ -5,214 +5,151 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "", server: 159.223.94.156, port: 80, type: vmess, uuid: 533724ad-58ef-4147-88dc-9da523c15fc4, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /anti13.zingfast.vn}}
-  - {name: 🇳🇱 公益|荷兰1, server: sx1.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxhl.suixincloud.top}}}
-  - {name: 🇨🇳 广东省 移动, server: 183.238.202.173, port: 54565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国, server: 104.16.148.244, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
-  - {name: 🇨🇳 广东省 移动 2, server: 183.240.235.162, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 公测|美国 02 1x, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: f12fdb99-29e3-46cc-96f5-392db4889792, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: meiguo.mojc.xyz}}}
-  - {name: 🇺🇸 北美地区 V2CROSS.COM, server: 23.157.40.10, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: plie.5hihwoqjshdnxjahweqsda.shanghaiyige.cyou, port: 1002, type: ss, cipher: aes-128-gcm, password: 93902842-fc34-40e9-901c-3b76299fd008}
-  - {name: 54.251.168.143:443, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 _US_美国 2, server: kz-v2ray.ipracevpn.com, port: 2083, type: vmess, uuid: f2623be1-b7b9-41d6-a3df-34c5338e3748, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇭🇰 公测|香港 03 1x, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
-  - {name: 🇯🇵 公测|日本 01 1x, server: baobaojichang.bbjc.xyz, port: 80, type: vmess, uuid: f12fdb99-29e3-46cc-96f5-392db4889792, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
-  - {name: 🇺🇸 公测|美国 05 1x, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: f12fdb99-29e3-46cc-96f5-392db4889792, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: meiguo.mojc.xyz}}}
-  - {name: 🇭🇰 公测|香港 01 1x, server: baobaojichang.bbjc.xyz, port: 80, type: vmess, uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: QRt0YX.gov.goldliond.top, port: 20183, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: gkviEOYc, skip-cert-verify: true}
-  - {name: 🇬🇧 United Kingdom 01 @nodpai, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws}}
-  - {name: 🇭🇰 公测|香港 03 1x 2, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: f12fdb99-29e3-46cc-96f5-392db4889792, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 38.121.43.248, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇩🇪 德国 黑森州法兰克福Amazon数据中心, server: 54.93.59.137, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
-  - {name: 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚, server: 3s522i.gov.goldliond.top, port: 20184, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 公测|美国 04 1x, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: f12fdb99-29e3-46cc-96f5-392db4889792, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: meiguo.mojc.xyz}}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: vXdh1v.gov.goldliond.top, port: 20183, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 广东省广州市 移动, server: 183.236.51.23, port: 54437, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: RmdXQRXg, skip-cert-verify: true}
+  - {name: 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦, server: 104.16.1.10, port: 443, type: trojan, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true}
+  - {name: 🇺🇸 _US_美国, server: russia.com, port: 2095, type: vmess, uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
+  - {name: 🇨🇦 _CA_加拿大, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws}}
   - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}}
+  - {name: 距离下次重置剩余：24 天, server: baobaojichang.bbjc.xyz, port: 80, type: vmess, uuid: f12fdb99-29e3-46cc-96f5-392db4889792, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
+  - {name: 54.251.168.143:443, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 公测|日本 01 1x, server: baobaojichang.bbjc.xyz, port: 80, type: vmess, uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 01 1x 2, server: baobaojichang.bbjc.xyz, port: 80, type: vmess, uuid: f12fdb99-29e3-46cc-96f5-392db4889792, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇺🇸 公测|美国 03 1x, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: meiguo.mojc.xyz}}}
+  - {name: 🇺🇸 United States 01 @nodpai, server: hytron.io, port: 8080, type: vmess, uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hytron.io}}}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 154.47.21.27, port: 8099, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
+  - {name: 54.199.83.239:2333, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
+  - {name: 🇺🇸 _US_美国 2, server: kz-v2ray.ipracevpn.com, port: 2083, type: vmess, uuid: 4f97bdbc-eaeb-4bf9-ad7f-faad44c6f6bb, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇺🇸 _US_美国 3, server: 23.157.40.10, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: wqfuinwqffq.dfcloud.xyz:30818, server: wqfuinwqffq.dfcloud.xyz, port: 30818, type: ss, cipher: chacha20-ietf-poly1305, password: 8e949d75-3510-4678-8593-3c5032dd931a}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ""
-      - 🇳🇱 公益|荷兰1
-      - 🇨🇳 广东省 移动
-      - 🇺🇸 _US_美国
-      - 🇨🇳 广东省 移动 2
-      - 🇺🇸 公测|美国 02 1x
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
-      - 54.251.168.143:443
-      - 🇺🇸 _US_美国 2
-      - 🇭🇰 公测|香港 03 1x
-      - 🇯🇵 公测|日本 01 1x
-      - 🇺🇸 公测|美国 05 1x
-      - 🇭🇰 公测|香港 01 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇯🇵 日本|@ripaojiedian
-      - 🇬🇧 United Kingdom 01 @nodpai
-      - 🇭🇰 公测|香港 03 1x 2
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
-      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚
-      - 🇺🇸 公测|美国 04 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸 _US_美国
+      - 🇨🇦 _CA_加拿大
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 距离下次重置剩余：24 天
+      - 54.251.168.143:443
+      - 🇯🇵 公测|日本 01 1x
+      - 🇯🇵 公测|日本 01 1x 2
+      - 🇺🇸 公测|美国 03 1x
+      - 🇺🇸 United States 01 @nodpai
+      - 🇺🇸 美国 V2CROSS.COM
+      - 54.199.83.239:2333
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
+      - wqfuinwqffq.dfcloud.xyz:30818
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ""
-      - 🇳🇱 公益|荷兰1
-      - 🇨🇳 广东省 移动
-      - 🇺🇸 _US_美国
-      - 🇨🇳 广东省 移动 2
-      - 🇺🇸 公测|美国 02 1x
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
-      - 54.251.168.143:443
-      - 🇺🇸 _US_美国 2
-      - 🇭🇰 公测|香港 03 1x
-      - 🇯🇵 公测|日本 01 1x
-      - 🇺🇸 公测|美国 05 1x
-      - 🇭🇰 公测|香港 01 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇯🇵 日本|@ripaojiedian
-      - 🇬🇧 United Kingdom 01 @nodpai
-      - 🇭🇰 公测|香港 03 1x 2
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
-      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚
-      - 🇺🇸 公测|美国 04 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸 _US_美国
+      - 🇨🇦 _CA_加拿大
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 距离下次重置剩余：24 天
+      - 54.251.168.143:443
+      - 🇯🇵 公测|日本 01 1x
+      - 🇯🇵 公测|日本 01 1x 2
+      - 🇺🇸 公测|美国 03 1x
+      - 🇺🇸 United States 01 @nodpai
+      - 🇺🇸 美国 V2CROSS.COM
+      - 54.199.83.239:2333
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
+      - wqfuinwqffq.dfcloud.xyz:30818
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ""
-      - 🇳🇱 公益|荷兰1
-      - 🇨🇳 广东省 移动
-      - 🇺🇸 _US_美国
-      - 🇨🇳 广东省 移动 2
-      - 🇺🇸 公测|美国 02 1x
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
-      - 54.251.168.143:443
-      - 🇺🇸 _US_美国 2
-      - 🇭🇰 公测|香港 03 1x
-      - 🇯🇵 公测|日本 01 1x
-      - 🇺🇸 公测|美国 05 1x
-      - 🇭🇰 公测|香港 01 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇯🇵 日本|@ripaojiedian
-      - 🇬🇧 United Kingdom 01 @nodpai
-      - 🇭🇰 公测|香港 03 1x 2
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
-      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚
-      - 🇺🇸 公测|美国 04 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸 _US_美国
+      - 🇨🇦 _CA_加拿大
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 距离下次重置剩余：24 天
+      - 54.251.168.143:443
+      - 🇯🇵 公测|日本 01 1x
+      - 🇯🇵 公测|日本 01 1x 2
+      - 🇺🇸 公测|美国 03 1x
+      - 🇺🇸 United States 01 @nodpai
+      - 🇺🇸 美国 V2CROSS.COM
+      - 54.199.83.239:2333
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
+      - wqfuinwqffq.dfcloud.xyz:30818
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ""
-      - 🇳🇱 公益|荷兰1
-      - 🇨🇳 广东省 移动
-      - 🇺🇸 _US_美国
-      - 🇨🇳 广东省 移动 2
-      - 🇺🇸 公测|美国 02 1x
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
-      - 54.251.168.143:443
-      - 🇺🇸 _US_美国 2
-      - 🇭🇰 公测|香港 03 1x
-      - 🇯🇵 公测|日本 01 1x
-      - 🇺🇸 公测|美国 05 1x
-      - 🇭🇰 公测|香港 01 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇯🇵 日本|@ripaojiedian
-      - 🇬🇧 United Kingdom 01 @nodpai
-      - 🇭🇰 公测|香港 03 1x 2
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
-      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚
-      - 🇺🇸 公测|美国 04 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸 _US_美国
+      - 🇨🇦 _CA_加拿大
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 距离下次重置剩余：24 天
+      - 54.251.168.143:443
+      - 🇯🇵 公测|日本 01 1x
+      - 🇯🇵 公测|日本 01 1x 2
+      - 🇺🇸 公测|美国 03 1x
+      - 🇺🇸 United States 01 @nodpai
+      - 🇺🇸 美国 V2CROSS.COM
+      - 54.199.83.239:2333
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
+      - wqfuinwqffq.dfcloud.xyz:30818
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ""
-      - 🇳🇱 公益|荷兰1
-      - 🇨🇳 广东省 移动
-      - 🇺🇸 _US_美国
-      - 🇨🇳 广东省 移动 2
-      - 🇺🇸 公测|美国 02 1x
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
-      - 54.251.168.143:443
-      - 🇺🇸 _US_美国 2
-      - 🇭🇰 公测|香港 03 1x
-      - 🇯🇵 公测|日本 01 1x
-      - 🇺🇸 公测|美国 05 1x
-      - 🇭🇰 公测|香港 01 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇯🇵 日本|@ripaojiedian
-      - 🇬🇧 United Kingdom 01 @nodpai
-      - 🇭🇰 公测|香港 03 1x 2
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
-      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚
-      - 🇺🇸 公测|美国 04 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸 _US_美国
+      - 🇨🇦 _CA_加拿大
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 距离下次重置剩余：24 天
+      - 54.251.168.143:443
+      - 🇯🇵 公测|日本 01 1x
+      - 🇯🇵 公测|日本 01 1x 2
+      - 🇺🇸 公测|美国 03 1x
+      - 🇺🇸 United States 01 @nodpai
+      - 🇺🇸 美国 V2CROSS.COM
+      - 54.199.83.239:2333
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
+      - wqfuinwqffq.dfcloud.xyz:30818
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ""
-      - 🇳🇱 公益|荷兰1
-      - 🇨🇳 广东省 移动
-      - 🇺🇸 _US_美国
-      - 🇨🇳 广东省 移动 2
-      - 🇺🇸 公测|美国 02 1x
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
-      - 54.251.168.143:443
-      - 🇺🇸 _US_美国 2
-      - 🇭🇰 公测|香港 03 1x
-      - 🇯🇵 公测|日本 01 1x
-      - 🇺🇸 公测|美国 05 1x
-      - 🇭🇰 公测|香港 01 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇯🇵 日本|@ripaojiedian
-      - 🇬🇧 United Kingdom 01 @nodpai
-      - 🇭🇰 公测|香港 03 1x 2
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
-      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚
-      - 🇺🇸 公测|美国 04 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸 _US_美国
+      - 🇨🇦 _CA_加拿大
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 距离下次重置剩余：24 天
+      - 54.251.168.143:443
+      - 🇯🇵 公测|日本 01 1x
+      - 🇯🇵 公测|日本 01 1x 2
+      - 🇺🇸 公测|美国 03 1x
+      - 🇺🇸 United States 01 @nodpai
+      - 🇺🇸 美国 V2CROSS.COM
+      - 54.199.83.239:2333
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
+      - wqfuinwqffq.dfcloud.xyz:30818
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -235,31 +172,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ""
-      - 🇳🇱 公益|荷兰1
-      - 🇨🇳 广东省 移动
-      - 🇺🇸 _US_美国
-      - 🇨🇳 广东省 移动 2
-      - 🇺🇸 公测|美国 02 1x
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
-      - 54.251.168.143:443
-      - 🇺🇸 _US_美国 2
-      - 🇭🇰 公测|香港 03 1x
-      - 🇯🇵 公测|日本 01 1x
-      - 🇺🇸 公测|美国 05 1x
-      - 🇭🇰 公测|香港 01 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇯🇵 日本|@ripaojiedian
-      - 🇬🇧 United Kingdom 01 @nodpai
-      - 🇭🇰 公测|香港 03 1x 2
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
-      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚
-      - 🇺🇸 公测|美国 04 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸 _US_美国
+      - 🇨🇦 _CA_加拿大
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 距离下次重置剩余：24 天
+      - 54.251.168.143:443
+      - 🇯🇵 公测|日本 01 1x
+      - 🇯🇵 公测|日本 01 1x 2
+      - 🇺🇸 公测|美国 03 1x
+      - 🇺🇸 United States 01 @nodpai
+      - 🇺🇸 美国 V2CROSS.COM
+      - 54.199.83.239:2333
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
+      - wqfuinwqffq.dfcloud.xyz:30818
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

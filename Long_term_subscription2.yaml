@@ -5,270 +5,242 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇩🇪 法兰克福-2-电信,移动", server: 144.24.160.11, port: 80, type: vmess, uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇸🇬 新加坡-6-三网, server: 13.213.11.214, port: 80, type: vmess, uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇺🇸 北美地区 V2CROSS.COM, server: 23.157.40.120, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: fec25e7b-3e30-4702-9b93-62ed3849a9d7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/6VBhAkCtV4/, headers: {Host: us1cPZiz8nb.fzbqfrse.xyz}}}
+  - {name: 🇮🇳 github.com/freefq - 印度  3, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sahand.serveminecraft.net}}}
+  - {name: 🇭🇰 香港解锁流媒体2, server: zy.02er.com, port: 37575, type: ss, cipher: chacha20-ietf-poly1305, password: 54103713-1bcb-457d-8856-1ba0a4b53d54}
+  - {name: 🇺🇸 United States 01 @nodpai, server: hytron.io, port: 8080, type: vmess, uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hytron.io}}}
+  - {name: 🇦🇺 澳大利亚1, server: sx1.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxadly.suixincloud.top}}}
+  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress, server: 107.148.20.12, port: 80, type: vmess, uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇺🇸 公益|美国2, server: sx2.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxus1.suixincloud.top}}}
-  - {name: 🇬🇧 _GB_英国, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇨🇦 _CA_加拿大, server: 23.162.200.133, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 公益|美国1, server: sx1.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxus1.suixincloud.top}}}
-  - {name: 🇮🇳 印度 V2CROSS.COM, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sahand.serveminecraft.net}}}
-  - {name: 🇯🇵 东京-1-移动>联通, server: 13.114.108.160, port: 80, type: vmess, uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇸🇬 新加坡-三网-3, server: 13.212.238.10, port: 80, type: vmess, uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇺🇸 美国-CDN节点, server: wawo-us-1.0mv.top, port: 443, type: vmess, uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: wawo-us-1.0mv.top}}}
-  - {name: 旧金山-2, server: dci-san-2.moshen.tech, port: 30502, type: vmess, uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇬🇧 伦敦-0.6x, server: dci-london.moshen.tech, port: 38652, type: vmess, uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇩🇪 _IR_伊朗->🇩🇪_DE_德国, server: 31.40.4.240, port: 36078, type: vmess, uuid: 6d1baeb4-7bc0-43a8-d48d-79394b3bed1e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 23.162.200.181, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray}}
-  - {name: 🇺🇸 _US_美国, server: 23.157.40.101, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇭🇰 8x-香港解锁-中转-2, server: p3.yadang888.top, port: 54923, type: ss, cipher: chacha20-ietf-poly1305, password: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca}
-  - {name: 🇬🇧 英国 伦敦Amazon数据中心, server: 3.8.216.223, port: 12215, type: trojan, password: mZ0IDwa6g9CU, sni: appsvs.shop}
-  - {name: 🇯🇵 东京-2, server: 18.183.184.199, port: 80, type: vmess, uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
+  - {name: 🇺🇸 _US_美国, server: 162.159.136.98, port: 80, type: vmess, uuid: f1b6bc05-40dd-4180-ca18-b05288fd33bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ccs2.hostmjj.com}}}
+  - {name: 🇭🇰 香港KT|@ripaojiedian, server: 172.67.114.125, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: a4.wagaga.online, path: "", tls: true, mux: true}}
+  - {name: 🇯🇵 日本2, server: zy.02er.com, port: 13125, type: ss, cipher: chacha20-ietf-poly1305, password: 54103713-1bcb-457d-8856-1ba0a4b53d54}
+  - {name: 🇨🇳 广东省广州市 移动, server: 120.232.153.71, port: 54965, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 2, server: 23.157.40.53, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点, server: 38.111.114.133, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
+  - {name: 🇨🇦 _CA_加拿大, server: 23.162.200.133, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 免费VPN，发现倒卖，欢迎举报, server: i1t.top, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 107187d8-9214-41dd-b48c-60bf9fb676d3}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: www.speedtest.net, port: 80, type: vmess, uuid: 0488fb85-2ae4-4777-9815-c771d7f13424, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 2d.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou.}}}
-  - {name: 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心, server: 18.219.66.112, port: 12221, type: trojan, password: 6HWnQPLN2SjA, sni: appsvs.shop}
-  - {name: 🇭🇰 香港-2-移动>电信>联通, server: 38.207.173.28, port: 80, type: vmess, uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇺🇸 美国CERA-1-三网, server: 23.224.239.225, port: 80, type: vmess, uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇯🇵 日本-三网-三倍, server: 20.41.73.75, port: 80, type: vmess, uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇰🇷 首尔-10-用前请测速, server: dci-seoul-10.caixukun.asia, port: 30952, type: trojan, password: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca, skip-cert-verify: false}
-  - {name: 🇭🇰 12x-香港V6-中转, server: nbcm01.qingqiu.buzz, port: 25911, type: ss, cipher: chacha20-ietf-poly1305, password: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca}
-  - {name: 🇺🇸 俄勒冈-1-三网, server: 52.88.222.78, port: 80, type: vmess, uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22193.25.215.160%22%7D"}}}
+  - {name: 🇨🇳 广东省广州市 移动 2, server: 120.232.153.27, port: 50582, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾2, server: zy.02er.com, port: 48451, type: ss, cipher: chacha20-ietf-poly1305, password: 54103713-1bcb-457d-8856-1ba0a4b53d54}
+  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 54.199.71.126, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 公益|美国1, server: sx1.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxus1.suixincloud.top}}}
+  - {name: 🇺🇸 美国4|@ripaojiedian, server: 223.113.54.154, port: 45365, type: trojan, password: RmdXQRXg, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 3.112.4.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇦🇺 澳大利亚2, server: sx1.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxadly.suixincloud.top}}}
   - {name: 🇳🇱 公益|荷兰1, server: sx1.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxhl.suixincloud.top}}}
-  - {name: 🇦🇪 迪拜-1-0.6x, server: dci-dibai-2.moshen.tech, port: 58452, type: vmess, uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca, alterId: 0, cipher: auto, tls: true}
-  - {name: "", server: 159.223.94.156, port: 80, type: vmess, uuid: 533724ad-58ef-4147-88dc-9da523c15fc4, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /anti13.zingfast.vn}}
-  - {name: 🇻🇳 越南R|@ripaojiedian, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
+  - {name: 🇮🇪 爱尔兰 V2CROSS.COM, server: 13.79.72.88, port: 21190, type: ss, cipher: chacha20-ietf-poly1305, password: yoOT6tXP5LdMyyU5IQDcGn}
+  - {name: 🇯🇵 日本, server: zy.02er.com, port: 20168, type: ss, cipher: chacha20-ietf-poly1305, password: 54103713-1bcb-457d-8856-1ba0a4b53d54}
+  - {name: 🇯🇵 日本东京 Amazon数据中心, server: 52.197.6.87, port: 12383, type: trojan, password: 8Y6hvqYhBr5u, sni: appsvs.shop}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22193.25.215.160%22%7D"}}}
+  - {name: 🇨🇳 github.com/freefq - 广东省江门市移动 11, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇩🇪 法兰克福-2-电信,移动
-      - 🇸🇬 新加坡-6-三网
-      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇭🇰 香港解锁流媒体2
+      - 🇺🇸 United States 01 @nodpai
+      - 🇦🇺 澳大利亚1
+      - 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress
       - 🇺🇸 公益|美国2
-      - 🇬🇧 _GB_英国
-      - 🇨🇦 _CA_加拿大
-      - 🇺🇸 公益|美国1
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇯🇵 东京-1-移动>联通
-      - 🇸🇬 新加坡-三网-3
-      - 🇺🇸 美国-CDN节点
-      - 旧金山-2
-      - 🇬🇧 伦敦-0.6x
-      - 🇩🇪 _IR_伊朗->🇩🇪_DE_德国
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇸 _US_美国
-      - 🇭🇰 8x-香港解锁-中转-2
-      - 🇬🇧 英国 伦敦Amazon数据中心
-      - 🇯🇵 东京-2
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇯🇵 日本2
+      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 _US_美国 2
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇨🇦 _CA_加拿大
       - 免费VPN，发现倒卖，欢迎举报
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
-      - 🇭🇰 香港-2-移动>电信>联通
-      - 🇺🇸 美国CERA-1-三网
-      - 🇯🇵 日本-三网-三倍
-      - 🇰🇷 首尔-10-用前请测速
-      - 🇭🇰 12x-香港V6-中转
-      - 🇺🇸 俄勒冈-1-三网
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇺🇸 公益|美国1
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇦🇺 澳大利亚2
       - 🇳🇱 公益|荷兰1
-      - 🇦🇪 迪拜-1-0.6x
-      - ""
-      - 🇻🇳 越南R|@ripaojiedian
+      - 🇮🇪 爱尔兰 V2CROSS.COM
+      - 🇯🇵 日本
+      - 🇯🇵 日本东京 Amazon数据中心
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇩🇪 法兰克福-2-电信,移动
-      - 🇸🇬 新加坡-6-三网
-      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇭🇰 香港解锁流媒体2
+      - 🇺🇸 United States 01 @nodpai
+      - 🇦🇺 澳大利亚1
+      - 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress
       - 🇺🇸 公益|美国2
-      - 🇬🇧 _GB_英国
-      - 🇨🇦 _CA_加拿大
-      - 🇺🇸 公益|美国1
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇯🇵 东京-1-移动>联通
-      - 🇸🇬 新加坡-三网-3
-      - 🇺🇸 美国-CDN节点
-      - 旧金山-2
-      - 🇬🇧 伦敦-0.6x
-      - 🇩🇪 _IR_伊朗->🇩🇪_DE_德国
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇸 _US_美国
-      - 🇭🇰 8x-香港解锁-中转-2
-      - 🇬🇧 英国 伦敦Amazon数据中心
-      - 🇯🇵 东京-2
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇯🇵 日本2
+      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 _US_美国 2
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇨🇦 _CA_加拿大
       - 免费VPN，发现倒卖，欢迎举报
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
-      - 🇭🇰 香港-2-移动>电信>联通
-      - 🇺🇸 美国CERA-1-三网
-      - 🇯🇵 日本-三网-三倍
-      - 🇰🇷 首尔-10-用前请测速
-      - 🇭🇰 12x-香港V6-中转
-      - 🇺🇸 俄勒冈-1-三网
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇺🇸 公益|美国1
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇦🇺 澳大利亚2
       - 🇳🇱 公益|荷兰1
-      - 🇦🇪 迪拜-1-0.6x
-      - ""
-      - 🇻🇳 越南R|@ripaojiedian
+      - 🇮🇪 爱尔兰 V2CROSS.COM
+      - 🇯🇵 日本
+      - 🇯🇵 日本东京 Amazon数据中心
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪 法兰克福-2-电信,移动
-      - 🇸🇬 新加坡-6-三网
-      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇭🇰 香港解锁流媒体2
+      - 🇺🇸 United States 01 @nodpai
+      - 🇦🇺 澳大利亚1
+      - 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress
       - 🇺🇸 公益|美国2
-      - 🇬🇧 _GB_英国
-      - 🇨🇦 _CA_加拿大
-      - 🇺🇸 公益|美国1
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇯🇵 东京-1-移动>联通
-      - 🇸🇬 新加坡-三网-3
-      - 🇺🇸 美国-CDN节点
-      - 旧金山-2
-      - 🇬🇧 伦敦-0.6x
-      - 🇩🇪 _IR_伊朗->🇩🇪_DE_德国
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇸 _US_美国
-      - 🇭🇰 8x-香港解锁-中转-2
-      - 🇬🇧 英国 伦敦Amazon数据中心
-      - 🇯🇵 东京-2
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇯🇵 日本2
+      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 _US_美国 2
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇨🇦 _CA_加拿大
       - 免费VPN，发现倒卖，欢迎举报
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
-      - 🇭🇰 香港-2-移动>电信>联通
-      - 🇺🇸 美国CERA-1-三网
-      - 🇯🇵 日本-三网-三倍
-      - 🇰🇷 首尔-10-用前请测速
-      - 🇭🇰 12x-香港V6-中转
-      - 🇺🇸 俄勒冈-1-三网
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇺🇸 公益|美国1
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇦🇺 澳大利亚2
       - 🇳🇱 公益|荷兰1
-      - 🇦🇪 迪拜-1-0.6x
-      - ""
-      - 🇻🇳 越南R|@ripaojiedian
+      - 🇮🇪 爱尔兰 V2CROSS.COM
+      - 🇯🇵 日本
+      - 🇯🇵 日本东京 Amazon数据中心
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪 法兰克福-2-电信,移动
-      - 🇸🇬 新加坡-6-三网
-      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇭🇰 香港解锁流媒体2
+      - 🇺🇸 United States 01 @nodpai
+      - 🇦🇺 澳大利亚1
+      - 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress
       - 🇺🇸 公益|美国2
-      - 🇬🇧 _GB_英国
-      - 🇨🇦 _CA_加拿大
-      - 🇺🇸 公益|美国1
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇯🇵 东京-1-移动>联通
-      - 🇸🇬 新加坡-三网-3
-      - 🇺🇸 美国-CDN节点
-      - 旧金山-2
-      - 🇬🇧 伦敦-0.6x
-      - 🇩🇪 _IR_伊朗->🇩🇪_DE_德国
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇸 _US_美国
-      - 🇭🇰 8x-香港解锁-中转-2
-      - 🇬🇧 英国 伦敦Amazon数据中心
-      - 🇯🇵 东京-2
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇯🇵 日本2
+      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 _US_美国 2
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇨🇦 _CA_加拿大
       - 免费VPN，发现倒卖，欢迎举报
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
-      - 🇭🇰 香港-2-移动>电信>联通
-      - 🇺🇸 美国CERA-1-三网
-      - 🇯🇵 日本-三网-三倍
-      - 🇰🇷 首尔-10-用前请测速
-      - 🇭🇰 12x-香港V6-中转
-      - 🇺🇸 俄勒冈-1-三网
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇺🇸 公益|美国1
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇦🇺 澳大利亚2
       - 🇳🇱 公益|荷兰1
-      - 🇦🇪 迪拜-1-0.6x
-      - ""
-      - 🇻🇳 越南R|@ripaojiedian
+      - 🇮🇪 爱尔兰 V2CROSS.COM
+      - 🇯🇵 日本
+      - 🇯🇵 日本东京 Amazon数据中心
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇩🇪 法兰克福-2-电信,移动
-      - 🇸🇬 新加坡-6-三网
-      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇭🇰 香港解锁流媒体2
+      - 🇺🇸 United States 01 @nodpai
+      - 🇦🇺 澳大利亚1
+      - 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress
       - 🇺🇸 公益|美国2
-      - 🇬🇧 _GB_英国
-      - 🇨🇦 _CA_加拿大
-      - 🇺🇸 公益|美国1
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇯🇵 东京-1-移动>联通
-      - 🇸🇬 新加坡-三网-3
-      - 🇺🇸 美国-CDN节点
-      - 旧金山-2
-      - 🇬🇧 伦敦-0.6x
-      - 🇩🇪 _IR_伊朗->🇩🇪_DE_德国
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇸 _US_美国
-      - 🇭🇰 8x-香港解锁-中转-2
-      - 🇬🇧 英国 伦敦Amazon数据中心
-      - 🇯🇵 东京-2
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇯🇵 日本2
+      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 _US_美国 2
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇨🇦 _CA_加拿大
       - 免费VPN，发现倒卖，欢迎举报
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
-      - 🇭🇰 香港-2-移动>电信>联通
-      - 🇺🇸 美国CERA-1-三网
-      - 🇯🇵 日本-三网-三倍
-      - 🇰🇷 首尔-10-用前请测速
-      - 🇭🇰 12x-香港V6-中转
-      - 🇺🇸 俄勒冈-1-三网
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇺🇸 公益|美国1
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇦🇺 澳大利亚2
       - 🇳🇱 公益|荷兰1
-      - 🇦🇪 迪拜-1-0.6x
-      - ""
-      - 🇻🇳 越南R|@ripaojiedian
+      - 🇮🇪 爱尔兰 V2CROSS.COM
+      - 🇯🇵 日本
+      - 🇯🇵 日本东京 Amazon数据中心
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪 法兰克福-2-电信,移动
-      - 🇸🇬 新加坡-6-三网
-      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇭🇰 香港解锁流媒体2
+      - 🇺🇸 United States 01 @nodpai
+      - 🇦🇺 澳大利亚1
+      - 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress
       - 🇺🇸 公益|美国2
-      - 🇬🇧 _GB_英国
-      - 🇨🇦 _CA_加拿大
-      - 🇺🇸 公益|美国1
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇯🇵 东京-1-移动>联通
-      - 🇸🇬 新加坡-三网-3
-      - 🇺🇸 美国-CDN节点
-      - 旧金山-2
-      - 🇬🇧 伦敦-0.6x
-      - 🇩🇪 _IR_伊朗->🇩🇪_DE_德国
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇸 _US_美国
-      - 🇭🇰 8x-香港解锁-中转-2
-      - 🇬🇧 英国 伦敦Amazon数据中心
-      - 🇯🇵 东京-2
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇯🇵 日本2
+      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 _US_美国 2
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇨🇦 _CA_加拿大
       - 免费VPN，发现倒卖，欢迎举报
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
-      - 🇭🇰 香港-2-移动>电信>联通
-      - 🇺🇸 美国CERA-1-三网
-      - 🇯🇵 日本-三网-三倍
-      - 🇰🇷 首尔-10-用前请测速
-      - 🇭🇰 12x-香港V6-中转
-      - 🇺🇸 俄勒冈-1-三网
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇺🇸 公益|美国1
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇦🇺 澳大利亚2
       - 🇳🇱 公益|荷兰1
-      - 🇦🇪 迪拜-1-0.6x
-      - ""
-      - 🇻🇳 越南R|@ripaojiedian
+      - 🇮🇪 爱尔兰 V2CROSS.COM
+      - 🇯🇵 日本
+      - 🇯🇵 日本东京 Amazon数据中心
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -291,39 +263,35 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪 法兰克福-2-电信,移动
-      - 🇸🇬 新加坡-6-三网
-      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇭🇰 香港解锁流媒体2
+      - 🇺🇸 United States 01 @nodpai
+      - 🇦🇺 澳大利亚1
+      - 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress
       - 🇺🇸 公益|美国2
-      - 🇬🇧 _GB_英国
-      - 🇨🇦 _CA_加拿大
-      - 🇺🇸 公益|美国1
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇯🇵 东京-1-移动>联通
-      - 🇸🇬 新加坡-三网-3
-      - 🇺🇸 美国-CDN节点
-      - 旧金山-2
-      - 🇬🇧 伦敦-0.6x
-      - 🇩🇪 _IR_伊朗->🇩🇪_DE_德国
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇸 _US_美国
-      - 🇭🇰 8x-香港解锁-中转-2
-      - 🇬🇧 英国 伦敦Amazon数据中心
-      - 🇯🇵 东京-2
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇯🇵 日本2
+      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 _US_美国 2
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇨🇦 _CA_加拿大
       - 免费VPN，发现倒卖，欢迎举报
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
-      - 🇭🇰 香港-2-移动>电信>联通
-      - 🇺🇸 美国CERA-1-三网
-      - 🇯🇵 日本-三网-三倍
-      - 🇰🇷 首尔-10-用前请测速
-      - 🇭🇰 12x-香港V6-中转
-      - 🇺🇸 俄勒冈-1-三网
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇺🇸 公益|美国1
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇦🇺 澳大利亚2
       - 🇳🇱 公益|荷兰1
-      - 🇦🇪 迪拜-1-0.6x
-      - ""
-      - 🇻🇳 越南R|@ripaojiedian
+      - 🇮🇪 爱尔兰 V2CROSS.COM
+      - 🇯🇵 日本
+      - 🇯🇵 日本东京 Amazon数据中心
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

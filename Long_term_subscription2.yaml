@@ -5,249 +5,221 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 vip1 韩国-02, server: f10002.flyflylflyflysbs.sbs, port: 14374, type: trojan, password: e52fbffa-ac7a-44f7-9894-f8a1a5346bae, sni: sk01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 vip1 美国-07, server: fly0001.flyflylflyflysbs.sbs, port: 10519, type: trojan, password: e52fbffa-ac7a-44f7-9894-f8a1a5346bae, sni: us03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 29935, type: vmess, uuid: e52fbffa-ac7a-44f7-9894-f8a1a5346bae, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇨🇳 广东省广州市 移动, server: 120.232.153.27, port: 34002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _RU_俄罗斯->🇺🇸_US_美国, server: 46.29.166.237, port: 47555, type: vmess, uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 vip1 美国-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 10682, type: vmess, uuid: e52fbffa-ac7a-44f7-9894-f8a1a5346bae, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 13.213.46.196:443, server: 13.213.46.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心, server: 3.83.152.204, port: 13362, type: trojan, password: QzOIhznxowO8, sni: appsvs.shop}
-  - {name: 🇺🇸 公益|美国2, server: sx2.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxus1.suixincloud.top}}}
-  - {name: _CN_中国, server: 183.236.51.23, port: 54100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.19.46.103, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cdn1.freegradely.xyz}}}
-  - {name: 🇭🇰 vip1 香港-06 测试, server: fly0001.flyflylflyflysbs.sbs, port: 34090, type: vmess, uuid: e52fbffa-ac7a-44f7-9894-f8a1a5346bae, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇫🇷 法国 OVH机房SAS硬盘BGP主机, server: 149.202.82.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇮🇳 vip1 印度-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 44231, type: vmess, uuid: e52fbffa-ac7a-44f7-9894-f8a1a5346bae, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: US4, server: www.visa.com.hk, port: 8080, type: vmess, uuid: 18625ce5-1387-4fc9-b9e4-8d027e212a93, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cs.tashancloud.link}}}
-  - {name: 🇺🇸 美国 Amazon EC2服务器, server: 3.71.43.86, port: 13364, type: trojan, password: 3m9BoMkj3kgG, sni: appsvs.shop}
-  - {name: 未知, server: 103.172.116.79, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga}
-  - {name: 🇮🇳 vip1 印度-02, server: fly0001.flyflylflyflysbs.sbs, port: 45852, type: trojan, password: e52fbffa-ac7a-44f7-9894-f8a1a5346bae, sni: id01.ckcloud.info, skip-cert-verify: true}
-  - {name: US2, server: proxyip.us.fxxk.dedyn.io, port: 8080, type: vmess, uuid: 18625ce5-1387-4fc9-b9e4-8d027e212a93, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cs.tashancloud.link}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.19.47.186, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 13.212.117.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 vip1 新加坡-02, server: fly0001.flyflylflyflysbs.sbs, port: 21526, type: trojan, password: e52fbffa-ac7a-44f7-9894-f8a1a5346bae, sni: sg02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇦🇺 澳大利亚1, server: sx1.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxadly.suixincloud.top}}}
-  - {name: 🇨🇳 github.com/freefq - 广东省江门市移动 12, server: service.ouluyun9803.com, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
-  - {name: 🇯🇵 vip1 日本-06 测试, server: fly0001.flyflylflyflysbs.sbs, port: 16123, type: vmess, uuid: e52fbffa-ac7a-44f7-9894-f8a1a5346bae, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 未知 2, server: 103.172.116.79, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL}
-  - {name: "", server: aaaa.wxx.gay, port: 443, type: vmess, uuid: 8237ec34-143a-11ee-8019-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
-  - {name: 🇺🇸 美国 Xerox, server: sg08.421421.xyz, port: 20230, type: trojan, password: 0f408453-2589-4fc2-bf9d-22e0cef8b8d2, sni: 421421.xyz}
-  - {name: 🇺🇸 美国4|@ripaojiedian, server: 223.113.54.154, port: 20344, type: trojan, password: RmdXQRXg, skip-cert-verify: true}
-  - {name: 🇬🇧 vip1 英国-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 56394, type: vmess, uuid: e52fbffa-ac7a-44f7-9894-f8a1a5346bae, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 未知, server: 103.172.116.79, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8}
+  - {name: 🇨🇳 vip1 台湾-06 测试, server: fly0001.flyflylflyflysbs.sbs, port: 38120, type: vmess, uuid: 443e519a-226e-408c-b5ae-254419f4f48b, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇯🇵 vip1 日本-02, server: fly0001.flyflylflyflysbs.sbs, port: 20356, type: trojan, password: 443e519a-226e-408c-b5ae-254419f4f48b, sni: jp01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇰🇷 vip1 韩国-01, server: fly0001.flyflylflyflysbs.sbs, port: 14374, type: trojan, password: 443e519a-226e-408c-b5ae-254419f4f48b, sni: sk01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇩🇪 vip1 德国-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 26503, type: vmess, uuid: 443e519a-226e-408c-b5ae-254419f4f48b, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇮🇳 github.com/freefq - 印度  10, server: 202.78.162.5, port: 443, type: vmess, uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pendar.onthewifi.com}}}
+  - {name: 🇺🇸 vip1 美国-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 10682, type: vmess, uuid: 443e519a-226e-408c-b5ae-254419f4f48b, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇺🇸 vip1 美国-06 测试, server: fly0001.flyflylflyflysbs.sbs, port: 46675, type: vmess, uuid: 443e519a-226e-408c-b5ae-254419f4f48b, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 23.162.200.133, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇮🇳 github.com/freefq - 印度  2, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}}
+  - {name: 🇭🇰 vip1 香港-16, server: fly0001.flyflylflyflysbs.sbs, port: 22704, type: trojan, password: 443e519a-226e-408c-b5ae-254419f4f48b, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 麻省理工学院, server: 18.118.139.64, port: 14029, type: trojan, password: 647AVwbBah9f, sni: appsvs.shop}
+  - {name: 🇮🇪 爱尔兰 都柏林Amazon数据中心, server: 34.248.104.227, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
+  - {name: 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心, server: 3.229.127.112, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: 🇯🇵 vip1 日本-06, server: fly0001.flyflylflyflysbs.sbs, port: 37581, type: trojan, password: 443e519a-226e-408c-b5ae-254419f4f48b, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22193.25.215.160%22%7D"}}}
+  - {name: 🇺🇸 _US_美国, server: 172.67.176.206, port: 2053, type: trojan, password: ZJU29smXwp, sni: damn-mci-again-3.danesh-bonyan.Store, network: ws, ws-opts: {path: "", headers: {Host: damn-mci-again-3.danesh-bonyan.Store}}}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 195.88.25.214, port: 1026, type: ss, cipher: chacha20-ietf-poly1305, password: 56INZqMWGt0o8Rv4}
+  - {name: 🇰🇷 韩国 V2CROSS.COM, server: 116.47.10.236, port: 27335, type: trojan, password: moist, sni: trojan.freenods.sbs, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: trojan.freenods.sbs}}}
+  - {name: 🇭🇰 vip1 香港-16 测试, server: fly0001.flyflylflyflysbs.sbs, port: 62690, type: vmess, uuid: 443e519a-226e-408c-b5ae-254419f4f48b, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇺🇸 vip1 美国-13, server: f10002.flyflylflyflysbs.sbs, port: 28625, type: trojan, password: 443e519a-226e-408c-b5ae-254419f4f48b, sni: us04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-06 测试, server: fly0001.flyflylflyflysbs.sbs, port: 43445, type: vmess, uuid: 443e519a-226e-408c-b5ae-254419f4f48b, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇭🇰 vip1 香港-02, server: fly0001.flyflylflyflysbs.sbs, port: 15976, type: trojan, password: 443e519a-226e-408c-b5ae-254419f4f48b, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇻🇳 vip1 越南-02, server: fly0001.flyflylflyflysbs.sbs, port: 54295, type: trojan, password: 443e519a-226e-408c-b5ae-254419f4f48b, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.19.48.0, port: 8443, type: vmess, uuid: 39135a39-e6ca-43df-a360-d859eea58d86, alterId: 0, cipher: auto, tls: true, servername: hk01.linkitnow.net, network: ws, ws-opts: {path: /, headers: {Host: hk01.linkitnow.net}}}
+  - {name: 🇺🇸 _US_美国 2, server: 38.99.82.85, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: ̈́m͒ߍM֡Tyۙҫ1͛P̎}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇰🇷 vip1 韩国-02
-      - 🇺🇸 vip1 美国-07
-      - 🇨🇳 vip1 台湾-01 测试
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 _RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸 vip1 美国-01 测试
-      - 13.213.46.196:443
-      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
-      - 🇺🇸 公益|美国2
-      - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 vip1 香港-06 测试
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇮🇳 vip1 印度-01 测试
-      - US4
-      - 🇺🇸 美国 Amazon EC2服务器
       - 未知
-      - 🇮🇳 vip1 印度-02
-      - US2
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 vip1 新加坡-02
-      - 🇦🇺 澳大利亚1
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
-      - 🇯🇵 vip1 日本-06 测试
-      - 未知 2
-      - ""
-      - 🇺🇸 美国 Xerox
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇬🇧 vip1 英国-01 测试
+      - 🇨🇳 vip1 台湾-06 测试
+      - 🇯🇵 vip1 日本-02
+      - 🇰🇷 vip1 韩国-01
+      - 🇩🇪 vip1 德国-01 测试
+      - 🇮🇳 github.com/freefq - 印度  10
+      - 🇺🇸 vip1 美国-01 测试
+      - 🇺🇸 vip1 美国-06 测试
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇭🇰 vip1 香港-16
+      - 🇺🇸 美国 麻省理工学院
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
+      - 🇯🇵 vip1 日本-06
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇰🇷 韩国 V2CROSS.COM
+      - 🇭🇰 vip1 香港-16 测试
+      - 🇺🇸 vip1 美国-13
+      - 🇸🇬 vip1 新加坡-06 测试
+      - 🇭🇰 vip1 香港-02
+      - 🇻🇳 vip1 越南-02
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 _US_美国 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 vip1 韩国-02
-      - 🇺🇸 vip1 美国-07
-      - 🇨🇳 vip1 台湾-01 测试
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 _RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸 vip1 美国-01 测试
-      - 13.213.46.196:443
-      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
-      - 🇺🇸 公益|美国2
-      - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 vip1 香港-06 测试
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇮🇳 vip1 印度-01 测试
-      - US4
-      - 🇺🇸 美国 Amazon EC2服务器
       - 未知
-      - 🇮🇳 vip1 印度-02
-      - US2
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 vip1 新加坡-02
-      - 🇦🇺 澳大利亚1
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
-      - 🇯🇵 vip1 日本-06 测试
-      - 未知 2
-      - ""
-      - 🇺🇸 美国 Xerox
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇬🇧 vip1 英国-01 测试
+      - 🇨🇳 vip1 台湾-06 测试
+      - 🇯🇵 vip1 日本-02
+      - 🇰🇷 vip1 韩国-01
+      - 🇩🇪 vip1 德国-01 测试
+      - 🇮🇳 github.com/freefq - 印度  10
+      - 🇺🇸 vip1 美国-01 测试
+      - 🇺🇸 vip1 美国-06 测试
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇭🇰 vip1 香港-16
+      - 🇺🇸 美国 麻省理工学院
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
+      - 🇯🇵 vip1 日本-06
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇰🇷 韩国 V2CROSS.COM
+      - 🇭🇰 vip1 香港-16 测试
+      - 🇺🇸 vip1 美国-13
+      - 🇸🇬 vip1 新加坡-06 测试
+      - 🇭🇰 vip1 香港-02
+      - 🇻🇳 vip1 越南-02
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 _US_美国 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 vip1 韩国-02
-      - 🇺🇸 vip1 美国-07
-      - 🇨🇳 vip1 台湾-01 测试
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 _RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸 vip1 美国-01 测试
-      - 13.213.46.196:443
-      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
-      - 🇺🇸 公益|美国2
-      - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 vip1 香港-06 测试
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇮🇳 vip1 印度-01 测试
-      - US4
-      - 🇺🇸 美国 Amazon EC2服务器
       - 未知
-      - 🇮🇳 vip1 印度-02
-      - US2
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 vip1 新加坡-02
-      - 🇦🇺 澳大利亚1
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
-      - 🇯🇵 vip1 日本-06 测试
-      - 未知 2
-      - ""
-      - 🇺🇸 美国 Xerox
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇬🇧 vip1 英国-01 测试
+      - 🇨🇳 vip1 台湾-06 测试
+      - 🇯🇵 vip1 日本-02
+      - 🇰🇷 vip1 韩国-01
+      - 🇩🇪 vip1 德国-01 测试
+      - 🇮🇳 github.com/freefq - 印度  10
+      - 🇺🇸 vip1 美国-01 测试
+      - 🇺🇸 vip1 美国-06 测试
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇭🇰 vip1 香港-16
+      - 🇺🇸 美国 麻省理工学院
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
+      - 🇯🇵 vip1 日本-06
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇰🇷 韩国 V2CROSS.COM
+      - 🇭🇰 vip1 香港-16 测试
+      - 🇺🇸 vip1 美国-13
+      - 🇸🇬 vip1 新加坡-06 测试
+      - 🇭🇰 vip1 香港-02
+      - 🇻🇳 vip1 越南-02
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 _US_美国 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷 vip1 韩国-02
-      - 🇺🇸 vip1 美国-07
-      - 🇨🇳 vip1 台湾-01 测试
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 _RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸 vip1 美国-01 测试
-      - 13.213.46.196:443
-      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
-      - 🇺🇸 公益|美国2
-      - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 vip1 香港-06 测试
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇮🇳 vip1 印度-01 测试
-      - US4
-      - 🇺🇸 美国 Amazon EC2服务器
       - 未知
-      - 🇮🇳 vip1 印度-02
-      - US2
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 vip1 新加坡-02
-      - 🇦🇺 澳大利亚1
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
-      - 🇯🇵 vip1 日本-06 测试
-      - 未知 2
-      - ""
-      - 🇺🇸 美国 Xerox
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇬🇧 vip1 英国-01 测试
+      - 🇨🇳 vip1 台湾-06 测试
+      - 🇯🇵 vip1 日本-02
+      - 🇰🇷 vip1 韩国-01
+      - 🇩🇪 vip1 德国-01 测试
+      - 🇮🇳 github.com/freefq - 印度  10
+      - 🇺🇸 vip1 美国-01 测试
+      - 🇺🇸 vip1 美国-06 测试
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇭🇰 vip1 香港-16
+      - 🇺🇸 美国 麻省理工学院
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
+      - 🇯🇵 vip1 日本-06
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇰🇷 韩国 V2CROSS.COM
+      - 🇭🇰 vip1 香港-16 测试
+      - 🇺🇸 vip1 美国-13
+      - 🇸🇬 vip1 新加坡-06 测试
+      - 🇭🇰 vip1 香港-02
+      - 🇻🇳 vip1 越南-02
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 _US_美国 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇰🇷 vip1 韩国-02
-      - 🇺🇸 vip1 美国-07
-      - 🇨🇳 vip1 台湾-01 测试
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 _RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸 vip1 美国-01 测试
-      - 13.213.46.196:443
-      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
-      - 🇺🇸 公益|美国2
-      - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 vip1 香港-06 测试
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇮🇳 vip1 印度-01 测试
-      - US4
-      - 🇺🇸 美国 Amazon EC2服务器
       - 未知
-      - 🇮🇳 vip1 印度-02
-      - US2
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 vip1 新加坡-02
-      - 🇦🇺 澳大利亚1
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
-      - 🇯🇵 vip1 日本-06 测试
-      - 未知 2
-      - ""
-      - 🇺🇸 美国 Xerox
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇬🇧 vip1 英国-01 测试
+      - 🇨🇳 vip1 台湾-06 测试
+      - 🇯🇵 vip1 日本-02
+      - 🇰🇷 vip1 韩国-01
+      - 🇩🇪 vip1 德国-01 测试
+      - 🇮🇳 github.com/freefq - 印度  10
+      - 🇺🇸 vip1 美国-01 测试
+      - 🇺🇸 vip1 美国-06 测试
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇭🇰 vip1 香港-16
+      - 🇺🇸 美国 麻省理工学院
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
+      - 🇯🇵 vip1 日本-06
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇰🇷 韩国 V2CROSS.COM
+      - 🇭🇰 vip1 香港-16 测试
+      - 🇺🇸 vip1 美国-13
+      - 🇸🇬 vip1 新加坡-06 测试
+      - 🇭🇰 vip1 香港-02
+      - 🇻🇳 vip1 越南-02
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 _US_美国 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷 vip1 韩国-02
-      - 🇺🇸 vip1 美国-07
-      - 🇨🇳 vip1 台湾-01 测试
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 _RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸 vip1 美国-01 测试
-      - 13.213.46.196:443
-      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
-      - 🇺🇸 公益|美国2
-      - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 vip1 香港-06 测试
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇮🇳 vip1 印度-01 测试
-      - US4
-      - 🇺🇸 美国 Amazon EC2服务器
       - 未知
-      - 🇮🇳 vip1 印度-02
-      - US2
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 vip1 新加坡-02
-      - 🇦🇺 澳大利亚1
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
-      - 🇯🇵 vip1 日本-06 测试
-      - 未知 2
-      - ""
-      - 🇺🇸 美国 Xerox
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇬🇧 vip1 英国-01 测试
+      - 🇨🇳 vip1 台湾-06 测试
+      - 🇯🇵 vip1 日本-02
+      - 🇰🇷 vip1 韩国-01
+      - 🇩🇪 vip1 德国-01 测试
+      - 🇮🇳 github.com/freefq - 印度  10
+      - 🇺🇸 vip1 美国-01 测试
+      - 🇺🇸 vip1 美国-06 测试
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇭🇰 vip1 香港-16
+      - 🇺🇸 美国 麻省理工学院
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
+      - 🇯🇵 vip1 日本-06
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇰🇷 韩国 V2CROSS.COM
+      - 🇭🇰 vip1 香港-16 测试
+      - 🇺🇸 vip1 美国-13
+      - 🇸🇬 vip1 新加坡-06 测试
+      - 🇭🇰 vip1 香港-02
+      - 🇻🇳 vip1 越南-02
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 _US_美国 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -270,36 +242,32 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 vip1 韩国-02
-      - 🇺🇸 vip1 美国-07
-      - 🇨🇳 vip1 台湾-01 测试
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 _RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸 vip1 美国-01 测试
-      - 13.213.46.196:443
-      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
-      - 🇺🇸 公益|美国2
-      - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 vip1 香港-06 测试
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
-      - 🇮🇳 vip1 印度-01 测试
-      - US4
-      - 🇺🇸 美国 Amazon EC2服务器
       - 未知
-      - 🇮🇳 vip1 印度-02
-      - US2
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 vip1 新加坡-02
-      - 🇦🇺 澳大利亚1
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
-      - 🇯🇵 vip1 日本-06 测试
-      - 未知 2
-      - ""
-      - 🇺🇸 美国 Xerox
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇬🇧 vip1 英国-01 测试
+      - 🇨🇳 vip1 台湾-06 测试
+      - 🇯🇵 vip1 日本-02
+      - 🇰🇷 vip1 韩国-01
+      - 🇩🇪 vip1 德国-01 测试
+      - 🇮🇳 github.com/freefq - 印度  10
+      - 🇺🇸 vip1 美国-01 测试
+      - 🇺🇸 vip1 美国-06 测试
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇭🇰 vip1 香港-16
+      - 🇺🇸 美国 麻省理工学院
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
+      - 🇯🇵 vip1 日本-06
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇰🇷 韩国 V2CROSS.COM
+      - 🇭🇰 vip1 香港-16 测试
+      - 🇺🇸 vip1 美国-13
+      - 🇸🇬 vip1 新加坡-06 测试
+      - 🇭🇰 vip1 香港-02
+      - 🇻🇳 vip1 越南-02
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 _US_美国 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

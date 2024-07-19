@@ -5,151 +5,242 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港-04_解锁, server: hk04.ssyhi.xyz, port: 50203, type: ss, cipher: chacha20-ietf-poly1305, password: 9a974dbd-0c3a-4972-a8bb-6e25c324629a}
-  - {name: 🇭🇰 香港-13_解锁, server: hk13.ssyhi.xyz, port: 50252, type: ss, cipher: chacha20-ietf-poly1305, password: 9a974dbd-0c3a-4972-a8bb-6e25c324629a}
-  - {name: 🇺🇸 o美国-3, server: yx3.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: opmg1.gyyun.top}}}
-  - {name: 🇯🇵 日本-01_解锁, server: jp01.ssyhi.xyz, port: 50210, type: ss, cipher: chacha20-ietf-poly1305, password: 9a974dbd-0c3a-4972-a8bb-6e25c324629a}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}}
-  - {name: 🇨🇳 台湾3|@ripaojiedian, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 0921f18e-db32-4c07-939b-4388673bfe59, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}}
-  - {name: 🇭🇰 香港-02_解锁, server: hk02.ssyhi.xyz, port: 50201, type: ss, cipher: chacha20-ietf-poly1305, password: 9a974dbd-0c3a-4972-a8bb-6e25c324629a}
-  - {name: 🇨🇳 github.com/freefq - 广东省江门市移动 12, server: service.ouluyun9803.com, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
-  - {name: 🇨🇳 台湾2, server: tw02.ssyhi.xyz, port: 50235, type: ss, cipher: chacha20-ietf-poly1305, password: 9a974dbd-0c3a-4972-a8bb-6e25c324629a}
-  - {name: 🇯🇵 日本-03_解锁, server: jp03.ssyhi.xyz, port: 50212, type: ss, cipher: chacha20-ietf-poly1305, password: 9a974dbd-0c3a-4972-a8bb-6e25c324629a}
-  - {name: 🇮🇳 印度 V2CROSS.COM, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sahand.serveminecraft.net}}}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: naiu-hk.05vr9nyqg5.download, port: 13007, type: trojan, password: 9bd9f0da-cb8b-4bd3-9f80-efa1be67daa0, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: 🇨🇳 台湾|@ripaojiedian, server: cm1-tw.hutaonode3.top, port: 12556, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 36a1a32505.microsoft.com}}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 183.232.139.24, port: 36931, type: trojan, password: MfqALmAJ, skip-cert-verify: true}
+  - {name: 🇮🇹 意大利 V2CROSS.COM, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇳🇱 d荷兰-1, server: yx1.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dohl1.gyyun.top}}}
+  - {name: 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
+  - {name: 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点, server: 38.111.114.133, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇯🇵 p日本-2, server: yx2.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: pqrb1.gyyun.top}}}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.64.175.213, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
+  - {name: 🇺🇸 美国-05_解锁, server: us05.ssyhi.xyz, port: 50232, type: ss, cipher: chacha20-ietf-poly1305, password: 9a974dbd-0c3a-4972-a8bb-6e25c324629a}
+  - {name: 🇧🇷 巴西, server: br01.ssyhi.xyz, port: 50245, type: ss, cipher: chacha20-ietf-poly1305, password: 9a974dbd-0c3a-4972-a8bb-6e25c324629a}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: cooker.homeofbrave.net, port: 28331, type: trojan, password: TlcDxy6NSZ33XD56zOlqFSauCeaySZ3CSFYa5RnDp39K8yYOZxY0xI7IXAnA2CE38wD33, sni: cooker.homeofbrave.net}
+  - {name: 距离下次重置剩余：15 天, server: hk03.ssyhi.xyz, port: 50202, type: ss, cipher: chacha20-ietf-poly1305, password: 9a974dbd-0c3a-4972-a8bb-6e25c324629a}
+  - {name: 🇫🇷 法国, server: fr01.ssyhi.xyz, port: 50242, type: ss, cipher: chacha20-ietf-poly1305, password: 9a974dbd-0c3a-4972-a8bb-6e25c324629a}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.19.45.11, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1457230.xyz}}}
   - {name: 🇬🇧 d英国-1, server: yx1.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: doyg1.gyyun.top}}}
-  - {name: 🇸🇬 d新加坡-3, server: yx3.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: doxjp1.gyyun.top}}}
-  - {name: 🇺🇸 d美国-3, server: yx3.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: domg1.gyyun.top}}}
-  - {name: SCP2, server: www.smcacre.gov, port: 443, type: vmess, uuid: 3cc8e2d2-e4a4-4d87-c16c-a8fc70296a7b, alterId: 0, cipher: auto, tls: true, servername: www.smcacre.gov, network: ws, ws-opts: {path: /3cc8e2d2, headers: {Host: lajihuawei.com}}}
+  - {name: 🇭🇰 香港-09_解锁, server: hk09.ssyhi.xyz, port: 50208, type: ss, cipher: chacha20-ietf-poly1305, password: 9a974dbd-0c3a-4972-a8bb-6e25c324629a}
+  - {name: 🇬🇧 d英国-3, server: yx3.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: doyg1.gyyun.top}}}
+  - {name: 🇭🇰 p香港-2, server: yx2.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: pqxg1.gyyun.top}}}
+  - {name: 🇨🇳 广东省广州市 移动, server: 120.232.153.40, port: 53942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡 Microsoft数据中心, server: swejs.lydurlclub.top, port: 443, type: trojan, password: b06d7f06-51ba-402d-991a-3fe1e432247c}
+  - {name: 54.251.168.143:443, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇳🇱 荷兰, server: nl01.ssyhi.xyz, port: 50240, type: ss, cipher: chacha20-ietf-poly1305, password: 9a974dbd-0c3a-4972-a8bb-6e25c324629a}
+  - {name: 🇰🇷 韩国 KT电信, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 🇸🇬 d新加坡-2, server: yx2.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: doxjp1.gyyun.top}}}
+  - {name: 🇺🇸 V004-0.5x-US-付费推荐:dlj.tf/ssrsub, server: cf2.trojan.tel, port: 8880, type: vmess, uuid: 24dfd329-dad9-4f39-a312-6b547fd5b0f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub-cf-v3.trojan.tel}}}
+  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 54.180.140.81, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇩🇪 德国 黑森州法兰克福AMazon数据中心, server: 3.120.255.93, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 172.64.166.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇸🇬 新加坡-09_解锁, server: sg09.ssyhi.xyz, port: 50226, type: ss, cipher: chacha20-ietf-poly1305, password: 9a974dbd-0c3a-4972-a8bb-6e25c324629a}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港-04_解锁
-      - 🇭🇰 香港-13_解锁
-      - 🇺🇸 o美国-3
-      - 🇯🇵 日本-01_解锁
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇨🇳 台湾3|@ripaojiedian
-      - 🇭🇰 香港-02_解锁
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
-      - 🇨🇳 台湾2
-      - 🇯🇵 日本-03_解锁
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 🇳🇱 d荷兰-1
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇯🇵 p日本-2
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国-05_解锁
+      - 🇧🇷 巴西
+      - 🇺🇸 美国2|@ripaojiedian
+      - 距离下次重置剩余：15 天
+      - 🇫🇷 法国
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇬🇧 d英国-1
-      - 🇸🇬 d新加坡-3
-      - 🇺🇸 d美国-3
-      - SCP2
+      - 🇭🇰 香港-09_解锁
+      - 🇬🇧 d英国-3
+      - 🇭🇰 p香港-2
+      - 🇨🇳 广东省广州市 移动
+      - 🇸🇬 新加坡 Microsoft数据中心
+      - 54.251.168.143:443
+      - 🇳🇱 荷兰
+      - 🇰🇷 韩国 KT电信
+      - 🇸🇬 d新加坡-2
+      - 🇺🇸 V004-0.5x-US-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇩🇪 德国 黑森州法兰克福AMazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇬 新加坡-09_解锁
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港-04_解锁
-      - 🇭🇰 香港-13_解锁
-      - 🇺🇸 o美国-3
-      - 🇯🇵 日本-01_解锁
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇨🇳 台湾3|@ripaojiedian
-      - 🇭🇰 香港-02_解锁
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
-      - 🇨🇳 台湾2
-      - 🇯🇵 日本-03_解锁
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 🇳🇱 d荷兰-1
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇯🇵 p日本-2
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国-05_解锁
+      - 🇧🇷 巴西
+      - 🇺🇸 美国2|@ripaojiedian
+      - 距离下次重置剩余：15 天
+      - 🇫🇷 法国
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇬🇧 d英国-1
-      - 🇸🇬 d新加坡-3
-      - 🇺🇸 d美国-3
-      - SCP2
+      - 🇭🇰 香港-09_解锁
+      - 🇬🇧 d英国-3
+      - 🇭🇰 p香港-2
+      - 🇨🇳 广东省广州市 移动
+      - 🇸🇬 新加坡 Microsoft数据中心
+      - 54.251.168.143:443
+      - 🇳🇱 荷兰
+      - 🇰🇷 韩国 KT电信
+      - 🇸🇬 d新加坡-2
+      - 🇺🇸 V004-0.5x-US-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇩🇪 德国 黑森州法兰克福AMazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇬 新加坡-09_解锁
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港-04_解锁
-      - 🇭🇰 香港-13_解锁
-      - 🇺🇸 o美国-3
-      - 🇯🇵 日本-01_解锁
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇨🇳 台湾3|@ripaojiedian
-      - 🇭🇰 香港-02_解锁
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
-      - 🇨🇳 台湾2
-      - 🇯🇵 日本-03_解锁
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 🇳🇱 d荷兰-1
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇯🇵 p日本-2
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国-05_解锁
+      - 🇧🇷 巴西
+      - 🇺🇸 美国2|@ripaojiedian
+      - 距离下次重置剩余：15 天
+      - 🇫🇷 法国
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇬🇧 d英国-1
-      - 🇸🇬 d新加坡-3
-      - 🇺🇸 d美国-3
-      - SCP2
+      - 🇭🇰 香港-09_解锁
+      - 🇬🇧 d英国-3
+      - 🇭🇰 p香港-2
+      - 🇨🇳 广东省广州市 移动
+      - 🇸🇬 新加坡 Microsoft数据中心
+      - 54.251.168.143:443
+      - 🇳🇱 荷兰
+      - 🇰🇷 韩国 KT电信
+      - 🇸🇬 d新加坡-2
+      - 🇺🇸 V004-0.5x-US-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇩🇪 德国 黑森州法兰克福AMazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇬 新加坡-09_解锁
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港-04_解锁
-      - 🇭🇰 香港-13_解锁
-      - 🇺🇸 o美国-3
-      - 🇯🇵 日本-01_解锁
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇨🇳 台湾3|@ripaojiedian
-      - 🇭🇰 香港-02_解锁
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
-      - 🇨🇳 台湾2
-      - 🇯🇵 日本-03_解锁
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 🇳🇱 d荷兰-1
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇯🇵 p日本-2
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国-05_解锁
+      - 🇧🇷 巴西
+      - 🇺🇸 美国2|@ripaojiedian
+      - 距离下次重置剩余：15 天
+      - 🇫🇷 法国
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇬🇧 d英国-1
-      - 🇸🇬 d新加坡-3
-      - 🇺🇸 d美国-3
-      - SCP2
+      - 🇭🇰 香港-09_解锁
+      - 🇬🇧 d英国-3
+      - 🇭🇰 p香港-2
+      - 🇨🇳 广东省广州市 移动
+      - 🇸🇬 新加坡 Microsoft数据中心
+      - 54.251.168.143:443
+      - 🇳🇱 荷兰
+      - 🇰🇷 韩国 KT电信
+      - 🇸🇬 d新加坡-2
+      - 🇺🇸 V004-0.5x-US-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇩🇪 德国 黑森州法兰克福AMazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇬 新加坡-09_解锁
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 香港-04_解锁
-      - 🇭🇰 香港-13_解锁
-      - 🇺🇸 o美国-3
-      - 🇯🇵 日本-01_解锁
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇨🇳 台湾3|@ripaojiedian
-      - 🇭🇰 香港-02_解锁
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
-      - 🇨🇳 台湾2
-      - 🇯🇵 日本-03_解锁
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 🇳🇱 d荷兰-1
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇯🇵 p日本-2
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国-05_解锁
+      - 🇧🇷 巴西
+      - 🇺🇸 美国2|@ripaojiedian
+      - 距离下次重置剩余：15 天
+      - 🇫🇷 法国
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇬🇧 d英国-1
-      - 🇸🇬 d新加坡-3
-      - 🇺🇸 d美国-3
-      - SCP2
+      - 🇭🇰 香港-09_解锁
+      - 🇬🇧 d英国-3
+      - 🇭🇰 p香港-2
+      - 🇨🇳 广东省广州市 移动
+      - 🇸🇬 新加坡 Microsoft数据中心
+      - 54.251.168.143:443
+      - 🇳🇱 荷兰
+      - 🇰🇷 韩国 KT电信
+      - 🇸🇬 d新加坡-2
+      - 🇺🇸 V004-0.5x-US-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇩🇪 德国 黑森州法兰克福AMazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇬 新加坡-09_解锁
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港-04_解锁
-      - 🇭🇰 香港-13_解锁
-      - 🇺🇸 o美国-3
-      - 🇯🇵 日本-01_解锁
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇨🇳 台湾3|@ripaojiedian
-      - 🇭🇰 香港-02_解锁
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
-      - 🇨🇳 台湾2
-      - 🇯🇵 日本-03_解锁
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 🇳🇱 d荷兰-1
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇯🇵 p日本-2
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国-05_解锁
+      - 🇧🇷 巴西
+      - 🇺🇸 美国2|@ripaojiedian
+      - 距离下次重置剩余：15 天
+      - 🇫🇷 法国
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇬🇧 d英国-1
-      - 🇸🇬 d新加坡-3
-      - 🇺🇸 d美国-3
-      - SCP2
+      - 🇭🇰 香港-09_解锁
+      - 🇬🇧 d英国-3
+      - 🇭🇰 p香港-2
+      - 🇨🇳 广东省广州市 移动
+      - 🇸🇬 新加坡 Microsoft数据中心
+      - 54.251.168.143:443
+      - 🇳🇱 荷兰
+      - 🇰🇷 韩国 KT电信
+      - 🇸🇬 d新加坡-2
+      - 🇺🇸 V004-0.5x-US-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇩🇪 德国 黑森州法兰克福AMazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇬 新加坡-09_解锁
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -172,22 +263,35 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港-04_解锁
-      - 🇭🇰 香港-13_解锁
-      - 🇺🇸 o美国-3
-      - 🇯🇵 日本-01_解锁
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇨🇳 台湾3|@ripaojiedian
-      - 🇭🇰 香港-02_解锁
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
-      - 🇨🇳 台湾2
-      - 🇯🇵 日本-03_解锁
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 🇳🇱 d荷兰-1
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇯🇵 p日本-2
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国-05_解锁
+      - 🇧🇷 巴西
+      - 🇺🇸 美国2|@ripaojiedian
+      - 距离下次重置剩余：15 天
+      - 🇫🇷 法国
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇬🇧 d英国-1
-      - 🇸🇬 d新加坡-3
-      - 🇺🇸 d美国-3
-      - SCP2
+      - 🇭🇰 香港-09_解锁
+      - 🇬🇧 d英国-3
+      - 🇭🇰 p香港-2
+      - 🇨🇳 广东省广州市 移动
+      - 🇸🇬 新加坡 Microsoft数据中心
+      - 54.251.168.143:443
+      - 🇳🇱 荷兰
+      - 🇰🇷 韩国 KT电信
+      - 🇸🇬 d新加坡-2
+      - 🇺🇸 V004-0.5x-US-付费推荐:dlj.tf/ssrsub
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇩🇪 德国 黑森州法兰克福AMazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇬 新加坡-09_解锁
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

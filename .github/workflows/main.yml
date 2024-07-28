@@ -2,7 +2,6 @@ name: sub_merge
 
 on:
   workflow_dispatch:
-
   schedule:
     - cron: '0 */3 * * *'
 
@@ -11,53 +10,54 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 迁出代码
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
+
     - name: 安装Python
-      uses: actions/setup-python@v4.7.0
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
+
     - name: 加载缓存
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: ~/.cache/pip
         key: ${{ runner.os }}-pip-${{ hashFiles('**/run_in_Actions/requirements.txt') }}
         restore-keys: |
           ${{ runner.os }}-pip-
+
     - name: 设置时区
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
-    - name: 安装依赖
-      run: |
-        pip install -r ./requirements.txt
-    - name: 执行任务
-      run: |
 
-        python ./TG_proxy_main.py
-      
+    - name: 安装依赖
+      run: pip install -r ./requirements.txt
+
+    - name: 执行任务
+      run: python ./TG_proxy_main.py
+
+    - name: 确认生成文件
+      run: |
+        ls -l ./sub/
+        ls -l ./Long_term_subscription*
+        ls -l ./README.md
+
     - name: 提交更改
       run: |                 
         git config --local user.email '${{ secrets.EMAIL }}'
         git config --local user.name '${{ secrets.NAME }}'
         git pull origin main
         git add ./sub/*
-        git add ./Long_term_subscription1
-        git add ./Long_term_subscription2
-        git add ./Long_term_subscription3
-        git add ./Long_term_subscription4
-        git add ./Long_term_subscription5
-        git add ./Long_term_subscription6
-        git add ./Long_term_subscription7
-        git add ./Long_term_subscription8
-        git add ./Long_term_subscription_num
-        git add ./Long_term_subscription_try
-        git add ./Long_term_subscription1.yaml
-        git add ./Long_term_subscription2.yaml
-        git add ./Long_term_subscription3.yaml
+        git add ./Long_term_subscription*
         git add ./README.md
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') sub_merge_node"
+      env:
+        EMAIL: ${{ secrets.EMAIL }}
+        NAME: ${{ secrets.NAME }}
+
     - name: 推送更改
-      uses:  ad-m/github-push-action@master
+      uses: ad-m/github-push-action@master
       with:
         branch: main
+
     - name: Delete workflow runs
       uses: Mattraks/delete-workflow-runs@v2
       with:

@@ -3,7 +3,7 @@ import os
 
 def get_yaml():
     print("开始获取clsah订阅")
-    urls = ["https://api.dler.io//sub?target=clash&url=https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription_try&insert=false&config=https://raw.githubusercontent.com/zwrt/Toolbox/main/config/ACL4SSR.ini&emoji=true"]
+    urls = ["https://api.dler.io//sub?target=clash&url=https://raw.githubusercontent.com/v2clash/Autoproxy/main/Long_term_subscription_num&insert=false&config=https://raw.githubusercontent.com/zwrt/Toolbox/main/config/ACL4SSR.ini&emoji=true"]
     n = 1
     for i in urls:
         response = requests.get(i)

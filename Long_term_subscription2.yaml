@@ -5,214 +5,165 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 台湾 01, server: ss.twplink.xyz, port: 20541, type: ss, cipher: aes-128-gcm, password: 83f8a51b-bf9c-4935-8a0e-b3a9b97cbea2}
-  - {name: 🇲🇾 马来西亚 04, server: ens.node1link.xyz, port: 22007, type: ss, cipher: aes-128-gcm, password: 83f8a51b-bf9c-4935-8a0e-b3a9b97cbea2}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 69.50.95.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 美国 03, server: ss.usalink.xyz, port: 20743, type: ss, cipher: aes-128-gcm, password: 83f8a51b-bf9c-4935-8a0e-b3a9b97cbea2}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.21.23.231, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
-  - {name: 🇨🇳 北京市 移动, server: twacq10.top, port: 15375, type: ss, cipher: aes-128-gcm, password: NUeBvQHox0BmnHpu}
-  - {name: 🇸🇬 狮城 03, server: ss.sgplink.xyz, port: 20643, type: ss, cipher: aes-128-gcm, password: 83f8a51b-bf9c-4935-8a0e-b3a9b97cbea2}
-  - {name: 🇺🇸 United States丨05, server: us005.dogsvip.site, port: 20005, type: ss, cipher: aes-256-gcm, password: 516358c8-6f2d-4814-9570-087beab4d96f}
-  - {name: 🇨🇳 广东省广州市 移动, server: 120.232.153.27, port: 50582, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 United States丨03, server: us003.dogsvip.site, port: 20003, type: ss, cipher: aes-256-gcm, password: 516358c8-6f2d-4814-9570-087beab4d96f}
-  - {name: 🇯🇵 日本4|@ripaojiedian, server: 31.223.184.240, port: 38978, type: ss, cipher: chacha20-ietf-poly1305, password: bfc552e8-2607-4386-9c90-81437ac5ba23}
-  - {name: 🇭🇰 Hong Kong丨04, server: hk004.dogsvip.site, port: 16004, type: ss, cipher: aes-256-gcm, password: 516358c8-6f2d-4814-9570-087beab4d96f}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: kis7as.9sjd2dkesl2.shop, port: 16983, type: ss, cipher: chacha20-ietf-poly1305, password: XoYrrEfZYxxHL3AI}
-  - {name: 54.251.168.143:443, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 狮城 01, server: ss.sgplink.xyz, port: 20641, type: ss, cipher: aes-128-gcm, password: 83f8a51b-bf9c-4935-8a0e-b3a9b97cbea2}
-  - {name: "🇭🇰 [ss]🇭🇰 香港-中转-26", server: p3.yadang888.top, port: 26776, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MmJlNjFiMThkZmJjMzEzMA==:Mzk0NTA3NGMtZGY1OC00OA==}
-  - {name: "🇯🇵 [ss]🇯🇵 日本-中转-11", server: 1299.waka.plus, port: 20641, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YzU0NTNhNmNkNmVlZWFjNA==:Mzk0NTA3NGMtZGY1OC00OA==}
+  - {name: 🇸🇬 新加坡-中转-12, server: 01-foxi-aidajiuguanji.gangbi.vip, port: 30003, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YzU0NTNhNmNkNmVlZWFjNA==:Mzk0NTA3NGMtZGY1OC00OA==}
+  - {name: 🇭🇰 香港-中转-22, server: 03-neibuyong.gangbi.vip, port: 26772, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MmJlNjFiMThkZmJjMzEzMA==:Mzk0NTA3NGMtZGY1OC00OA==}
+  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 13.229.243.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: Great Britain丨01, server: uk001.dogsvip.site, port: 23001, type: ss, cipher: aes-256-gcm, password: 516358c8-6f2d-4814-9570-087beab4d96f}
+  - {name: 🇮🇳 印度 V2CROSS.COM, server: 202.78.162.5, port: 443, type: vmess, uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pendar.onthewifi.com}}}
+  - {name: 🇺🇸 美国-中转-12, server: 01-foxi-aidajiuguanji.gangbi.vip, port: 26882, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YzU0NTNhNmNkNmVlZWFjNA==:Mzk0NTA3NGMtZGY1OC00OA==}
+  - {name: 🇯🇵 日本-中转-17, server: p1.yadang888.top, port: 20647, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YzU0NTNhNmNkNmVlZWFjNA==:Mzk0NTA3NGMtZGY1OC00OA==}
+  - {name: 🇭🇰 香港-中转-16, server: p3.yadang888.top, port: 20166, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MmJlNjFiMThkZmJjMzEzMA==:Mzk0NTA3NGMtZGY1OC00OA==}
+  - {name: 54.199.83.239:2333, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 14, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
+  - {name: 🇭🇰 香港8|@ripaojiedian, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: a223af01-b481-4abf-a305-60d60587d1e4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/VuDFdktz, headers: {Host: zifstzamhk1.yofnhkfc.xyz}}}
+  - {name: 🇺🇸 美国-中转-17, server: p1.yadang888.top, port: 26887, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YzU0NTNhNmNkNmVlZWFjNA==:Mzk0NTA3NGMtZGY1OC00OA==}
+  - {name: 🇸🇬 狮城特殊|@ripaojiedian, server: 3.112.216.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇨🇳 github.com/freefq - 广东省江门市移动 11, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
-  - {name: 🇸🇬 狮城 05, server: ss.sgplink.xyz, port: 20645, type: ss, cipher: aes-128-gcm, password: 83f8a51b-bf9c-4935-8a0e-b3a9b97cbea2}
-  - {name: 🇯🇵 日本 06, server: ss.jpnlink.xyz, port: 20846, type: ss, cipher: aes-128-gcm, password: 83f8a51b-bf9c-4935-8a0e-b3a9b97cbea2}
-  - {name: 🇭🇰 Hong Kong丨01, server: hk001.dogsvip.site, port: 16001, type: ss, cipher: aes-256-gcm, password: 516358c8-6f2d-4814-9570-087beab4d96f}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: tw60.233235.xyz, port: 18298, type: trojan, password: cfa36789-94aa-4c4c-ad06-ab35a8eb9312, sni: usmax03.170203.xyz}
-  - {name: 🇨🇳 广东省广州市 移动 2, server: naiu-hk.05vr9nyqg5.download, port: 13007, type: trojan, password: d6d86a97-2bef-4f89-9527-ce2003377677, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
-  - {name: 🇲🇾 马来西亚 03, server: ens.node1link.xyz, port: 22006, type: ss, cipher: aes-128-gcm, password: 83f8a51b-bf9c-4935-8a0e-b3a9b97cbea2}
-  - {name: 🇺🇸 United States 01 @nodpai, server: hytron.io, port: 8080, type: vmess, uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hytron.io}}}
+  - {name: 🇻🇳 越南R|@ripaojiedian, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
+  - {name: 🇺🇸 美国凤凰城Tr, server: 129.146.95.165, port: 443, type: trojan, password: 5c542056-a113-43a3-9889-f7ec7884e014, sni: download.xn--mirrors-oj8km52txc7d.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾|@ripaojiedian, server: ydthree.9sjd2dkesl2.shop, port: 35699, type: ss, cipher: chacha20-ietf-poly1305, password: XoYrrEfZYxxHL3AI}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: ydthree.9sjd2dkesl2.shop, port: 44565, type: ss, cipher: chacha20-ietf-poly1305, password: XoYrrEfZYxxHL3AI}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 台湾 01
-      - 🇲🇾 马来西亚 04
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 03
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 北京市 移动
-      - 🇸🇬 狮城 03
-      - 🇺🇸 United States丨05
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 United States丨03
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 Hong Kong丨04
-      - 🇭🇰 香港|@ripaojiedian
-      - 54.251.168.143:443
-      - 🇸🇬 狮城 01
-      - 🇭🇰 [ss]🇭🇰 香港-中转-26
-      - 🇯🇵 [ss]🇯🇵 日本-中转-11
+      - 🇸🇬 新加坡-中转-12
+      - 🇭🇰 香港-中转-22
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - Great Britain丨01
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇺🇸 美国-中转-12
+      - 🇯🇵 日本-中转-17
+      - 🇭🇰 香港-中转-16
+      - 54.199.83.239:2333
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇭🇰 香港8|@ripaojiedian
+      - 🇺🇸 美国-中转-17
+      - 🇸🇬 狮城特殊|@ripaojiedian
       - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇸🇬 狮城 05
-      - 🇯🇵 日本 06
-      - 🇭🇰 Hong Kong丨01
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇲🇾 马来西亚 03
-      - 🇺🇸 United States 01 @nodpai
+      - 🇻🇳 越南R|@ripaojiedian
+      - 🇺🇸 美国凤凰城Tr
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 台湾 01
-      - 🇲🇾 马来西亚 04
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 03
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 北京市 移动
-      - 🇸🇬 狮城 03
-      - 🇺🇸 United States丨05
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 United States丨03
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 Hong Kong丨04
-      - 🇭🇰 香港|@ripaojiedian
-      - 54.251.168.143:443
-      - 🇸🇬 狮城 01
-      - 🇭🇰 [ss]🇭🇰 香港-中转-26
-      - 🇯🇵 [ss]🇯🇵 日本-中转-11
+      - 🇸🇬 新加坡-中转-12
+      - 🇭🇰 香港-中转-22
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - Great Britain丨01
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇺🇸 美国-中转-12
+      - 🇯🇵 日本-中转-17
+      - 🇭🇰 香港-中转-16
+      - 54.199.83.239:2333
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇭🇰 香港8|@ripaojiedian
+      - 🇺🇸 美国-中转-17
+      - 🇸🇬 狮城特殊|@ripaojiedian
       - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇸🇬 狮城 05
-      - 🇯🇵 日本 06
-      - 🇭🇰 Hong Kong丨01
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇲🇾 马来西亚 03
-      - 🇺🇸 United States 01 @nodpai
+      - 🇻🇳 越南R|@ripaojiedian
+      - 🇺🇸 美国凤凰城Tr
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 台湾 01
-      - 🇲🇾 马来西亚 04
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 03
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 北京市 移动
-      - 🇸🇬 狮城 03
-      - 🇺🇸 United States丨05
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 United States丨03
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 Hong Kong丨04
-      - 🇭🇰 香港|@ripaojiedian
-      - 54.251.168.143:443
-      - 🇸🇬 狮城 01
-      - 🇭🇰 [ss]🇭🇰 香港-中转-26
-      - 🇯🇵 [ss]🇯🇵 日本-中转-11
+      - 🇸🇬 新加坡-中转-12
+      - 🇭🇰 香港-中转-22
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - Great Britain丨01
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇺🇸 美国-中转-12
+      - 🇯🇵 日本-中转-17
+      - 🇭🇰 香港-中转-16
+      - 54.199.83.239:2333
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇭🇰 香港8|@ripaojiedian
+      - 🇺🇸 美国-中转-17
+      - 🇸🇬 狮城特殊|@ripaojiedian
       - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇸🇬 狮城 05
-      - 🇯🇵 日本 06
-      - 🇭🇰 Hong Kong丨01
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇲🇾 马来西亚 03
-      - 🇺🇸 United States 01 @nodpai
+      - 🇻🇳 越南R|@ripaojiedian
+      - 🇺🇸 美国凤凰城Tr
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 台湾 01
-      - 🇲🇾 马来西亚 04
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 03
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 北京市 移动
-      - 🇸🇬 狮城 03
-      - 🇺🇸 United States丨05
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 United States丨03
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 Hong Kong丨04
-      - 🇭🇰 香港|@ripaojiedian
-      - 54.251.168.143:443
-      - 🇸🇬 狮城 01
-      - 🇭🇰 [ss]🇭🇰 香港-中转-26
-      - 🇯🇵 [ss]🇯🇵 日本-中转-11
+      - 🇸🇬 新加坡-中转-12
+      - 🇭🇰 香港-中转-22
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - Great Britain丨01
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇺🇸 美国-中转-12
+      - 🇯🇵 日本-中转-17
+      - 🇭🇰 香港-中转-16
+      - 54.199.83.239:2333
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇭🇰 香港8|@ripaojiedian
+      - 🇺🇸 美国-中转-17
+      - 🇸🇬 狮城特殊|@ripaojiedian
       - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇸🇬 狮城 05
-      - 🇯🇵 日本 06
-      - 🇭🇰 Hong Kong丨01
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇲🇾 马来西亚 03
-      - 🇺🇸 United States 01 @nodpai
+      - 🇻🇳 越南R|@ripaojiedian
+      - 🇺🇸 美国凤凰城Tr
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 台湾 01
-      - 🇲🇾 马来西亚 04
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 03
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 北京市 移动
-      - 🇸🇬 狮城 03
-      - 🇺🇸 United States丨05
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 United States丨03
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 Hong Kong丨04
-      - 🇭🇰 香港|@ripaojiedian
-      - 54.251.168.143:443
-      - 🇸🇬 狮城 01
-      - 🇭🇰 [ss]🇭🇰 香港-中转-26
-      - 🇯🇵 [ss]🇯🇵 日本-中转-11
+      - 🇸🇬 新加坡-中转-12
+      - 🇭🇰 香港-中转-22
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - Great Britain丨01
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇺🇸 美国-中转-12
+      - 🇯🇵 日本-中转-17
+      - 🇭🇰 香港-中转-16
+      - 54.199.83.239:2333
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇭🇰 香港8|@ripaojiedian
+      - 🇺🇸 美国-中转-17
+      - 🇸🇬 狮城特殊|@ripaojiedian
       - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇸🇬 狮城 05
-      - 🇯🇵 日本 06
-      - 🇭🇰 Hong Kong丨01
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇲🇾 马来西亚 03
-      - 🇺🇸 United States 01 @nodpai
+      - 🇻🇳 越南R|@ripaojiedian
+      - 🇺🇸 美国凤凰城Tr
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 台湾 01
-      - 🇲🇾 马来西亚 04
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 03
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 北京市 移动
-      - 🇸🇬 狮城 03
-      - 🇺🇸 United States丨05
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 United States丨03
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 Hong Kong丨04
-      - 🇭🇰 香港|@ripaojiedian
-      - 54.251.168.143:443
-      - 🇸🇬 狮城 01
-      - 🇭🇰 [ss]🇭🇰 香港-中转-26
-      - 🇯🇵 [ss]🇯🇵 日本-中转-11
+      - 🇸🇬 新加坡-中转-12
+      - 🇭🇰 香港-中转-22
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - Great Britain丨01
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇺🇸 美国-中转-12
+      - 🇯🇵 日本-中转-17
+      - 🇭🇰 香港-中转-16
+      - 54.199.83.239:2333
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇭🇰 香港8|@ripaojiedian
+      - 🇺🇸 美国-中转-17
+      - 🇸🇬 狮城特殊|@ripaojiedian
       - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇸🇬 狮城 05
-      - 🇯🇵 日本 06
-      - 🇭🇰 Hong Kong丨01
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇲🇾 马来西亚 03
-      - 🇺🇸 United States 01 @nodpai
+      - 🇻🇳 越南R|@ripaojiedian
+      - 🇺🇸 美国凤凰城Tr
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -235,31 +186,24 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 台湾 01
-      - 🇲🇾 马来西亚 04
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 03
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 北京市 移动
-      - 🇸🇬 狮城 03
-      - 🇺🇸 United States丨05
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 United States丨03
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 Hong Kong丨04
-      - 🇭🇰 香港|@ripaojiedian
-      - 54.251.168.143:443
-      - 🇸🇬 狮城 01
-      - 🇭🇰 [ss]🇭🇰 香港-中转-26
-      - 🇯🇵 [ss]🇯🇵 日本-中转-11
+      - 🇸🇬 新加坡-中转-12
+      - 🇭🇰 香港-中转-22
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - Great Britain丨01
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇺🇸 美国-中转-12
+      - 🇯🇵 日本-中转-17
+      - 🇭🇰 香港-中转-16
+      - 54.199.83.239:2333
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇭🇰 香港8|@ripaojiedian
+      - 🇺🇸 美国-中转-17
+      - 🇸🇬 狮城特殊|@ripaojiedian
       - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇸🇬 狮城 05
-      - 🇯🇵 日本 06
-      - 🇭🇰 Hong Kong丨01
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇲🇾 马来西亚 03
-      - 🇺🇸 United States 01 @nodpai
+      - 🇻🇳 越南R|@ripaojiedian
+      - 🇺🇸 美国凤凰城Tr
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

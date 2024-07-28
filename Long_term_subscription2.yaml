@@ -5,165 +5,249 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡-中转-12, server: 01-foxi-aidajiuguanji.gangbi.vip, port: 30003, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YzU0NTNhNmNkNmVlZWFjNA==:Mzk0NTA3NGMtZGY1OC00OA==}
-  - {name: 🇭🇰 香港-中转-22, server: 03-neibuyong.gangbi.vip, port: 26772, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MmJlNjFiMThkZmJjMzEzMA==:Mzk0NTA3NGMtZGY1OC00OA==}
-  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 13.229.243.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: Great Britain丨01, server: uk001.dogsvip.site, port: 23001, type: ss, cipher: aes-256-gcm, password: 516358c8-6f2d-4814-9570-087beab4d96f}
-  - {name: 🇮🇳 印度 V2CROSS.COM, server: 202.78.162.5, port: 443, type: vmess, uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pendar.onthewifi.com}}}
-  - {name: 🇺🇸 美国-中转-12, server: 01-foxi-aidajiuguanji.gangbi.vip, port: 26882, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YzU0NTNhNmNkNmVlZWFjNA==:Mzk0NTA3NGMtZGY1OC00OA==}
-  - {name: 🇯🇵 日本-中转-17, server: p1.yadang888.top, port: 20647, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YzU0NTNhNmNkNmVlZWFjNA==:Mzk0NTA3NGMtZGY1OC00OA==}
-  - {name: 🇭🇰 香港-中转-16, server: p3.yadang888.top, port: 20166, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MmJlNjFiMThkZmJjMzEzMA==:Mzk0NTA3NGMtZGY1OC00OA==}
-  - {name: 54.199.83.239:2333, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 14, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
-  - {name: 🇭🇰 香港8|@ripaojiedian, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: a223af01-b481-4abf-a305-60d60587d1e4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/VuDFdktz, headers: {Host: zifstzamhk1.yofnhkfc.xyz}}}
-  - {name: 🇺🇸 美国-中转-17, server: p1.yadang888.top, port: 26887, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YzU0NTNhNmNkNmVlZWFjNA==:Mzk0NTA3NGMtZGY1OC00OA==}
-  - {name: 🇸🇬 狮城特殊|@ripaojiedian, server: 3.112.216.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国 KT电信, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 🇸🇬 Singapore丨04, server: sg004.dogsvip.site, port: 18004, type: ss, cipher: aes-256-gcm, password: 516358c8-6f2d-4814-9570-087beab4d96f}
+  - {name: 🇯🇵 Japan丨04, server: jp004.dogsvip.site, port: 19004, type: ss, cipher: aes-256-gcm, password: 516358c8-6f2d-4814-9570-087beab4d96f}
+  - {name: 🇰🇷 韩国 01, server: kr.node1link.xyz, port: 21101, type: ss, cipher: aes-128-gcm, password: 83f8a51b-bf9c-4935-8a0e-b3a9b97cbea2}
+  - {name: 🇸🇬 新加坡-中转-15, server: p2.yadang888.top, port: 30006, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YzU0NTNhNmNkNmVlZWFjNA==:Mzk0NTA3NGMtZGY1OC00OA==}
   - {name: 🇨🇳 github.com/freefq - 广东省江门市移动 11, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
-  - {name: 🇻🇳 越南R|@ripaojiedian, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
-  - {name: 🇺🇸 美国凤凰城Tr, server: 129.146.95.165, port: 443, type: trojan, password: 5c542056-a113-43a3-9889-f7ec7884e014, sni: download.xn--mirrors-oj8km52txc7d.com, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾|@ripaojiedian, server: ydthree.9sjd2dkesl2.shop, port: 35699, type: ss, cipher: chacha20-ietf-poly1305, password: XoYrrEfZYxxHL3AI}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: ydthree.9sjd2dkesl2.shop, port: 44565, type: ss, cipher: chacha20-ietf-poly1305, password: XoYrrEfZYxxHL3AI}
+  - {name: xjp-node1-trojan, server: node1.360vpn.org, port: 2058, type: trojan, password: fccaaf1c-63e3-4949-9e3f-ea07f2937603, sni: node1.360vpn.org, skip-cert-verify: false}
+  - {name: 🇭🇰 香港-中转-22, server: 03-neibuyong.gangbi.vip, port: 26772, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MmJlNjFiMThkZmJjMzEzMA==:Mzk0NTA3NGMtZGY1OC00OA==}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: gnmktnwq58.xyz, port: 443, type: trojan, password: NUeBvQHox0BmnHpu, sni: gnmktnwq58.xyz}
+  - {name: 🇭🇰 香港7|@ripaojiedian, server: aa01gg.sssyun.xyz, port: 36993, type: ss, cipher: chacha20-ietf-poly1305, password: b5abc4c0-b518-4195-88b4-57900f16fb65}
+  - {name: 🇸🇬 狮城 05, server: ss.sgplink.xyz, port: 20645, type: ss, cipher: aes-128-gcm, password: 83f8a51b-bf9c-4935-8a0e-b3a9b97cbea2}
+  - {name: 🇸🇬 Singapore丨05, server: sg005.dogsvip.site, port: 18005, type: ss, cipher: aes-256-gcm, password: 516358c8-6f2d-4814-9570-087beab4d96f}
+  - {name: 🇨🇳 台湾 02, server: ss.twplink.xyz, port: 20542, type: ss, cipher: aes-128-gcm, password: 83f8a51b-bf9c-4935-8a0e-b3a9b97cbea2}
+  - {name: 🇮🇳 github.com/freefq - 印度  3, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sahand.serveminecraft.net}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}}
+  - {name: 🇭🇰 Hong Kong丨02, server: hk002.dogsvip.site, port: 16002, type: ss, cipher: aes-256-gcm, password: 516358c8-6f2d-4814-9570-087beab4d96f}
+  - {name: "Traffic Reset: 4 Days Left", server: hk001.dogsvip.site, port: 16001, type: ss, cipher: aes-256-gcm, password: 516358c8-6f2d-4814-9570-087beab4d96f}
+  - {name: 🇮🇳 印度|@ripaojiedian, server: kis7as.9sjd2dkesl2.shop, port: 25912, type: ss, cipher: chacha20-ietf-poly1305, password: XoYrrEfZYxxHL3AI}
+  - {name: 🇸🇬 狮城 03, server: ss.sgplink.xyz, port: 20643, type: ss, cipher: aes-128-gcm, password: 83f8a51b-bf9c-4935-8a0e-b3a9b97cbea2}
+  - {name: 🇲🇾 马来西亚 05, server: ens.node1link.xyz, port: 22008, type: ss, cipher: aes-128-gcm, password: 83f8a51b-bf9c-4935-8a0e-b3a9b97cbea2}
+  - {name: 🇭🇰 Hong Kong丨05, server: hk005.dogsvip.site, port: 16005, type: ss, cipher: aes-256-gcm, password: 516358c8-6f2d-4814-9570-087beab4d96f}
+  - {name: 🇭🇰 香港 04 SS, server: ss.hkglink.xyz, port: 11004, type: ss, cipher: aes-128-gcm, password: 83f8a51b-bf9c-4935-8a0e-b3a9b97cbea2}
+  - {name: Great Britain丨02, server: uk002.dogsvip.site, port: 23002, type: ss, cipher: aes-256-gcm, password: 516358c8-6f2d-4814-9570-087beab4d96f}
+  - {name: 🇭🇰 香港-中转-23, server: 02-foxi-biegongkai.gangbi.vip, port: 26773, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MmJlNjFiMThkZmJjMzEzMA==:Mzk0NTA3NGMtZGY1OC00OA==}
+  - {name: 🇭🇰 香港 IPLC 限速10Mbps, server: 222909df61922934.cdn.jiashule.com, port: 1024, type: ss, cipher: aes-128-gcm, password: 83f8a51b-bf9c-4935-8a0e-b3a9b97cbea2}
+  - {name: xjp-node1-vmess, server: node1.360vpn.org, port: 2056, type: vmess, uuid: fccaaf1c-63e3-4949-9e3f-ea07f2937603, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /xjpvmesssss, headers: {Host: node1.360vpn.org}}}
+  - {name: 🇸🇬 新加坡-中转-13, server: 02-foxi-biegongkai.gangbi.vip, port: 30004, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YzU0NTNhNmNkNmVlZWFjNA==:Mzk0NTA3NGMtZGY1OC00OA==}
+  - {name: 此地區屬於高級套餐, server: 127.0.0.1, port: 10086, type: ss, cipher: chacha20-ietf-poly1305, password: 516358c8-6f2d-4814-9570-087beab4d96f}
+  - {name: 🇯🇵 日本-中转-16, server: p3.yadang888.top, port: 20646, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YzU0NTNhNmNkNmVlZWFjNA==:Mzk0NTA3NGMtZGY1OC00OA==}
+  - {name: 🇮🇳 印度 V2CROSS.COM, server: 202.78.162.5, port: 443, type: vmess, uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pendar.onthewifi.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 新加坡-中转-12
-      - 🇭🇰 香港-中转-22
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - Great Britain丨01
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇺🇸 美国-中转-12
-      - 🇯🇵 日本-中转-17
-      - 🇭🇰 香港-中转-16
-      - 54.199.83.239:2333
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
-      - 🇭🇰 香港8|@ripaojiedian
-      - 🇺🇸 美国-中转-17
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇰🇷 韩国 KT电信
+      - 🇸🇬 Singapore丨04
+      - 🇯🇵 Japan丨04
+      - 🇰🇷 韩国 01
+      - 🇸🇬 新加坡-中转-15
       - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇻🇳 越南R|@ripaojiedian
-      - 🇺🇸 美国凤凰城Tr
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - xjp-node1-trojan
+      - 🇭🇰 香港-中转-22
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇸🇬 狮城 05
+      - 🇸🇬 Singapore丨05
+      - 🇨🇳 台湾 02
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇭🇰 Hong Kong丨02
+      - "Traffic Reset: 4 Days Left"
+      - 🇮🇳 印度|@ripaojiedian
+      - 🇸🇬 狮城 03
+      - 🇲🇾 马来西亚 05
+      - 🇭🇰 Hong Kong丨05
+      - 🇭🇰 香港 04 SS
+      - Great Britain丨02
+      - 🇭🇰 香港-中转-23
+      - 🇭🇰 香港 IPLC 限速10Mbps
+      - xjp-node1-vmess
+      - 🇸🇬 新加坡-中转-13
+      - 此地區屬於高級套餐
+      - 🇯🇵 日本-中转-16
+      - 🇮🇳 印度 V2CROSS.COM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡-中转-12
-      - 🇭🇰 香港-中转-22
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - Great Britain丨01
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇺🇸 美国-中转-12
-      - 🇯🇵 日本-中转-17
-      - 🇭🇰 香港-中转-16
-      - 54.199.83.239:2333
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
-      - 🇭🇰 香港8|@ripaojiedian
-      - 🇺🇸 美国-中转-17
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇰🇷 韩国 KT电信
+      - 🇸🇬 Singapore丨04
+      - 🇯🇵 Japan丨04
+      - 🇰🇷 韩国 01
+      - 🇸🇬 新加坡-中转-15
       - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇻🇳 越南R|@ripaojiedian
-      - 🇺🇸 美国凤凰城Tr
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - xjp-node1-trojan
+      - 🇭🇰 香港-中转-22
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇸🇬 狮城 05
+      - 🇸🇬 Singapore丨05
+      - 🇨🇳 台湾 02
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇭🇰 Hong Kong丨02
+      - "Traffic Reset: 4 Days Left"
+      - 🇮🇳 印度|@ripaojiedian
+      - 🇸🇬 狮城 03
+      - 🇲🇾 马来西亚 05
+      - 🇭🇰 Hong Kong丨05
+      - 🇭🇰 香港 04 SS
+      - Great Britain丨02
+      - 🇭🇰 香港-中转-23
+      - 🇭🇰 香港 IPLC 限速10Mbps
+      - xjp-node1-vmess
+      - 🇸🇬 新加坡-中转-13
+      - 此地區屬於高級套餐
+      - 🇯🇵 日本-中转-16
+      - 🇮🇳 印度 V2CROSS.COM
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡-中转-12
-      - 🇭🇰 香港-中转-22
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - Great Britain丨01
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇺🇸 美国-中转-12
-      - 🇯🇵 日本-中转-17
-      - 🇭🇰 香港-中转-16
-      - 54.199.83.239:2333
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
-      - 🇭🇰 香港8|@ripaojiedian
-      - 🇺🇸 美国-中转-17
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇰🇷 韩国 KT电信
+      - 🇸🇬 Singapore丨04
+      - 🇯🇵 Japan丨04
+      - 🇰🇷 韩国 01
+      - 🇸🇬 新加坡-中转-15
       - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇻🇳 越南R|@ripaojiedian
-      - 🇺🇸 美国凤凰城Tr
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - xjp-node1-trojan
+      - 🇭🇰 香港-中转-22
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇸🇬 狮城 05
+      - 🇸🇬 Singapore丨05
+      - 🇨🇳 台湾 02
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇭🇰 Hong Kong丨02
+      - "Traffic Reset: 4 Days Left"
+      - 🇮🇳 印度|@ripaojiedian
+      - 🇸🇬 狮城 03
+      - 🇲🇾 马来西亚 05
+      - 🇭🇰 Hong Kong丨05
+      - 🇭🇰 香港 04 SS
+      - Great Britain丨02
+      - 🇭🇰 香港-中转-23
+      - 🇭🇰 香港 IPLC 限速10Mbps
+      - xjp-node1-vmess
+      - 🇸🇬 新加坡-中转-13
+      - 此地區屬於高級套餐
+      - 🇯🇵 日本-中转-16
+      - 🇮🇳 印度 V2CROSS.COM
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡-中转-12
-      - 🇭🇰 香港-中转-22
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - Great Britain丨01
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇺🇸 美国-中转-12
-      - 🇯🇵 日本-中转-17
-      - 🇭🇰 香港-中转-16
-      - 54.199.83.239:2333
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
-      - 🇭🇰 香港8|@ripaojiedian
-      - 🇺🇸 美国-中转-17
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇰🇷 韩国 KT电信
+      - 🇸🇬 Singapore丨04
+      - 🇯🇵 Japan丨04
+      - 🇰🇷 韩国 01
+      - 🇸🇬 新加坡-中转-15
       - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇻🇳 越南R|@ripaojiedian
-      - 🇺🇸 美国凤凰城Tr
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - xjp-node1-trojan
+      - 🇭🇰 香港-中转-22
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇸🇬 狮城 05
+      - 🇸🇬 Singapore丨05
+      - 🇨🇳 台湾 02
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇭🇰 Hong Kong丨02
+      - "Traffic Reset: 4 Days Left"
+      - 🇮🇳 印度|@ripaojiedian
+      - 🇸🇬 狮城 03
+      - 🇲🇾 马来西亚 05
+      - 🇭🇰 Hong Kong丨05
+      - 🇭🇰 香港 04 SS
+      - Great Britain丨02
+      - 🇭🇰 香港-中转-23
+      - 🇭🇰 香港 IPLC 限速10Mbps
+      - xjp-node1-vmess
+      - 🇸🇬 新加坡-中转-13
+      - 此地區屬於高級套餐
+      - 🇯🇵 日本-中转-16
+      - 🇮🇳 印度 V2CROSS.COM
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 新加坡-中转-12
-      - 🇭🇰 香港-中转-22
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - Great Britain丨01
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇺🇸 美国-中转-12
-      - 🇯🇵 日本-中转-17
-      - 🇭🇰 香港-中转-16
-      - 54.199.83.239:2333
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
-      - 🇭🇰 香港8|@ripaojiedian
-      - 🇺🇸 美国-中转-17
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇰🇷 韩国 KT电信
+      - 🇸🇬 Singapore丨04
+      - 🇯🇵 Japan丨04
+      - 🇰🇷 韩国 01
+      - 🇸🇬 新加坡-中转-15
       - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇻🇳 越南R|@ripaojiedian
-      - 🇺🇸 美国凤凰城Tr
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - xjp-node1-trojan
+      - 🇭🇰 香港-中转-22
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇸🇬 狮城 05
+      - 🇸🇬 Singapore丨05
+      - 🇨🇳 台湾 02
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇭🇰 Hong Kong丨02
+      - "Traffic Reset: 4 Days Left"
+      - 🇮🇳 印度|@ripaojiedian
+      - 🇸🇬 狮城 03
+      - 🇲🇾 马来西亚 05
+      - 🇭🇰 Hong Kong丨05
+      - 🇭🇰 香港 04 SS
+      - Great Britain丨02
+      - 🇭🇰 香港-中转-23
+      - 🇭🇰 香港 IPLC 限速10Mbps
+      - xjp-node1-vmess
+      - 🇸🇬 新加坡-中转-13
+      - 此地區屬於高級套餐
+      - 🇯🇵 日本-中转-16
+      - 🇮🇳 印度 V2CROSS.COM
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡-中转-12
-      - 🇭🇰 香港-中转-22
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - Great Britain丨01
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇺🇸 美国-中转-12
-      - 🇯🇵 日本-中转-17
-      - 🇭🇰 香港-中转-16
-      - 54.199.83.239:2333
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
-      - 🇭🇰 香港8|@ripaojiedian
-      - 🇺🇸 美国-中转-17
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇰🇷 韩国 KT电信
+      - 🇸🇬 Singapore丨04
+      - 🇯🇵 Japan丨04
+      - 🇰🇷 韩国 01
+      - 🇸🇬 新加坡-中转-15
       - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇻🇳 越南R|@ripaojiedian
-      - 🇺🇸 美国凤凰城Tr
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - xjp-node1-trojan
+      - 🇭🇰 香港-中转-22
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇸🇬 狮城 05
+      - 🇸🇬 Singapore丨05
+      - 🇨🇳 台湾 02
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇭🇰 Hong Kong丨02
+      - "Traffic Reset: 4 Days Left"
+      - 🇮🇳 印度|@ripaojiedian
+      - 🇸🇬 狮城 03
+      - 🇲🇾 马来西亚 05
+      - 🇭🇰 Hong Kong丨05
+      - 🇭🇰 香港 04 SS
+      - Great Britain丨02
+      - 🇭🇰 香港-中转-23
+      - 🇭🇰 香港 IPLC 限速10Mbps
+      - xjp-node1-vmess
+      - 🇸🇬 新加坡-中转-13
+      - 此地區屬於高級套餐
+      - 🇯🇵 日本-中转-16
+      - 🇮🇳 印度 V2CROSS.COM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -186,24 +270,36 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡-中转-12
-      - 🇭🇰 香港-中转-22
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - Great Britain丨01
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇺🇸 美国-中转-12
-      - 🇯🇵 日本-中转-17
-      - 🇭🇰 香港-中转-16
-      - 54.199.83.239:2333
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
-      - 🇭🇰 香港8|@ripaojiedian
-      - 🇺🇸 美国-中转-17
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇰🇷 韩国 KT电信
+      - 🇸🇬 Singapore丨04
+      - 🇯🇵 Japan丨04
+      - 🇰🇷 韩国 01
+      - 🇸🇬 新加坡-中转-15
       - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇻🇳 越南R|@ripaojiedian
-      - 🇺🇸 美国凤凰城Tr
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - xjp-node1-trojan
+      - 🇭🇰 香港-中转-22
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇸🇬 狮城 05
+      - 🇸🇬 Singapore丨05
+      - 🇨🇳 台湾 02
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇭🇰 Hong Kong丨02
+      - "Traffic Reset: 4 Days Left"
+      - 🇮🇳 印度|@ripaojiedian
+      - 🇸🇬 狮城 03
+      - 🇲🇾 马来西亚 05
+      - 🇭🇰 Hong Kong丨05
+      - 🇭🇰 香港 04 SS
+      - Great Britain丨02
+      - 🇭🇰 香港-中转-23
+      - 🇭🇰 香港 IPLC 限速10Mbps
+      - xjp-node1-vmess
+      - 🇸🇬 新加坡-中转-13
+      - 此地區屬於高級套餐
+      - 🇯🇵 日本-中转-16
+      - 🇮🇳 印度 V2CROSS.COM
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
